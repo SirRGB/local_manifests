@@ -5,4 +5,3 @@
     <project path="kernel/lge/hammerhead" name="frazerecho/android_kernel_lge_hammerhead" remote="github" revision="lineage-18.1" />
     <project path="vendor/lge" name="z3DD3r/android_vendor_lge" remote="github" revision="lineage-18.1" />
 </manifest>
-
