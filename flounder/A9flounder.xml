@@ -1,4 +1,4 @@
- <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="linckandrea/android_device_htc_flounder" path="device/htc/flounder" remote="github" revision="lineage-16.0_update" />
   <project name="linckandrea/android_kernel_htc_flounder" path="kernel/htc/flounder" remote="github" revision="lineage-16.0" />
