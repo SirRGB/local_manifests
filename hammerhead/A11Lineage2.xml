@@ -1,1 +1,7 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Google Nexus 5 -->
+    <project path="device/lge/hammerhead" name="frazerecho/android_device_lge_hammerhead" remote="github" revision="lineage-18.1" />
+    <project path="kernel/lge/hammerhead" name="frazerecho/android_kernel_lge_hammerhead" remote="github" revision="lineage-18.1" />
+    <project path="vendor/lge" name="frazerecho/android_vendor_lge" remote="github" revision="lineage-18.1" />
+</manifest>
