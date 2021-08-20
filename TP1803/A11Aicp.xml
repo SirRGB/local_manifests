@@ -3,7 +3,6 @@
 <!-- Remotes -->
  <remote fetch="https://gitlab.pixelexperience.org" name="gitlab-pe" />
  <!-- TP1803 -->
-  <project name="npjohnson/android_device_nubia_TP1803L" path="device/nubia/TP1803L" remote="github" revision="lineage-18.1"/>
   <project name="SirRGB/device_nubia_TP1803" path="device/nubia/TP1803" remote="github" revision="aicp-11" />
   <project name="nullbytepl/device_tadiphone-fw" path="device/tadiphone-fw" remote="gitlab" revision="eleven" />
   <project name="AOSPA/android_device_qcom_common" path="device/qcom/common" remote="github" revision="ruby" />
