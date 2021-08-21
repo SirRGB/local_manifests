@@ -2,13 +2,13 @@
 <manifest>
 
   <!--Device repos-->
-  <project path="device/motorola/cedric" name="LineageOS/android_device_motorola_cedric" revision="lineage-18.1" />
-  <project path="device/motorola/msm8937-common" name="LineageOS/android_device_motorola_msm8937-common" revision="lineage-18.1" />
-  <project path="kernel/motorola/msm8953" name="LineageOS/android_kernel_motorola_msm8953" revision="lineage-18.1" />
-  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" revision="lineage-18.1" />
+  <project path="device/motorola/cedric" name="LineageOS/android_device_motorola_cedric" revision="lineage-17.1" />
+  <project path="device/motorola/msm8937-common" name="LineageOS/android_device_motorola_msm8937-common" revision="lineage-17.1" />
+  <project path="kernel/motorola/msm8953" name="LineageOS/android_kernel_motorola_msm8953" revision="lineage-17.1" />
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" revision="lineage-17.1" />
 
   <!--Dependencies-->
-  <project path="external/bson" name="LineageOS/android_external_bson" revision="lineage-18.1" />
-  <project path="system/qcom" name="LineageOS/android_system_qcom" revision="lineage-18.1" />
+  <project path="external/bson" name="LineageOS/android_external_bson" revision="lineage-17.1" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" revision="lineage-17.1" />
 
 </manifest>
