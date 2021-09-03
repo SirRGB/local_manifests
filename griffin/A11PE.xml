@@ -5,6 +5,5 @@
     <project name="erfanoabdi/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
 
   <!--Dependencies-->
-  <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="lineage-18.1" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" revision="lineage-18.1" />
 </manifest>
