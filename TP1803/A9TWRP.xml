@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="SirRGB/android_device_nubia_TP1803-twrp" path="device/nubia/TP1803" remote="github" revision="master" />
+</manifest>
