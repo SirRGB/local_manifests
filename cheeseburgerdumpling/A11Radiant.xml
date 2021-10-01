@@ -7,7 +7,4 @@
   <project name="RadiantDevices/device_oneplus_dumpling" path="device/oneplus/dumpling" remote="github" revision="eleven" />
   <project name="stormbreaker-project/kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="newvib" />
   <project name="SirRGB/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-18.1" />
-  
-  <remove-project name="packages_apps_Settings" />
-  <project name="lineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-18.1" />
 </manifest>
