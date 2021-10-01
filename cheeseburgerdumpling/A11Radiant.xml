@@ -9,5 +9,5 @@
   <project name="SirRGB/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-18.1" />
   
   <remove-project name="packages_apps_Settings" />
-  <project name="lineageos/android\_packages\_resources\_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-18.1" />
+  <project name="lineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-18.1" />
 </manifest>
