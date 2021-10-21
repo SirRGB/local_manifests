@@ -6,7 +6,6 @@
     <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-17.1" />
     
     <!--Dependencies-->
-    <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="lineage-17.1-legacy-um" />
     <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="lineage-17.1" />
     <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" revision="lineage-17.1" />
 </manifest>
