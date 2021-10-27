@@ -1,3 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
 </manifest>
