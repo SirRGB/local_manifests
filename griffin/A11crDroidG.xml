@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project name="SirRGB/android_device_motorola_griffin" path="device/motorola/griffin" remote="github" revision="crdroid_g" />
-    <project name="motoz-2016/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="github" revision="lineage-18.1" />
-    <project name="erfanoabdi/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
+  <project name="SirRGB/android_device_motorola_griffin" path="device/motorola/griffin" remote="github" revision="crdroid_g" />
+  <project name="motoz-2016/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="github" revision="lineage-18.1" />
+  <project name="erfanoabdi/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
 
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="lineage-18.1" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" revision="lineage-18.1" />
 
-  <!--Open Gapps-->
-  <remote name="opengapps" fetch="https://github.com/opengapps/"  />
-  <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
+  <!--MintTheGapps-->
+  <remote name="Mgapps" fetch="https://gitlab.com/MindTheGapps/"  />
 
-  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-
-  <!-- arm64 depends on arm -->
-  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-  <project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-  <project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+  <project path="vendor/gapps" name="vendor_gapps" clone-depth="1" revision="qoppa" remote="Mgapps" />
 </manifest>
