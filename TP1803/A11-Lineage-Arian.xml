@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- TP1803 -->
+  <remote fetch="https://gitlab.com" name="gitlabby" />
+  <remote fetch="https://github.com" name="githubby" />
+  <project name="ArianK16a/android_kernel_nubia_sm8150" path="kernel/nubia/sm8150" remote="githubby" revision="staging/lineage-18.1" />
+  <project name="ArianK16a/android_device_nubia_TP1803" path="device/nubia/TP1803" remote="githubby" revision="lineage-18.1" />
+  <project name="ArianK16a/device_tadiphone-fw" path="device/tadiphone-fw" remote="gitlabby" revision="lineage-18.1" />
+  <project name="AOSPA/android_device_qcom_common" path="device/qcom/common" remote="githubby" revision="ruby" />
+  <project name="ArianK16a/proprietary_vendor_nubia" path="vendor/nubia" remote="githubby" revision="lineage-18.1" />
+  <project name="ThankYouMario/proprietary_vendor_qcom_common" path="vendor/qcom/common" remote="githubby" revision="ruby" />
+</manifest>
