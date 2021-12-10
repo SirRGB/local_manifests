@@ -3,5 +3,5 @@
     <!-- Google Nexus 5 -->
     <project path="device/lge/hammerhead" name="z3DD3r/android_device_lge_hammerhead" remote="github" revision="cm-14.1" />
     <project path="kernel/lge/hammerhead" name="z3DD3r/android_kernel_lge_hammerhead" remote="github" revision="cm-14.1" />
-    <project path="vendor/lge" name="z3DD3r/android_vendor_lge" remote="github" revision="cm-14.1" />
+    <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-14.1" />
 </manifest>
