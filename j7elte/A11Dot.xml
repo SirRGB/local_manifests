@@ -5,7 +5,7 @@
   <project name="LineageOS/android_hardware_samsung_slsi_exynos7880" path="hardware/samsung_slsi/exynos7880" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_kernel_samsung_universal7580" path="kernel/samsung/universal7580" remote="github" revision="lineage-18.1" />
 
-  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-18.1" />
+  <project name="SirRGB/android_hardware_samsung" path="hardware/samsung" remote="github" revision="dot-11" />
   <project name="LineageOS/android_hardware_samsung_nfc" path="hardware/samsung/nfc" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_hardware_samsung_slsi_exynos7580" path="hardware/samsung_slsi/exynos7580" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="github" revision="lineage-18.1" />
