@@ -15,4 +15,5 @@
 
   <remove-project name="android_vendor_qcom_opensource_power" />
   <project name="LineageOS/android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="github" revision="lineage-18.1" />
+  <project name="LineageOS/android_lineage-sdk" path="lineage-sdk" remote="github" revision="lineage-18.1" />
 </manifest>
