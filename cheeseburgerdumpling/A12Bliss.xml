@@ -11,6 +11,8 @@
   <project name="lobo1978-coder/vendor_oneplus_dumpling" path="vendor/oneplus/dumpling" remote="github" revision="12" />
 
   <remove-project name="android_hardware_qcom_audio" />
+  <remove-project name="android_hardware_qcom_display" />
 
   <project path="hardware/qcom-caf/msm8998/audio" name="ArrowOS/android_hardware_qcom_audio" remote="github" revision="arrow-12.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display" remote="github" revision="arrow-12.0-caf-msm8998" />
 </manifest>
