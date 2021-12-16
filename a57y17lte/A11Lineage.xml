@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="SirRGB/android_device_samsung_a5y17lte" path="device/samsung/a5y17lte" remote="github" revision="dot-11" />
+  <project name="LineageOS/android_device_samsung_a7y17lte" path="device/samsung/a7y17lte" remote="github" revision="lineage-18.1" />
+  <project name="LineageOS/android_device_samsung_a5y17lte" path="device/samsung/a5y17lte" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_device_samsung_universal7880-common" path="device/samsung/universal7880-common" remote="github" revision="lineage-18.1" />
+  <project name="LineageOS/android_hardware_samsung_slsi_exynos7880" path="hardware/samsung_slsi/exynos7880" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_kernel_samsung_universal7880" path="kernel/samsung/universal7880" remote="github" revision="lineage-18.1" />
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-18.1" />
 
-  <project name="LineageOS/android_hardware_samsung_slsi_exynos7880" path="hardware/samsung_slsi/exynos7880" remote="github" revision="lineage-18.1" />
-  <project name="SirRGB/android_hardware_samsung" path="hardware/samsung" remote="github" revision="dot-11" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_hardware_samsung_nfc" path="hardware/samsung/nfc" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="github" revision="lineage-18.1" />
+  <project name="LineageOS/android_hardware_samsung_slsi_exynos7880" path="hardware/samsung_slsi/exynos7880" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="github" revision="lineage-18.1" />
 </manifest>
