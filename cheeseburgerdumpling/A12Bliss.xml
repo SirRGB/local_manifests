@@ -2,7 +2,7 @@
 <manifest>
   <!--project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="github" revision="lineage-18.1" /-->
   <project name="SirRGB/hardware_oneplus" path="hardware/oneplus" remote="github" revision="12" />
-  <project name="lobo1978-coder/device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="github" revision="12" />
+  <project name="SirRGB/device_oneplus_msm8998-common-1" path="device/oneplus/msm8998-common" remote="github" revision="bliss-12" />
   <project name="SirRGB/device_oneplus_cheeseburger-1" path="device/oneplus/cheeseburger" remote="github" revision="12" />
   <project name="lobo1978-coder/device_oneplus_dumpling" path="device/oneplus/dumpling" remote="github" revision="12" />
   <project name="ederekun/x_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="base" />
