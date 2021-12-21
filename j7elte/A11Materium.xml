@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="SirRGB/android_device_samsung_j7elte" path="device/samsung/j7elte" remote="github" revision="materium" />
+  <project name="SirRGB/android_device_samsung_j7elte" path="device/samsung/j7elte" remote="github" revision="materium-11" />
   <project name="LineageOS/android_device_samsung_universal7580-common" path="device/samsung/universal7580-common" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_hardware_samsung_slsi_exynos7880" path="hardware/samsung_slsi/exynos7880" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_kernel_samsung_universal7580" path="kernel/samsung/universal7580" remote="github" revision="lineage-18.1" />
