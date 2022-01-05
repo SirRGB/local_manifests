@@ -2,8 +2,8 @@
 <manifest>
   <project name="LineageOS/android_device_samsung_j7elte" path="device/samsung/j7elte" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_device_samsung_universal7580-common" path="device/samsung/universal7580-common" remote="github" revision="lineage-18.1" />
-  <project name="LineageOS/android_hardware_samsung_slsi_exynos7880" path="hardware/samsung_slsi/exynos7880" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_kernel_samsung_universal7580" path="kernel/samsung/universal7580" remote="github" revision="lineage-18.1" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-18.1" />
 
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_hardware_samsung_nfc" path="hardware/samsung/nfc" remote="github" revision="lineage-18.1" />
@@ -11,5 +11,4 @@
   <project name="LineageOS/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="lineage-18.1" />
   <project name="LineageOS/android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="github" revision="lineage-18.1" />
-  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-18.1" />
 </manifest>
