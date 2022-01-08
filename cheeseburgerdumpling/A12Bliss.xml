@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="github" revision="lineage-18.1" /-->
-  <project name="SirRGB/android_hardware_oneplus" path="hardware/oneplus" remote="github" revision="twelve" />
+  <project name="SirRGB/hardware_oneplus" path="hardware/oneplus" remote="github" revision="twelve" />
   <remove-project name="platform_hardware_interfaces" />
   <project name="LineageOS/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="lineage-19.0" />
   <!--project name="SirRGB/device_oneplus_msm8998-common-1" path="device/oneplus/msm8998-common" remote="github" revision="bliss-12" /-->
