@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Google Nexus 5 -->
+    <project path="device/lge/hammerhead" name="z3DD3r/android_device_lge_hammerhead" remote="github" revision="lineage-15.1" />
+    <project path="kernel/lge/hammerhead" name="z3DD3r/android_kernel_lge_hammerhead" remote="github" revision="lineage-15.1" />
+    <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="lineage-15.1" />
+</manifest>
