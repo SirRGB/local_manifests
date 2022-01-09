@@ -12,6 +12,7 @@
   <project name="LineageOS/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" revision="lineage-16.0" remote="github" />
   <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" revision="lineage-16.0" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-16.0" />
+
   <!-- for FlipFlap -->
   <project name="Spookcity/android_hardware_samsung" path="hardware/samsung" revision="P"/>
   <project name="Spookcity/android_external_protobuf-compat-2.6" path="external/protobuf-compat-2.6" revision="P"/>

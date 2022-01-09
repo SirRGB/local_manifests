@@ -12,7 +12,11 @@
   <project name="LineageOS/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" revision="lineage-15.1" remote="github" />
   <project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" revision="lineage-15.1" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-15.1" />
+
   <!-- for FlipFlap -->
   <project name="Spookcity/android_hardware_samsung" path="hardware/samsung" revision="O"/>
   <project name="Spookcity/android_external_protobuf-compat-2.6" path="external/protobuf-compat-2.6" revision="O"/>
+
+  <!-- replace recovery with TWRP -->
+  <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-8.1" />
 </manifest>

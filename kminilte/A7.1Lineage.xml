@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!--Device Repos-->
+   <!--Device Repos-->
   <project name="Spookcity/android_device_samsung_kminilte" path="device/samsung/kminilte" remote="github" revision="N" />
   <project name="Spookcity/android_vendor_samsung_kminilte" path="vendor/samsung/kminilte" remote="github" revision="N" />
   <project name="Spookcity/android_kernel_samsung_kminilte" path="kernel/samsung/kminilte" remote="github" revision="N" />
@@ -15,5 +15,9 @@
   <!-- for FlipFlap -->
   <project name="Spookcity/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="cm-14.1" />
-  <project name="Spookcity/android_external_protobuf-compat-2.6" path="external/protobuf-compat-2.6" remote="github" revision="nougat-mr2.3-release" />
+  <project name="Spookcity/android_device_samsung_kminilte" path="device/samsung/kminilte" rem>
+
+  <!-- replace recovery with TWRP -->
+  <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-7.1" />
+  <project name="LineageOS/android_external_busybox" path="external/busybox" remote="github" revision="cm-14.1"/>
 </manifest>
