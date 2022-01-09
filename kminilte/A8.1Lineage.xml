@@ -15,7 +15,7 @@
 
   <!-- for FlipFlap -->
   <project name="Spookcity/android_hardware_samsung" path="hardware/samsung" revision="O"/>
-  <project name="Spookcity/android_external_protobuf-compat-2.6" path="external/protobuf-compat-2.6" revision="O"/>
+  <project name="Spookcity/android_external_protobuf-compat-2.6" path="external/protobuf-compat-2.6" revision="lineage-15.1"/>
 
   <!-- replace recovery with TWRP -->
   <project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-8.1" />
