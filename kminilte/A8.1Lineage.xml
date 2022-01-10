@@ -2,7 +2,7 @@
 <manifest>
   <!--Device Repos-->
   <project name="Spookcity/android_device_samsung_kminilte" path="device/samsung/kminilte" revision="O" remote="github" />
-  <project name="Spookcity/android_vendor_samsung_kminilte" path="vendor/samsung/kminilte" revision="O" remote="github" />
+  <project name="cm-3470/android_vendor_samsung_kminilte" path="vendor/samsung/kminilte" revision="lineage-15.1" remote="github" />
   <project name="Spookcity/android_kernel_samsung_kminilte" path="kernel/samsung/kminilte" revision="O" remote="github" />
 
   <!--commom-->
