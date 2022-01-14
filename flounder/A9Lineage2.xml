@@ -7,5 +7,5 @@
 
   <!-- Updater -->
   <remove-project name="LineageOS/android_packages_apps_Updater" />
-  <project name="https://github.com/SirRGB/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="lineage-16.0" />
+  <project name="SirRGB/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="lineage-16.0" />
 </manifest>
