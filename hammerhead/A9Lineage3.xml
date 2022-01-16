@@ -4,4 +4,7 @@
     <project path="device/lge/hammerhead" name="z3DD3r/android_device_lge_hammerhead" remote="github" revision="lineage-16.0" />
     <project path="kernel/lge/hammerhead" name="z3DD3r/android_kernel_lge_hammerhead" remote="github" revision="lineage-16.0" />
     <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="lineage-16.0" />
+
+    <!-- Fixup -->
+   <remove-project name="platform/prebuilts/maven_repo/bumptech" />
 </manifest>
