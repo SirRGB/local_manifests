@@ -12,6 +12,6 @@
   <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" revision="lineage-18.1" />
 
    <!-- Updater -->
-   <remove-project name="AICP/android_packages_apps_Updater" />
+   <remove-project name="AICP/packages_apps_Updater" />
    <project name="SirRGB/packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="r11.1" />
 </manifest>
