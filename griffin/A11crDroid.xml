@@ -15,4 +15,8 @@
   <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-18.1-caf-msm8996" />
   <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-18.1-caf-msm8996" />
   <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-18.1-caf-msm8996" />
+
+   <!-- Updater -->
+   <remove-project name="crdroidandroid/android_packages_apps_Updater" />
+   <project name="SirRGB/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="crdroid-7" />
 </manifest>
