@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!--Device repos-->
+  <!-- Device repos -->
   <project path="device/motorola/cedric" name="SirRGB/android_device_motorola_cedric" remote="github" revision ="aicp-11" />
   <project path="device/motorola/msm8937-common" name="SirRGB/android_device_motorola_msm8937-common" revision="aicp-11" remote="github" />
   <project path="kernel/motorola/msm8953" name="LineageOS/android_kernel_motorola_msm8953" remote="github" revision="lineage-18.1" />
   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="lineage-18.1" />
 
-  <!--Dependencies-->
+  <!-- Dependencies -->
   <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="lineage-18.1" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" revision="lineage-18.1" />
 
    <!-- Updater -->
    <remove-project name="AICP/packages_apps_Updater" />
    <project name="SirRGB/packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="r11.1" />
+
+   <!-- Devicesettings -->
+   <remove-project name="AICP/packages/resources/devicesettings" />
+   <project name="LineageOS/android_packages_resources_devicesettings/" path="packages/resources/devicesettings" remote="github" revision="lineage-18.1" />
 </manifest>
