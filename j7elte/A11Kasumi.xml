@@ -18,6 +18,6 @@
   <project name="android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="lineage" />
 
    <!-- Updater -->
-   <remove-project name="ProjectKasumi/android_packages_apps_Updater" />
+   <remove-project name="android_packages_apps_Updater" />
    <project name="SirRGB/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="kasumi-v1" />
 </manifest>
