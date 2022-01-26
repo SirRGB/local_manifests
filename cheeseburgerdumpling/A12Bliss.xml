@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!--project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="github" revision="lineage-18.1" /-->
-  <project name="SirRGB/hardware_oneplus" path="hardware/oneplus" remote="github" revision="twelve" />
-  <remove-project name="platform_hardware_interfaces" />
-  <project name="LineageOS/android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="lineage-19.0" />
-  <!--project name="SirRGB/device_oneplus_msm8998-common-1" path="device/oneplus/msm8998-common" remote="github" revision="bliss-12" /-->
-  <!--project name="SirRGB/device_oneplus_cheeseburger-1" path="device/oneplus/cheeseburger" remote="github" revision="12" /-->
+  <!-- Device trees -->
+  <project name="lobo1978-coder/android_device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="github" revision="12" />
+  <project name="SirRGB/device_oneplus_cheeseburger-1" path="device/oneplus/cheeseburger" remote="github" revision="12" />
   <project name="lobo1978-coder/device_oneplus_dumpling" path="device/oneplus/dumpling" remote="github" revision="12" />
-  <project name="ederekun/x_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="base" />
+  <project name="trautamaki/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="lineage-19.0" />
   <project name="lobo1978-coder/vendor_oneplus_msm8998-common" path="vendor/oneplus/msm8998-common" remote="github" revision="12" />
-  <project name="lobo1978-coder/vendor_oneplus_cheeseburger" path="vendor/oneplus/cheeseburger" remote="github" revision="12" />
-  <project name="lobo1978-coder/vendor_oneplus_dumpling" path="vendor/oneplus/dumpling" remote="github" revision="12" />
+  <project name="Xtended-Devices/vendor_oneplus_cheeseburger" path="vendor/oneplus/cheeseburger" remote="github" revision="xs" />
+  <project name="Xtended-Devices/vendor_oneplus_dumpling" path="vendor/oneplus/dumpling" remote="github" revision="xs" />
 
-  <!--remove-project name="android_hardware_qcom_audio" />
-  <remove-project name="android_hardware_qcom_display" />
+  <!-- Dependencies -->
+  <project name="yaap/hardware_oneplus" path="hardware/oneplus" remote="github" revision="twelve-rebase" />
+  <project name="LineageOS/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="github" revision="lineage-19.0" />
 
-  <project path="hardware/qcom-caf/msm8998/audio" name="ArrowOS/android_hardware_qcom_audio" remote="github" revision="arrow-12.0-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/display" name="ArrowOS/android_hardware_qcom_display" remote="github" revision="arrow-12.0-caf-msm8998" /-->
+  <remove-project name="platform_frameworks_base" />
+  <project name="lobo1978-coder/platform_frameworks_base" path="frameworks/base" remote="github" revision="arcadia" />
+  <remove-project name="platform_vendor_bliss" />
+  <project name="lobo1978-coder/platform_vendor_bliss" path="vendor/bliss" remote="github" revision="arcadia" />
 </manifest>
