@@ -17,4 +17,7 @@
   <project name="lobo1978-coder/platform_frameworks_base" path="frameworks/base" remote="github" revision="arcadia" />
   <remove-project name="platform_vendor_bliss" />
   <project name="lobo1978-coder/platform_vendor_bliss" path="vendor/bliss" remote="github" revision="arcadia" />
+
+  <!-- Updater -->
+  <project name="SirRGB/platform_packages_apps_BlissUpdater" path="packages/apps/BlissUpdater" remote="github" revision="arcadia" />
 </manifest>
