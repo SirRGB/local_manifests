@@ -2,6 +2,7 @@
 <manifest>
     <!-- Device repos -->
     <project name="TeamWin/android_device_motorola_griffin" path="device/motorola/griffin" remote="github" revision="android-7.1" />
+    <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.0" />
 
     <!-- Theme -->
     <remove-project name="android_bootable_recovery" />
