@@ -23,5 +23,6 @@
 	<project name="lobo1978-coder/platform_vendor_bliss" path="vendor/bliss" remote="github" revision="arcadia" />
 
 	<!-- Updater -->
+	<remove-project name="platform_packages_apps_BlissUpdater" />
 	<project name="SirRGB/platform_packages_apps_BlissUpdater" path="packages/apps/BlissUpdater" remote="github" revision="arcadia" />
 </manifest>
