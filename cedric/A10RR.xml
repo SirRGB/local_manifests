@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<remote name="lineage"
+		fetch="https://github.com/LineageOS"
+		revision="lineage-17.1" />
 
-  <!--Device repos-->
-  <project path="device/motorola/cedric" name="SirRGB/android_device_motorola_cedric" revision="rr-10" remote="github" />
-  <project path="device/motorola/msm8937-common" name="LineageOS/android_device_motorola_msm8937-common" revision="lineage-17.1" remote="github" />
-  <project path="kernel/motorola/msm8953" name="LineageOS/android_kernel_motorola_msm8953" revision="lineage-17.1" remote="github" />
-  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" revision="lineage-17.1" remote="github" />
+	<!-- Device repos -->
+	<project name="SirRGB/android_device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="rr-10" />
+	<project name="android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" remote="lineage" />
+	<project name="android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="lineage" />
+	<project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-17.1" />
 
-  <!--Dependencies-->
-  <project path="external/bson" name="LineageOS/android_external_bson" revision="lineage-17.1" remote="github" />
-  <project path="system/qcom" name="LineageOS/android_system_qcom" revision="lineage-17.1" remote="github" />
-
+	<!-- Dependencies -->
+	<project name="android_external_bson" path="external/bson" remote="linaege" />
+	<project name="android_system_qcom" path="system/qcom" remote="lineage" />
 </manifest>

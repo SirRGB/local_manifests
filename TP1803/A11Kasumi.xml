@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
- <!-- TP1803 -->
-  <remote fetch="https://gitlab.com" name="gitlabby" />
-  <remote fetch="https://github.com" name="githubby" />
-  <project name="LineageOS/android_kernel_nubia_sm8150" path="kernel/nubia/sm8150" remote="githubby" revision="lineage-18.1" />
-  <project name="SirRGB/android_device_nubia_TP1803" path="device/nubia/TP1803" remote="githubby" revision="kasumi-11" />
-  <project name="ArianK16a/device_tadiphone-fw" path="device/tadiphone-fw" remote="gitlabby" revision="lineage-19.0" />
-  <project name="TheMuppets/proprietary_vendor_nubia" path="vendor/nubia" remote="githubby" revision="lineage-18.1" />
+	<remote name="gitl"
+		fetch="https://gitlab.com" />
+
+	<remote name="gith"
+		fetch="https://github.com"
+		revision="lineage-18.1" />
+
+	<!-- Device repos -->
+	<project name="LineageOS/android_kernel_nubia_sm8150" path="kernel/nubia/sm8150" remote="gith" />
+	<project name="SirRGB/android_device_nubia_TP1803" path="device/nubia/TP1803" remote="gith" revision="kasumi-11" />
+	<project name="ArianK16a/device_tadiphone-fw" path="device/tadiphone-fw" remote="gitl" revision="lineage-19.0" />
+	<project name="TheMuppets/proprietary_vendor_nubia" path="vendor/nubia" remote="gith" />
 </manifest>

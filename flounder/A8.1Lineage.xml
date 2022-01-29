@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="linckandrea/android_device_htc_flounder" path="device/htc/flounder" remote="github" revision="lineage-15.1_update" />
-  <project name="linckandrea/android_kernel_htc_flounder" path="kernel/htc/flounder" remote="github" revision="r-1-t" />
-  <project name="linckandrea/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="lineage-15.1" />
+	<remote name="andrea"
+		fetch="https://github.com/linckandrea" />
+
+	<!-- Device repos -->
+	<project name="android_device_htc_flounder" path="device/htc/flounder" remote="andrea" revision="lineage-15.1_update" />
+	<project name="android_kernel_htc_flounder" path="kernel/htc/flounder" remote="andrea" revision="lineage-15.1" />
+	<project name="proprietary_vendor_htc" path="vendor/htc" remote="andrea" revision="lineage-15.1" />
 </manifest>

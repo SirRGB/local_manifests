@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project name="SirRGB/android_device_motorola_griffin" path="device/motorola/griffin" remote="github" revision="aicp-11" />
-    <project name="LineageOS/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="github" revision="lineage-18.1" />
-    <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
+	<remote name="lineage"
+		fetch="https://github.com/LineageOS"
+		revision="lineage-18.1" />
 
-  <!--Dependencies-->
-  <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="lineage-18.1" />
-  <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" revision="lineage-18.1" />
+	<!-- Device repos -->
+	<project name="SirRGB/android_device_motorola_griffin" path="device/motorola/griffin" remote="github" revision="aicp-11" />
+	<project name="android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="github" />
+	<project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
 
-   <!-- Updater -->
-   <remove-project name="AICP/packages_apps_Updater" />
-   <project name="SirRGB/packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="r11.1" />
+	<!-- Dependencies -->
+	<project name="android_external_bson" path="external/bson" remote="lineage" />
+	<project name="android_system_qcom" path="system/qcom" remote="lineage" />
+
+	<!-- Updater -->
+	<remove-project name="AICP/packages_apps_Updater" />
+	<project name="SirRGB/packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="r11.1" />
 </manifest>

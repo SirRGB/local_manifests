@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote fetch="https://github.com" name="github" />
-    <!-- Google Nexus 5 -->
-    <project path="device/lge/hammerhead" name="SirRGB/android_device_lge_hammerhead" remote="github" revision="carbon-9" />
-    <project path="kernel/lge/hammerhead" name="lineageos/android_kernel_lge_hammerhead" remote="github" revision="lineage-16.0" />
-    <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="lineage-16.0" />
+	<remote fetch="https://github.com"
+		name="github" />
 
-    <remove-project name="CarbonROM/android_hardware_qcom_audio" />
-    <remove-project name="CarbonROM/android_hardware_qcom_media" />
-    <remove-project name="CarbonROM/android_hardware_qcom_display" />
+	<remote name="lineage"
+		fetch="https://github.com/LineageOS"
+		review="review.lineageos.org"
+		revision="lineage-16.0" />
 
-    <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-16.0" />
-    <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-16.0" />
-    <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-16.0" />
+	<!-- Device repos -->
+	<project name="SirRGB/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="carbon-9" />
+	<project name="android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="lineage" />
+	<project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lineage-16.0" />
 
+	<!-- Lineage HALs -->
+	<remove-project name="CarbonROM/android_hardware_qcom_audio" />
+	<remove-project name="CarbonROM/android_hardware_qcom_media" />
+	<remove-project name="CarbonROM/android_hardware_qcom_display" />
+
+	<project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="lineage" />
+	<project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="lineage" />
+	<project name="android_hardware_qcom_audia" path="hardware/qcom/audio" remote="lineage" />
 </manifest>

@@ -1,22 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="SirRGB/android_device_motorola_griffin" path="device/motorola/griffin" remote="github" revision="lineage-18.1" />
-  <project name="LineageOS/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="github" revision="lineage-18.1" />
-  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
+	<remote name="lineage"
+		fetch="https://github.com/LineageOS"
+		revision="lineage-18.1" />
 
-  <!--Dependencies-->
-  <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="lineage-18.1" />
-  <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" revision="lineage-18.1" />
+	<remote name="hal"
+		fetch="https://github.com/LineageOS"
+		revision="lineage-18.1-caf-msm8996" />
 
-  <remove-project name="crdroidandroid/android_hardware_qcom_audio" />
-  <remove-project name="crdroidandroid/android_hardware_qcom_media" />
-  <remove-project name="crdroidandroid/android_hardware_qcom_display" />
+	<!-- Device repos -->
+	<project name="SirRGB/android_device_motorola_griffin" path="device/motorola/griffin" remote="github" revision="lineage-18.1" />
+	<project name="android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="lineage" />
+	<project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
 
-  <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-18.1-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-18.1-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-18.1-caf-msm8996" />
+	<!-- Dependencies -->
+	<project name="android_external_bson" path="external/bson" remote="lineage" />
+	<project name="android_system_qcom" path="system/qcom" remote="lineage" />
 
-   <!-- Updater -->
-   <remove-project name="crdroidandroid/android_packages_apps_Updater" />
-   <project name="SirRGB/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="crdroid-7" />
+	<!-- Lineage HALs -->
+	<remove-project name="crdroidandroid/android_hardware_qcom_audio" />
+	<remove-project name="crdroidandroid/android_hardware_qcom_media" />
+	<remove-project name="crdroidandroid/android_hardware_qcom_display" />
+
+	<project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" remote="github" revision="hal" />
+	<project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" remote="hal" />
+	<project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" remote="hal" />
+
+	<!-- Updater -->
+	<remove-project name="crdroidandroid/android_packages_apps_Updater" />
+	<project name="SirRGB/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="crdroid-7" />
 </manifest>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Device repos -->
-    <project path="device/motorola/cedric" name="android_device_motorola_cedric" remote="TeamWin" revision="android-7.1" />
+	<!-- Device repos -->
+	<project path="device/motorola/cedric" name="android_device_motorola_cedric" remote="TeamWin" revision="android-7.1" />
 
-    <!-- Theme -->
-    <remove-project name="android_bootable_recovery" />
-    <project name="SirRGB/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-9.0" />
+	<!-- Theme -->
+	<remove-project name="android_bootable_recovery" />
+	<project name="SirRGB/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-9.0" />
 </manifest>

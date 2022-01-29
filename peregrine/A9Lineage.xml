@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project name="sdembis/android_device_motorola_peregrine" path="device/motorola/peregrine" remote="github" revision="lineage-16.0" />
-    <project name="sdembis/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="lineage-16.0" />
-    <project name="sdembis/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="lineage-16.0" />
-    <project name="sdembis/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-16.0" />
-    <project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-16.0" />
-    <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0"/>
+	<remote name="sdembis"
+		fetch="https://github.com/sdembis"
+		revision="lineage-16.0" />
+
+	<!-- Device repos -->
+	<project name="android_device_motorola_peregrine" path="device/motorola/peregrine" remote="sdembis" />
+	<project name="android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="sdembis" />
+	<project name="android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="sdembis" />
+	<project name="proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="sdembis" />
+	<project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-16.0" />
+	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-16.0"/>
 </manifest>

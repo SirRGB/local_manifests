@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<remote name="lineage"
+		fetch="https://github.com/LineageOS"
+		revision="lineage-18.1" />
 
-  <!--Device repos-->
-  <project path="device/motorola/montana" name="LineageOS/android_device_motorola_montana" revision="lineage-18.1" remote="github" />
-  <project path="device/motorola/msm8937-common" name="LineageOS/android_device_motorola_msm8937-common" revision="lineage-18.1" remote="github" />
-  <project path="kernel/motorola/msm8953" name="LineageOS/android_kernel_motorola_msm8953" remote="github" revision="lineage-18.1" />
-  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="lineage-18.1" />
+	<!-- Device repos -->
+	<project name="android_device_motorola_montana" path="device/motorola/montana" remote="lineage" />
+	<project name="android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" remote="lineage" />
+	<project name="android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="lineage" />
+	<project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
 
-  <!--Dependencies-->
-  <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="lineage-18.1" />
-
+	<!-- Dependencies -->
+	<project name="android_external_bson" path="external/bson" remote="lineage" />
 </manifest>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Google Nexus 5 -->
-    <project path="device/lge/hammerhead" name="z3DD3r/android_device_lge_hammerhead" remote="github" revision="lineage-16.0" />
-    <project path="kernel/lge/hammerhead" name="z3DD3r/android_kernel_lge_hammerhead" remote="github" revision="lineage-16.0" />
-    <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="lineage-16.0" />
+	<!-- Device repos -->
+	<project name="z3DD3r/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="lineage-16.0" />
+	<project name="z3DD3r/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="lineage-16.0" />
+	<project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lineage-16.0" />
 
-   <!-- Updater -->
-   <remove-project name="LineageOS/android_packages_apps_Updater" />
-   <project name="SirRGB/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="lineage-16.0" />
+	<!-- Updater -->
+	<remove-project name="LineageOS/android_packages_apps_Updater" />
+	<project name="SirRGB/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="lineage-16.0" />
 
-   <!-- Fixup -->
-   <remove-project name="platform/prebuilts/maven_repo/bumptech" />
+	<!-- Fixup -->
+	<remove-project name="platform/prebuilts/maven_repo/bumptech" />
 </manifest>

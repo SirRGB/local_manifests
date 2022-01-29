@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Google Nexus 5 -->
-    <project path="device/lge/hammerhead" name="SirRGB/android_device_lge_hammerhead" remote="github" revision="rr-10" />
-    <project path="kernel/lge/hammerhead" name="frazerecho/android_kernel_lge_hammerhead" remote="github" revision="lineage-17.1" />
-    <project path="vendor/lge" name="z3DD3r/android_vendor_lge" remote="github" revision="lineage-17.1" />
+	<!-- Device repos -->
+	<project name="SirRGB/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="rr-10" />
+	<project name="frazerecho/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="lineage-17.1" />
+	<project name="z3DD3r/android_vendor_lge" path="vendor/lge" remote="github" revision="lineage-17.1" />
 </manifest>

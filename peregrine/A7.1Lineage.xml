@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!--Device Repos-->
-  <project name="lin14-mGoms/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" />
-  <project name="lin14-mGoms/android_device_motorola_peregrine" path="device/motorola/peregrine" remote="github"/>
-  <project name="LineageOS/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" />
-  <project name="lin14-mGoms/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="mse_v1" />
-  <project name="lin14-mGoms/proprietary_vendor_motorola" path="vendor/motorola" />
+	<remote name="lineage"
+		fetch="https://github.com/LineageOS"
+		review="review.lineageos.org"
+		revision="cm-14.1" />
 
-  <!--Dependencies-->
-  <project name="LineageOS/android_external_bson" path="external/bson" remote="github" />
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
-  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+	<remote name="lin"
+		fetch="https://github.com/lin14-mGoms" />
+
+	<!-- Device Repos -->
+	<project name="android_device_motorola_falcon" path="device/motorola/falcon" remote="lin" />
+	<project name="android_device_motorola_peregrine" path="device/motorola/peregrine" remote="lin" />
+	<project name="android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="lineage" />
+	<project name="android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="lin" />
+	<project name="proprietary_vendor_motorola" path="vendor/motorola" remote="lin" />
+
+	<!-- Dependencies -->
+	<project name="android_external_bson" path="external/bson" remote="lineage" />
+	<project name="android_device_qcom_common" path="device/qcom/common" remote="lineage" />
+	<project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" />
 </manifest>
