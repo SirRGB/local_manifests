@@ -11,7 +11,7 @@
 	<project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
 
 	<!-- Dependencies -->
-	<project name="android_external_bson" path="external/bson" remote="linaege" />
+	<project name="android_external_bson" path="external/bson" remote="lineage" />
 	<project name="android_system_qcom" path="system/qcom" remote="lineage" />
 
 	<!-- Updater -->
