@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="wolf"
+	<remote name="wolf"
 		fetch="https://github.com/lobo1978-coder" 
 		revision="12" />
 
