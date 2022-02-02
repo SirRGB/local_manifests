@@ -22,4 +22,10 @@
 	<!-- Updater -->
 	<remove-project name="android_packages_apps_Updater" />
 	<project name="SirRGB/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="kasumi-v1" />
+
+	<!-- Face Unlock -->
+	<remove-project name="external_faceunlock" />
+	<project name="crdroidandroid/android_external_faceunlock" path="external/faceunlock" remote="gitlab" revision="11.0" />
+	<remove-project name="packages_apps_FaceUnlockService" />
+        <project name="crdroidandroid/android_packages_apps_FaceUnlockService" path="packages/apps/FaceUnlockService" remote="github" revision="11.0" />
 </manifest>
