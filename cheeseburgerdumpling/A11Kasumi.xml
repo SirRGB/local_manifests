@@ -4,26 +4,18 @@
 		fetch="https://github.com/SirRGB"
 		revision="kasumi-11" />
 
-	<remote name="rgb-los"
-		fetch="https://github.com/SirRGB"
-		revision="lineage-18.1" />
-
 	<remote name="lineage"
 		fetch="https://github.com/LineageOS"
 		revision="lineage-18.1" />
 
 	<!-- Device repos -->
 	<project name="android_device_oppo_common" path="device/oppo/common" remote="lineage" />
-	<project name="android_device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="rgb-los" />
+	<project name="android_device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="rgb" />
 	<project name="android_device_oneplus_dumpling" path="device/oneplus/dumpling" remote="rgb" />
 	<project name="android_device_oneplus_cheeseburger" path="device/oneplus/cheeseburger" remote="rgb" />
 	<project name="ederekun/x_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="base" />
-	<project name="proprietary_vendor_oneplus" path="vendor/oneplus" remote="rgb-los" />
+	<project name="proprietary_vendor_oneplus" path="vendor/oneplus" remote="rgb" revision="lineage-18.1" />
 
 	<!-- Dependencies -->
 	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="lineage" />
-
-	<!-- Updater -->
-	<remove-project name="android_packages_apps_Updater" />
-	<project name="SirRGB/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="kasumi-v1" />
 </manifest>
