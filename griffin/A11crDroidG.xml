@@ -22,7 +22,7 @@
 	<remove-project name="crdroidandroid/android_hardware_qcom_media" />
 	<remove-project name="crdroidandroid/android_hardware_qcom_display" />
 
-	<project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" remote="github" revision="hal" />
+	<project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" remote="hal" />
 	<project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" remote="hal" />
 	<project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" remote="hal" />
 
