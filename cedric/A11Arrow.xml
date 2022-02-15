@@ -12,6 +12,5 @@
 
 	<!-- Dependencies -->
 	<project name="android_external_bson" path="external/bson" remote="lineage" />
-	<project name="android_system_qcom" path="system/qcom" remote="lineage" />
 	<project name="android_hardware_motorola" path="hardware/motorola" remote="lineage" />
 </manifest>
