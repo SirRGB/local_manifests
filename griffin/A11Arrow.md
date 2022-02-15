@@ -5,4 +5,4 @@ branch:
 arrow-11.0
 
 status:
-buildable, but not bootable
+buildable and bootable
