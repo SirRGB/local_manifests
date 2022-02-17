@@ -13,4 +13,8 @@
 	<!-- Dependencies -->
 	<project name="android_external_bson" path="external/bson" remote="lineage" />
 	<project name="android_hardware_motorola" path="hardware/motorola" remote="lineage" />
+
+	<!-- Devicesettings -->
+	<remove-project name="android_packages_resources_devicesettings" />
+	<project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" />
 </manifest>
