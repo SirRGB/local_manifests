@@ -20,6 +20,6 @@
 	<project name="SirRGB/packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="r11.1" />
 
 	<!-- Devicesettings -->
-	<remove-project name="AICP/packages/resources/devicesettings" />
+	<remove-project name="AICP/packages_resources_devicesettings" />
 	<project name="android_packages_resources_devicesettings/" path="packages/resources/devicesettings" remote="lineage1" />
 </manifest>
