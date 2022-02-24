@@ -26,6 +26,10 @@
 	<project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" remote="hal" />
 	<project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" remote="hal" />
 
+	<project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" remote="hal" revision="lineage-18.1" />
+	<project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" remote="hal" revision="lineage-18.1" />
+	<project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" remote="hal" revision="lineage-18.1" />
+
 	<!-- Updater -->
 	<remove-project name="crdroidandroid/android_packages_apps_Updater" />
 	<project name="SirRGB/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="crdroid-7" />
