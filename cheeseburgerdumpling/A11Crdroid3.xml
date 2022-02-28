@@ -16,4 +16,8 @@
 	<project name="android_device_oneplus_dumpling" path="device/oneplus/dumpling" remote="xTeja"/>
 	<project name="ederekun/x_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="base" />
 	<project name="proprietary_vendor_oneplus" path="vendor/oneplus" remote="xTeja" revision="lineage-18.1" />
+
+	<!-- Clang -->
+	<remove-project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r445002" />
+	<project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r433403b" path="prebuilts/clang/host/linux-x86/clang-latest" remote="crdroid-gitlab" />
 </manifest>
