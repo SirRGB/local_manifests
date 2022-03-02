@@ -15,7 +15,7 @@
 
 	<!-- Dependencies -->
 	<project name="yaap/hardware_oneplus" path="hardware/oneplus" remote="github" revision="twelve-rebase" />
-	<remove-project name="platform_hardware_interfaces" />
+	<remove-project name="platform_hardware_bliss_interfaces" />
 	<project name="LineageOS/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="github" revision="lineage-19.0" />
 
 	<remove-project name="platform_frameworks_base" />
