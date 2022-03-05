@@ -5,5 +5,6 @@ branch:
 arcadia
 
 status:
-buildable and bootable
-major bugs
+not buildable
+#buildable and bootable
+#major bugs
