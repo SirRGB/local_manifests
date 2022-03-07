@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="wolf"
-		fetch="https://github.com/lobo1978-coder" 
+	<remote name="bliss"
+		fetch="https://github.com/bliss-5-t"
 		revision="12" />
 
+	<remote name="xtended"
+		fetch="https://github.com/Xtended-Devices" 
+		revision="xs" />
+
 	<!-- Device repos -->
-	<project name="Xtended-Devices/device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="github" revision="xs" />
-	<project name="SirRGB/device_oneplus_cheeseburger-1" path="device/oneplus/cheeseburger" remote="github" revision="12" />
-	<project name="device_oneplus_dumpling" path="device/oneplus/dumpling" remote="wolf" />
-	<project name="trautamaki/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="github" revision="lineage-19.0" />
-	<project name="Xtended-Devices/vendor_oneplus_msm8998-common" path="vendor/oneplus/msm8998-common" remote="github" revision="xs" />
-	<project name="Xtended-Devices/vendor_oneplus_cheeseburger" path="vendor/oneplus/cheeseburger" remote="github" revision="xs" />
-	<project name="Xtended-Devices/vendor_oneplus_dumpling" path="vendor/oneplus/dumpling" remote="github" revision="xs" />
+	<project name="device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" remote="bliss" />
+	<project name="device_oneplus_cheeseburger" path="device/oneplus/cheeseburger" remote="bliss" />
+	<project name="device_oneplus_dumpling" path="device/oneplus/dumpling" remote"bliss" />
+	<project name="kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="xtended" />
+	<project name="vendor_oneplus_msm8998-common" path="vendor/oneplus/msm8998-common" remote="xtended" />
+	<project name="vendor_oneplus_cheeseburger" path="vendor/oneplus/cheeseburger" remote="xtended" />
+	<project name="vendor_oneplus_dumpling" path="vendor/oneplus/dumpling" remote="xtended" />
 
 	<!-- Dependencies -->
 	<project name="yaap/hardware_oneplus" path="hardware/oneplus" remote="github" revision="twelve-rebase" />
 	<remove-project name="platform_hardware_bliss_interfaces" />
 	<project name="LineageOS/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="github" revision="lineage-19.0" />
-
-	<!-- remove-project name="platform_frameworks_base" />
-	<project name="lobo1978-coder/platform_frameworks_base" path="frameworks/base" remote="github" revision="arcadia" />
-	<remove-project name="platform_vendor_bliss" />
-	<project name="lobo1978-coder/platform_vendor_bliss" path="vendor/bliss" remote="github" revision="arcadia" / -->
 
 	<!-- Updater -->
 	<remove-project name="platform_packages_apps_BlissUpdater" />
