@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="bliss"
-		fetch="https://github.com/bliss-5-t"
-		revision="12" />
+		fetch="https://github.com/bliss-5-t" />
 
 	<remote name="xtended"
 		fetch="https://github.com/Xtended-Devices" 
