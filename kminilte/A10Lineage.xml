@@ -8,20 +8,24 @@
 		fetch="https://github.com/LineageOS"
 		revision="lineage-16.0" />
 
+	<remote name="skulko"
+		fetch="https://github.com/skulko"
+		revision="Q-test" />
+
 	<!-- Device Repos -->
-	<project name="android_device_samsung_kminilte" path="device/samsung/kminilte" remote="spook" />
-	<project name="android_vendor_samsung_kminilte" path="vendor/samsung/kminilte" remote="spook" />
-	<project name="android_kernel_samsung_kminilte" path="kernel/samsung/kminilte" remote="spook" />
+	<project name="android_device_samsung_kminilte" path="device/samsung/kminilte" remote="skulko" revision="Q-microG-a" />
+	<project name="android_vendor_samsung_kminilte" path="vendor/samsung/kminilte" remote="skulko" />
+	<project name="android_kernel_samsung_kminilte" path="kernel/samsung/kminilte" remote="skulko" revision="Q" />
 
 	<!-- Commom -->
-	<project name="android_device_samsung_smdk3470-common" path="device/samsung/smdk3470-common" remote="spook" />
-	<project name="android_hardware_samsung_slsi_exynos3470" path="hardware/samsung_slsi-cm/exynos3470" remote="spook" />
+	<project name="android_device_samsung_smdk3470-common" path="device/samsung/smdk3470-common" remote="skulko" />
+	<project name="android_hardware_samsung_slsi_exynos3470" path="hardware/samsung_slsi-cm/exynos3470" remote="skulko" revision="P_exp" />
 	<project name="android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="lineage" />
 	<project name="android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="lineage" />
 	<project name="android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="lineage" />
 	<project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" />
 
 	<!-- FlipFlap -->
-	<project name="android_hardware_samsung" path="hardware/samsung" remote="spook" />
+	<project name="android_hardware_samsung" path="hardware/samsung" remote="skulko" />
 	<project name="android_external_protobuf-compat-2.6" path="external/protobuf-compat-2.6" remote="spook"/>
 </manifest>
