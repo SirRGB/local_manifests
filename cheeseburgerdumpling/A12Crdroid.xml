@@ -20,6 +20,6 @@
 	<project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-19.0-caf-msm8998" />
 
 	<!-- fixed vendor -->
-	<remove-project name="crdroidandroid/android_vendor_crDroid"
+	<remove-project name="crdroidandroid/android_vendor_crDroid" />
 	<project path="vendor/lineage" name="SirRGB/android_vendor_crDroid" remote="github" revision="12.0" />
 </manifest>
