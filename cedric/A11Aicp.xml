@@ -7,7 +7,7 @@
 	<!-- Device repos -->
 	<project name="SirRGB/android_device_motorola_cedric" path="device/motorola/cedric" remote="github" revision ="aicp-11" />
 	<project name="SirRGB/android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" remote="github" revision="aicp-11" />
-	<project name="android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="lineage1" />
+	<project name="AkumaHunt3r/OptimKernel" path="kernel/motorola/msm8953" remote="github" revision="android-11"  />
 	<project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
 
 	<!-- Dependencies -->
