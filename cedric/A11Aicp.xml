@@ -7,7 +7,7 @@
 	<!-- Device repos -->
 	<project name="SirRGB/android_device_motorola_cedric" path="device/motorola/cedric" remote="github" revision ="aicp-11" />
 	<project name="SirRGB/android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" remote="github" revision="aicp-11" />
-	<project name="AkumaHunt3r/OptimKernel" path="kernel/motorola/msm8953" remote="github" revision="android-11"  />
+	<project name="android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="lineage1"  />
 	<project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
 
 	<!-- Dependencies -->
@@ -15,15 +15,7 @@
 	<project name="android_system_qcom" path="system/qcom" remote="lineage1" />
 	<project name="android_hardware_motorola" path="hardware/motorola" remote="lineage1" />
 
-	<!-- Updater -->
-	<remove-project name="AICP/packages_apps_Updater" />
-	<project name="SirRGB/packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="r11.1" />
-
 	<!-- Devicesettings -->
 	<remove-project name="AICP/packages_resources_devicesettings" />
 	<project name="android_packages_resources_devicesettings/" path="packages/resources/devicesettings" remote="lineage1" />
-
-	<!-- GCC -->
-	<remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
-	<project name="arter97/arm64-gcc" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" remote="github" revision="master" />
 </manifest>
