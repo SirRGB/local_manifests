@@ -38,14 +38,22 @@
 
 	<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="4-14-vendor-qcom-opensource-audio-hal-primary-hal" revision="msm8998_op/aosp/LA.UM.9.12.r1" remote="githubgl" />
 	<project path="vendor/qcom/opensource/core-utils" name="4.14-vendor-qcom-opensource-core-utils" revision="aosp/LA.UM.8.1.r1" remote="githubgl" />
+	<remove-project name="crdroidandroid/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
 	<project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="4.14-vendor-qcom-opensource-data-ipa-cfg-mgr" revision="msm8998_op/aosp/LA.UM.8.1.r1" remote="githubgl" />
+	<remove-project name="crdroidandroid/android_vendor_qcom_opensource_dataservices"
 	<project path="vendor/qcom/opensource/dataservices" name="4.14-vendor-qcom-opensource-dataservices" revision="msm8998_op/master" remote="githubgl" />
+	<remove-project name="LineageOS/android_vendor_codeaurora_telephony" />
 	<project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" revision="yaap/twelve" remote="githubgl" />
+	<remove-project name="crdroidandroid/android_vendor_qcom_opensource_interfaces" />
 	<project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" revision="lineage-19.0" remote="githubgl" />
 	<project path="vendor/qcom/opensource/display-commonsys-intf" name="4.14-vendor-qcom-opensource-commonsys-intf-display" revision="aosp/LA.UM.8.1.r1" remote="githubgl" />
+	<remove-project name="LineageOS/android_vendor_qcom_opensource_display" />
 	<project path="vendor/qcom/opensource/display" name="4.14-vendor-qcom-opensource-display" revision="msm8998_op/aosp/LA.UM.8.1.r1" remote="githubgl" />
+	<remove-project name="crdroidandroid/android_vendor_qcom_opensource_power" />
 	<project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" revision="lineage-19.0" remote="githubgl" />
+	<remove-project name="LineageOS/android_vendor_qcom_opensource_thermal-engine" />
 	<project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" revision="lineage-19.0" remote="githubgl" />
+	<remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator" />
 	<project path="vendor/qcom/opensource/vibrator" name="4.14-vendor-qcom-opensource-vibrator" revision="aosp/LA.UM.7.1.r1" remote="githubgl" />
 	<project path="vendor/qcom/opensource/time-services" name="4.14-vendor-qcom-opensource-time-services" revision="aosp/LA.UM.9.12.r1" remote="githubgl" />
 
@@ -53,5 +61,6 @@
 	<project path="vendor/oss/timekeep" name ="4.14-timekeep" revision="mms8998_op/s-mr1" remote="githubgl" />
 
 	<!-- Google projects -->
+	<remove-project name="platform/external/tinyxml" />
 	<project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
 </manifest>
