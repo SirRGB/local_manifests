@@ -23,7 +23,7 @@
 	<!-- Sepolicy -->
 	<remove-project name="crdroidandroid/android_device_crdroid_sepolicy" />
 	<project path="device/lineage/sepolicy" name="device_lineage_sepolicy" revision="gl/lineage-19.0" remote="githubgl" />
-	<remove-project name="crdroidandroid/android_device_qcom_sepolicy" />
+	<remove-project name="crdroidandroid/android_device_qcom_sepolicy-legacy-um" />
 	<project path="device/qcom/sepolicy-legacy-um" name="4.14-device_qcom_sepolicy" revision="4.14/gl/lineage-19.0-legacy-um" remote="githubgl"  />
 
 	<!-- Kernel headers from Sony -->
