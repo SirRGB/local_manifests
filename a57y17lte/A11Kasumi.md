@@ -1,5 +1,5 @@
 manifest url:
-https://github.com/ProjectKasumi/android
+https://git.polycule.co/ProjectKasumi/android/manifest
 
 branch:
 kasumi-v1
