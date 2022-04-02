@@ -11,8 +11,4 @@
 
 	<!-- Dependencies -->
 	<project name="android_external_bson" path="external/bson" remote="lineage" />
-
-	<!-- Updater -->
-	<remove-project name="android_packages_apps_Updater" />
-	<project name="SirRGB/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="kasumi-v1" />
 </manifest>
