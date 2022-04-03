@@ -13,9 +13,4 @@
 
 	<!-- Dependencies -->
 	<project name="android_hardware_samsung" path="hardware/samsung" remote="los" />
-	<project name="android_hardware_samsung_nfc" path="hardware/samsung/nfc" remote="los" />
-	<project name="android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="los" />
-	<project name="android_hardware_samsung_slsi_exynos7880" path="hardware/samsung_slsi/exynos7880" remote="los" />
-	<project name="android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="los" />
-	<project name="android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="los" />
 </manifest>
