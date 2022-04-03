@@ -11,4 +11,7 @@
 
 	<!-- Dependencies -->
 	<project name="android_external_bson" path="external/bson" remote="los" />
+
+	<!-- Devicesettings -->
+	<project name="android_packages_resources_devicesettings/" path="packages/resources/devicesettings" remote="los" />
 </manifest>
