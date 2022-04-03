@@ -12,8 +12,4 @@
 	<project name="SirRGB/android_device_nubia_TP1803" path="device/nubia/TP1803" remote="github" revision="kasumi-11" />
 	<project name="ArianK16a/device_tadiphone-fw" path="device/tadiphone-fw" remote="gitl" revision="lineage-19.0" />
 	<project name="TheMuppets/proprietary_vendor_nubia" path="vendor/nubia" remote="gith" />
-
-	<!-- Updater -->
-	<remove-project name="android_packages_apps_Updater" />
-	<project name="SirRGB/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="kasumi-v1" />
 </manifest>
