@@ -12,5 +12,5 @@
 	<project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="lineage-17.1" />
 
 	<!-- Dependencies -->
-	<project name="android_hardware_samsung" path="hardware/samsung" remote="los" />
+	<project name="CarbonROM/android_hardware_samsung" path="hardware/samsung" remote="carbon" />
 </manifest>
