@@ -22,5 +22,5 @@
 
 	<!-- art -->
 	<remove-project name="crdroidandroid/android_art" />
-	<project "android_art" remote="lineage" />
+	<project name="android_art" path="art" remote="lineage" />
 </manifest>
