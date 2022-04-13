@@ -7,7 +7,7 @@
 
 	<remote name="legacy"
 		fetch="https://github.com/griffin-experimental"
-		revision="lineage-19.1" />
+		revision="12.1" />
 
 	<!-- Device repos -->
 	<project name="SirRGB/android_device_motorola_griffin" path="device/motorola/griffin" remote="github" revision="lineage-19.1" />
