@@ -1,8 +1,8 @@
 manifest url:
-https://github.com/LineageOS/android
+https://github.com/CarbonROM/android
 
 branch:
-lineage-18.1
+cr-8.0
 
 status:
 buildable and bootable
