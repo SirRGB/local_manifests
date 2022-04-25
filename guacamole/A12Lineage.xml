@@ -3,16 +3,8 @@
     <remote name="yaap2"
 		fetch="https://github.com/yaap"
 		revision="twelve" />
-
-	<remote name="arian"
-		fetch="https://gitlab.com/ArianK16a"
-		revision="lineage-19.0" />
-
-	<remote name="gith"
-		fetch="https://github.com"
-		revision="lineage-19.1" />
-
-	<remote name="lineage2"
+	
+    <remote name="lineage2"
 		fetch="https://github.com/LineageOS"
 		revision="lineage-19.1" />
 
