@@ -5,4 +5,4 @@ branch:
 lineage-18.1
 
 status:
-buildable and bootable
+not buildable

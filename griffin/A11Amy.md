@@ -2,7 +2,7 @@ manifest url:
 https://github.com/amyROM/manifest
 
 branch:
-rosie
+rosie-lts
 
 status:
-buildable and bootable
+buildable and bootable (official)
