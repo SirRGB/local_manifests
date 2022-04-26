@@ -5,10 +5,6 @@
 	<project name="z3DD3r/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="lineage-16.0" />
 	<project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="lineage-16.0" />
 
-	<!-- Updater -->
-	<remove-project name="LineageOS/android_packages_apps_Updater" />
-	<project name="SirRGB/android_packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="lineage-16.0" />
-
 	<!-- Fixup -->
 	<remove-project name="platform/prebuilts/maven_repo/bumptech" />
 </manifest>
