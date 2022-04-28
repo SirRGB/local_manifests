@@ -5,4 +5,4 @@ branch:
 eleven, eleven-plus
 
 status:
-buildable, but not bootable
+not buildable
