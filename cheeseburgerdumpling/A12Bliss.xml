@@ -17,4 +17,8 @@
 
 	<!-- Dependencies -->
 	<project name="yaap/hardware_oneplus" path="hardware/oneplus" remote="github" revision="twelve-rebase" />
+
+	<!-- SELinux -->
+	<remove-project name="platform_device_qcom_sepolicy-legacy-um" />
+	<project name="device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="bliss" />
 </manifest>
