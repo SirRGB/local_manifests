@@ -4,6 +4,10 @@
 		fetch="https://github.com/LineageOS"
 		revision="lineage-18.1" />
 
+	<remote name="hal"
+		fetch="https://github.com/LineageOS"
+		revision="lineage-18.1-caf-msm8996" />
+
 	<!-- Device repos -->
 	<project name="SirRGB/android_device_motorola_cedric" path="device/motorola/cedric" remote="crdroid" revision="crdroid-11" />
 	<project name="android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" remote="lineage" />
@@ -14,4 +18,13 @@
 	<project name="android_external_bson" path="external/bson" remote="lineage" />
 	<project name="android_system_qcom" path="system/qcom" remote="lineage" />
 	<project name="android_hardware_motorola" path="hardware/motorola" remote="lineage" />
+
+	<!-- Lineage HALs -->
+	<remove-project name="crdroidandroid/android_hardware_qcom_audio" />
+	<remove-project name="crdroidandroid/android_hardware_qcom_media" />
+	<remove-project name="crdroidandroid/android_hardware_qcom_display" />
+
+	<project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" remote="hal" />
+	<project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" remote="hal" />
+	<project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" remote="hal" />
 </manifest>
