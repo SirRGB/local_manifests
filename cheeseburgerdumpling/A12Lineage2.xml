@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- source: https://github.com/roberto-sartori-gl/local_manifests/tree/4.14/a12/gl -->
+
 	<remote name="githubgl"
 		fetch="https://github.com/roberto-sartori-gl"
 		revision="refs/heads/gl" />
 
- 	<remote name="githubmuppets"
-		fetch="https://github.com/TheMuppets" />
-
 	<!-- Validated with AOSP revision: android-12.1.0_r1 -->
 
-	<!-- Added projects for Cheeseburger and dumpling -->
-	<project path="device/oneplus/cheeseburger" name="4.14-device_oneplus_cheeseburger" revision="4.14/gl/lineage-19.0" remote="githubgl" />
-	<project path="device/oneplus/dumpling" name="4.14-device_oneplus_dumpling" revision="4.14/gl/lineage-19.0" remote="githubgl" />
-	<project path="device/oneplus/msm8998-common" name="4.14-device_oneplus_msm8998_common" revision="4.14/gl/lineage-19.0" remote="githubgl" />
+	<!-- Added projects for cheeseburger and dumpling -->
+	<project path="device/oneplus/cheeseburger" name="SirRGB/android_device_oneplus_cheeseburger" revision="4.14/lineage-19.1" remote="github" />
+	<!-- project path="device/oneplus/dumpling" name="android_device_oneplus_dumpling" revision="4.14/gl/lineage-19.0" remote="githubgl" / -->
+	<project path="device/oneplus/msm8998-common" name="SirRGB/android_device_oneplus_msm8998_common" revision="4.14/lineage-19.1" remote="github" />
 	<project path="vendor/oneplus" name="4.14-vendor-oneplus" revision="4.14" remote="githubgl" />
 
 	<!-- Prebuilt kernel repo -->
@@ -21,7 +19,6 @@
 
 	<!-- Kernel headers from Sony -->
 	<project path="kernel/sony/msm-4.14/common-headers" name="4.14-kernel-sony-msm-4.14-headers" revision="msm8998_op/aosp/LA.UM.7.1.r1" remote="githubgl" />
-
 	<project path="kernel/sony/4.14/common-headers" name="4.14-qti-headers" revision="msm8998_op/master" remote="githubgl" />
 
 	<!-- Maybe needed -->
