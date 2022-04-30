@@ -4,10 +4,6 @@
 		fetch="https://github.com/LineageOS"
 		revision="lineage-18.1" />
 
-	<remote name="hal"
-		fetch="https://github.com/LineageOS"
-		revision="lineage-18.1-caf-msm8996" />
-
 	<!-- Device repos -->
 	<project name="griffin-experimental/android_device_motorola_griffin" path="device/motorola/griffin" remote="github" revision="crdroid-11_g" />
 	<project name="android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="lineage" />
@@ -22,9 +18,9 @@
 	<remove-project name="crdroidandroid/android_hardware_qcom_media" />
 	<remove-project name="crdroidandroid/android_hardware_qcom_display" />
 
-	<project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" remote="hal" />
-	<project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" remote="hal" />
-	<project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" remote="hal" />
+	<project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" remote="lineage" revision="lineage-18.1-caf-msm8996" />
+	<project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" remote="lineage" revision="lineage-18.1-caf-msm8996" />
+	<project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" remote="lineage" revision="lineage-18.1-caf-msm8996" />
 
 	<!-- MindTheGapps -->
 	<remote name="Mgapps" fetch="https://gitlab.com/MindTheGapps/" revision="rho" />
