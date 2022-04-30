@@ -18,4 +18,8 @@
 	<project name="android_hardware_samsung_slsi_exynos7880" path="hardware/samsung_slsi/exynos7880" remote="lineage" />
 	<project name="android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="lineage" />
 	<project name="android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="lineage" />
+
+	<!-- Devicesettings -->
+	<remove-project name="AICP/packages_resources_devicesettings" />
+	<project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" />
 </manifest>
