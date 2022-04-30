@@ -18,10 +18,4 @@
 	<project name="android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="lineage" />
 	<project name="android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="lineage" />
 	<project name="android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="lineage" />
-
-	<!-- Face Unlock -->
-	<!-- remove-project name="external_faceunlock" />
-	<project name="crdroidandroid/android_external_faceunlock" path="external/faceunlock" remote="gitlab" revision="11.0" />
-	<remove-project name="packages_apps_FaceUnlockService" />
-	<project name="crdroidandroid/android_packages_apps_FaceUnlockService" path="packages/apps/FaceUnlockService" remote="github" revision="11.0" / -->
 </manifest>
