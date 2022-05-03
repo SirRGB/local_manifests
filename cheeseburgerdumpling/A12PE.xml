@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="pixeldevices"
-	fetch="https://github.com/PixelExperience-Devices"
-	revision="twelve" />
+		fetch="https://github.com/PixelExperience-Devices"
+		revision="twelve" />
 
 	<remote name="pixeldevices-blobs"
 		fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
