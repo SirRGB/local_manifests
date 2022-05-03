@@ -5,4 +5,4 @@ branch:
 arcadia-next
 
 status:
-not buildable
+buildable and bootable

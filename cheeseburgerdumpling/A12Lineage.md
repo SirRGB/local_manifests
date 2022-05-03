@@ -2,7 +2,7 @@ manifest url:
 https://github.com/LineageOS/android
 
 branch:
-lineage-19.0
+lineage-19.1
 
 status:
 ?
