@@ -14,7 +14,7 @@
 		revision="lineage-19.1" />
 
 	<!-- Device repos -->
-	<project name="android_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="lineage12" />
+	<project name="kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="yaap2" />
 	<project name="android_device_oneplus_guacamole" path="device/oneplus/guacamole" remote="lineage12" />
         <project name="android_device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" remote="lineage12" />
         <project name="hardware_oneplus" path="hardware/oneplus" remote="yaap2" />
