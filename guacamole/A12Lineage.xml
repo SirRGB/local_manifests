@@ -17,7 +17,7 @@
 	<project name="android_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="lineage12" />
 	<project name="android_device_oneplus_guacamole" path="device/oneplus/guacamole" remote="lineage12" />
         <project name="android_device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" remote="lineage12" />
-        <project name="android_hardware_oneplus" path="hardware/oneplus" remote="lineage12" />
+        <project name="hardware_oneplus" path="hardware/oneplus" remote="yaap2" />
         <project name="android_device_oneplus_common" path="device/oneplus/common" remote="lineage11" />
         <project name="vendor_oneplus" path="vendor/oneplus" remote="yaap2" />
 </manifest>
