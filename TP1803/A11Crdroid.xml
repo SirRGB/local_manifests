@@ -8,7 +8,7 @@
 
 	<!-- Device repos -->
 	<project name="android_kernel_nubia_sm8150" path="kernel/nubia/sm8150" remote="lineage" />
-	<project name="SirRGB/android_device_nubia_TP1803" path="device/nubia/TP1803" remote="github" revisio="crdroid-11" />
+	<project name="SirRGB/android_device_nubia_TP1803" path="device/nubia/TP1803" remote="github" revision="crdroid-11" />
 	<project name="ArianK16a/device_tadiphone-fw" path="device/tadiphone-fw" remote="gitl" revision="lineage-19.0" />
 	<project name="TheMuppets/proprietary_vendor_nubia" path="vendor/nubia" remote="github" />
 </manifest>
