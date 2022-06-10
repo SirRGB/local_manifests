@@ -1,14 +1,13 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="lineage"
 		fetch="https://github.com/LineageOS"
-		revision="lineage-18.1" />
+		revision="lineage-19.1" />
 
 	<!-- Device repos -->
-	<project name="android_device_motorola_cedric" path="device/motorola/cedric" remote="lineage" />
+	<project name="android_device_motorola_cedric" path="device/motorola/cedric" remote="lineage" revision="lineage-18.1" />
 	<project name="Lex4R/android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" remote="github" revision="master" />
-	<project name="android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="lineage" />
+	<project name="android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="lineage" revision="lineage-18.1" />
 	<project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
 
 	<!-- Dependencies -->
