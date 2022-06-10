@@ -33,8 +33,8 @@
 	<project name="PixelExperience/hardware_qcom-caf_wlan" path="hardware/qcom-caf/wlan" remote="github" revision="twelve" />
 
 	<!-- Patches -->
-	<remove-project name="LineageOS/android_art" />
-	<project name="SirRGB/android_art" path="art" remote="github" revision="lineage-19.1" />
+	<remove-project name="crdroidandroid/android_art" />
+	<project name="android_art" path="art" remote="legacy" />
 
 	<remove-project name="platform/system/netd" />
 	<project name="android_system_netd" path="system/netd" remote="legacy" />
@@ -48,7 +48,7 @@
 	<remove-project name="LineageOS/android_packages_resources_devicesettings" />
 	<project name="android_packages_resources_devicesettings/" path="packages/resources/devicesettings" remote="lineage" />
 
-	<remove-project name="LineageOS/android_frameworks_native" />
-	<project name="SirRGB/android_frameworks_native" path="frameworks/native" remote="github" revision="lineage-19.1" />
+	<remove-project name="crdroidandroid/android_frameworks_native" />
+	<project name="SirRGB/android_frameworks_native-1" path="frameworks/native" remote="github" revision="12.1" />
 
 </manifest>
