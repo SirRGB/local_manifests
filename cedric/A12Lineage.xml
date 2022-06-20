@@ -24,7 +24,7 @@
 	<project name="AospExtended/platform_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" remote="github" revision="12.x-caf-msm8996" />
 
 	<remove-project name="LineageOS/android_hardware_qcom_display" />
-	<project name="GKart/hardware-_qcom-caf-msm8996-display" path="hardware/qcom-caf/display" remote="github" revision="12.x" />
+	<project name="GKart/hardware-_qcom-caf-msm8996-display" path="hardware/qcom-caf/msm8996/display" remote="github" revision="12.x" />
 
 	<remove-project name="LineageOS/android_hardware_qcom_wlan" />
 	<project name="PixelExperience/hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="twelve" />
