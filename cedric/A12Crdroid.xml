@@ -51,4 +51,7 @@
 	<remove-project name="crdroidandroid/android_frameworks_native" />
 	<project name="SirRGB/android_frameworks_native-1" path="frameworks/native" remote="github" revision="12.1" />
 
+	<remove-project name="crdroidandroid/android_system_core" />
+	<project name="SirRGB/android_system_core" path="system/core" remote="github" revision="12.1" />
+
 </manifest>
