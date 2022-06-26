@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="edwin"
+		fetch="https://github.com/EdwinMoq"
+		revision="lineage-19.1" />
+
+	<!-- Device repos -->
+	<project name="android_kernel_xiaomi_whyred" path="kernel/xiaomi/whyred" remote="edwin" />
+	<project name="android_device_xiaomi_whyred" path="device/xiaomi/whyred" remote="edwin" />
+	<project name="android_vendor_xiaomi_whyred" path="vendor/xiaomi/whyred" remote="edwin" />
+
+	<!-- HALs -->
+	<remove-project name="LineageOS/android_hardware_qcom_media" />
+	<project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="edwin" revision="sdm660-4.19" />
+
+	<remove-project name="LineageOS/android_hardware_qcom_media" />
+	<project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="edwin" revision="sdm660-4.19" />
+
+	<remove-project name="LineageOS/android_hardware_qcom_display" />
+	<project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="edwin" revision="sdm660-4.19" />
+
+	<remove-project name="LineageOS/android_device_qcom_sepolicy" />
+	<project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="edwin" revision="lineage-19.0-legacy-um" />
+
+	<remove-project name="LineageOS/android_hardware_qcom_thermal" />
+	<project name="android_hardware_qcom_thermal" path="hardware/qcom-caf/thermal" remote="edwin" revision="lineage-19.1"
+
+	<remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
+	<project name="android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="edwin" revision="lineage-19.0" />
+	
+</manifest>
