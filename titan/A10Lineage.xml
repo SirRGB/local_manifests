@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="rush"
+		fetch="https://github.com/rushiranpise"
+		revision="lineage-17.1" />
+
+	<!-- Device repos -->
+	<project name="android_device_motorola_titan" path="device/motorola/titan" remote="rush" />
+	<project name="android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="rush" />
+	<project name="android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="rush" revision="sos" />
+	<project name="proprietary_vendor_motorola_titan" path="vendor/motorola" remote="rush" revision="ten" />
+
+	<!-- Dependencies -->
+	<project name="android_system_qcom" path="system/qcom" remote="lineage" />
+</manifest>
