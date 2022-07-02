@@ -15,4 +15,8 @@
 	<project name="android_device_oneplus_dumpling" path="device/oneplus/dumpling" remote="xTeja"/>
 	<project name="android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" remote="lineage" />
 	<project name="proprietary_vendor_oneplus" path="vendor/oneplus" remote="xTeja" revision="lineage-18.1" />
+
+	<!-- MindTheGapps -->
+	<remote name="Mgapps" fetch="https://gitlab.com/MindTheGapps/" revision="rho" />
+	<project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="Mgapps" />
 </manifest>
