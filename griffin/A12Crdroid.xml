@@ -6,12 +6,12 @@
 		revision="lineage-19.1" />
 
 	<remote name="legacy"
-		fetch="https://github.com/griffin-experimental"
+		fetch="https://github.com/droid-legacy"
 		revision="12.1" />
 
 	<!-- Device repos -->
-	<project name="android_device_motorola_griffin" path="device/motorola/griffin" remote="legacy" revision="lineage-19.1" />
-	<project name="android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="legacy" revision="lineage-19.1" />
+	<project name="griffin-experimental/android_device_motorola_griffin" path="device/motorola/griffin" remote="github" revision="lineage-19.1" />
+	<project name="griffin-experimental/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="github" revision="lineage-19.1" />
 	<project name="proprietary_vendor_motorola" path="vendor/motorola" remote="legacy" revision="lineage-19.1" />
 
 	<!-- Dependencies -->
