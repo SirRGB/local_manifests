@@ -27,4 +27,8 @@
 	<project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" remote="hal" />
 	<project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" remote="hal" />
 	<project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" remote="hal" />
+
+	<!-- MindTheGapps -->
+	<remote name="Mgapps" fetch="https://gitlab.com/MindTheGapps/" revision="rho" />
+	<project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="Mgapps" />
 </manifest>
