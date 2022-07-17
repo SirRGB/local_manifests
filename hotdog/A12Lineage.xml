@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="lineage"
+		fetch="https://github.com/LineageOS"
+		revision="lineage-19.1" />
+
+	<!-- Device repos -->
+	<project name="android_device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" remote="lineage" />
+	<project name="android_device_oneplus_hotdog" path="device/oneplus/hotdog" remote="lineage" />
+	<project name="android_device_oneplus_hotdogb" path="device/oneplus/hotdogb" remote="lineage" />
+	<project name="android_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="lineage" />
+	<project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="lineage-19.1" />
+
+	<!-- Dependencies -->
+	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="lineage" />
+</manifest>
