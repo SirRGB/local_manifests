@@ -9,8 +9,8 @@
 		fetch="https://github.com/lin14-mGoms" />
 
 	<!-- Device Repos -->
-	<project name="android_device_motorola_falcon" path="device/motorola/falcon" remote="lin" />
-	<project name="android_device_motorola_peregrine" path="device/motorola/peregrine" remote="lin" />
+	<project name="android_device_motorola_falcon" path="device/motorola/falcon" remote="lineage" />
+	<project name="android_device_motorola_peregrine" path="device/motorola/peregrine" remote="lineage" />
 	<project name="android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="lineage" />
 	<project name="android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="lin" />
 	<project name="proprietary_vendor_motorola" path="vendor/motorola" remote="lin" />
