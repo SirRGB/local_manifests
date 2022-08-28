@@ -29,11 +29,11 @@
 	<remove-project name="LineageOS/android_hardware_qcom_wlan" />
 	<project name="PixelExperience/hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="twelve" />
 
-	<remove-project name="crdroidandroid/android_hardware_qcom_wlan" />
+	<remove-project name="LineageOS/android_hardware_qcom_wlan" />
 	<project name="PixelExperience/hardware_qcom-caf_wlan" path="hardware/qcom-caf/wlan" remote="github" revision="twelve" />
 
 	<!-- Patches -->
-	<remove-project name="LineageOS/android_art" />
+	<remove-project name="platform/art" />
 	<project name="android_art-1" path="art" remote="legacy" revision="lineage-19.1" />
 
 	<remove-project name="platform/system/netd" />
