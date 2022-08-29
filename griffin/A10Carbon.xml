@@ -6,7 +6,7 @@
 
 	<!-- Device repos -->
 	<project name="griffin-experimental/android_device_motorola_griffin" path="device/motorola/griffin" remote="gh" revision="carbon-10" />
-	<project name="griffin-experimental/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="gh" revision="lineage-17.1_dt2w" />
+	<project name="android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="los" />
 	<project name="griffin-experimental/proprietary_vendor_motorola" path="vendor/motorola" remote="gh" revision="lineage-17.1" />
 
 	<!-- Dependencies -->
