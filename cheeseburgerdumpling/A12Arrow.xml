@@ -17,6 +17,7 @@
 
 	<!-- Dependencies -->
 	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="rgb" />
+	<project name="android_hardware_qcom_vr" path="hardware/qcom/vr" remote="lineage" groups="qcom,sdm660" />
 
 	<remove-project name="kernel/configs" />
 	<project name="android_kernel_configs" path="kernel/configs" remote="lineage" />
