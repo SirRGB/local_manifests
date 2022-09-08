@@ -1,0 +1,23 @@
+<manifest>
+	<remote name="legacy"
+		fetch="https://github.com/droid-legacy"
+		revision="lineage-17.1"/>
+
+	<!-- Device repo -->
+	<project name="SirRGB/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="lineage-17.1"/>
+	<project name="z3DD3r/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="lineage-17.1"/>
+	<project name="SirRGB/android_vendor_lge" path="vendor/lge" remote="github" revision="lineage-17.1"/>
+
+	<!-- Patches -->
+	<remove-project name="LineageOS/android_hardware_lineage_interfaces"/>
+	<project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="legacy"/>
+
+	<remove-project name="LineageOS/android_system_bt"/>
+	<project name="android_system_bt" path="system/bt" remote="legacy"/>
+
+	<remove-project name="LineageOS/android_frameworks_native"/>
+	<project name="android_frameworks_native" path="frameworks/native" remote="legacy"/>
+
+	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME"/>
+	<project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="legacy"/>
+</manifest>
