@@ -25,9 +25,6 @@
 	<!-- DTBtool -->
 	<project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="lineage" revision="lineage-18.1" />
 
-	<!-- ARM Developer GCC 8.3 kernel toolchain -->
-	<project name="chil360/prebuilts_gcc_linux-x86_arm_arm-eabi-8.3" path="prebuilts/gcc/linux-x86/arm/arm-eabi-8.3" remote="github" revision="master" />
-
 	<!-- Patches -->
 	<remove-project name="crdroidandroid/android_art" />
 	<project name="android_art" path="art" remote="legacy" />
