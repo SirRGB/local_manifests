@@ -21,4 +21,8 @@
 	<project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" remote="lineage" revision="lineage-18.1-caf-msm8996" />
 	<project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" remote="lineage" revision="lineage-18.1-caf-msm8996" />
 	<project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" remote="lineage" revision="lineage-18.1-caf-msm8996" />
+
+        <!-- MindTheGapps -->
+        <remote name="Mgapps" fetch="https://gitlab.com/MindTheGapps/" revision="rho" />
+        <project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="Mgapps" />
 </manifest>
