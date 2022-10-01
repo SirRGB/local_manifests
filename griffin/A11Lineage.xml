@@ -6,8 +6,8 @@
 		revision="lineage-18.1" />
 
 	<!-- Device repos -->
-	<project name="LineageOS/android_device_motorola_griffin" path="device/motorola/griffin" remote="lineage" />
-	<project name="LineageOS/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="lineage" />
+	<project name="android_device_motorola_griffin" path="device/motorola/griffin" remote="lineage" />
+	<project name="android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="lineage" />
 	<project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
 
 	<!-- Dependencies -->
