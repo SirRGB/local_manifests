@@ -56,7 +56,7 @@
 	<project name="android_frameworks_native" path="frameworks/native" remote="legacy" revision="lineage-19.1" />
 
 	<remove-project name="LineageOS/android_system_sepolicy" />
-	<project name="acroreiser/android_system_sepolicy" path="system/sepolicy" remote="github" revision="lineage-19.1" />
+	<project name="android_system_sepolicy" path="system/sepolicy" remote="legacy" revision="lineage-19.1" />
 
 	<remove-project name="LineageOS/android_system_core" />
 	<project name="android_system_core" path="system/core" remote="legacy" revision="lineage-19.1" />
