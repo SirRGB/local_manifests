@@ -20,6 +20,9 @@
 	<project name="vijaymalav564/vendor_libbfqio" path="vendor/libbfqio" remote="github" revision="main" />
 	<project name="android_hardware_motorola" path="hardware/motorola" remote="lineage" />
 
+        <!-- dtbtool -->
+        <project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="lineage" revision="lineage-18.1" />
+
 	<!-- HALs -->
 	<!-- <remove-project name="LineageOS/android_hardware_qcom_media" />
 	<project name="AospExtended/platform_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" remote="github" revision="12.x-caf-msm8996" />
