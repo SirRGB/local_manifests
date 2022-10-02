@@ -17,24 +17,10 @@
 	<!-- Dependencies -->
 	<project name="android_external_bson" path="external/bson" remote="lineage" />
 	<project name="android_system_qcom" path="system/qcom" remote="lineage" />
-	<project name="vijaymalav564/vendor_libbfqio" path="vendor/libbfqio" remote="github" revision="main" />
 	<project name="android_hardware_motorola" path="hardware/motorola" remote="lineage" />
 
         <!-- dtbtool -->
         <project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="lineage" revision="lineage-18.1" />
-
-	<!-- HALs -->
-	<!-- <remove-project name="LineageOS/android_hardware_qcom_media" />
-	<project name="AospExtended/platform_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" remote="github" revision="12.x-caf-msm8996" />
-
-	<remove-project name="LineageOS/android_hardware_qcom_display" />
-	<project name="GKart/hardware-_qcom-caf-msm8996-display" path="hardware/qcom-caf/msm8996/display" remote="github" revision="12.x" />
-
-	<remove-project name="LineageOS/android_hardware_qcom_wlan" />
-	<project name="PixelExperience/hardware_qcom_wlan" path="hardware/qcom/wlan" remote="github" revision="twelve" />
-
-	<remove-project name="LineageOS/android_hardware_qcom_wlan" />
-	<project name="PixelExperience/hardware_qcom-caf_wlan" path="hardware/qcom-caf/wlan" remote="github" revision="twelve" /> -->
 
 	<!-- Patches -->
 	<remove-project name="platform/art" />
@@ -51,9 +37,6 @@
 
 	<remove-project name="LineageOS/android_packages_resources_devicesettings" />
 	<project name="android_packages_resources_devicesettings/" path="packages/resources/devicesettings" remote="lineage" />
-
-	<!-- <remove-project name="LineageOS/android_frameworks_native" />
-	<project name="android_frameworks_native" path="frameworks/native" remote="legacy" revision="lineage-19.1" /> -->
 
 	<remove-project name="LineageOS/android_system_sepolicy" />
 	<project name="android_system_sepolicy" path="system/sepolicy" remote="legacy" revision="lineage-19.1" />
