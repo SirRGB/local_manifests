@@ -23,9 +23,6 @@
         <project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="lineage" revision="lineage-18.1" />
 
 	<!-- Patches -->
-	<remove-project name="platform/art" />
-	<project name="android_art-1" path="art" remote="legacy" revision="lineage-19.1" />
-
 	<remove-project name="platform/system/netd" />
 	<project name="android_system_netd" path="system/netd" remote="legacy" />
 
@@ -40,7 +37,4 @@
 
 	<remove-project name="LineageOS/android_system_sepolicy" />
 	<project name="android_system_sepolicy" path="system/sepolicy" remote="legacy" revision="lineage-19.1" />
-
-	<remove-project name="LineageOS/android_system_core" />
-	<project name="android_system_core" path="system/core" remote="legacy" revision="lineage-19.1" />
 </manifest>
