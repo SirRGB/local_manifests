@@ -9,7 +9,7 @@
 		revision="12.1" />
 
 	<!-- Device repos -->
-	<project name="android_device_motorola_cedric" path="device/motorola/cedric" remote="lineage" />
+	<project name="SirRGB/android_device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="lineage-19.1" />
 	<project name="SirRGB/android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" remote="github" revision="lineage-19.1" />
 	<project name="SirRGB/android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="github" revision="lineage-19.1" />
 	<project name="SirRGB/vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-19.1" />
