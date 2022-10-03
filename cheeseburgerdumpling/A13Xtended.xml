@@ -12,5 +12,5 @@
 
 	<!-- Patches -->
 	<remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
-	<project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="lineage" />
+	<project name="Dev-msm8953/android_vendor_qcom_opensource_commonsys-intf_display" path="vendor/qcom/opensource/commonsys-intf/display" remote="github" revision="xt" />
 </manifest>
