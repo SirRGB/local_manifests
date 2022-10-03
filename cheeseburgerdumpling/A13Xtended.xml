@@ -13,4 +13,13 @@
 	<!-- Patches -->
 	<remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
 	<project name="Dev-msm8953/android_vendor_qcom_opensource_commonsys-intf_display" path="vendor/qcom/opensource/commonsys-intf/display" remote="github" revision="xt" />
+
+	<!-- HALs -->
+	<remove-project name="android_hardware_qcom_audio" />
+	<remove-project name="android_hardware_qcom_display" />
+	<remove-project name="android_hardware_qcom_media" />
+
+	<project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf-msm8998" />
+	<project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf-msm8998" />
+	<project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf-msm8998" />
 </manifest>
