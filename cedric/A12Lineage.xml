@@ -34,4 +34,7 @@
 
 	<remove-project name="LineageOS/android_system_sepolicy" />
 	<project name="android_system_sepolicy" path="system/sepolicy" remote="legacy" revision="lineage-19.1" />
+
+	<remove-project name="LineageOS/android_frameworks_native" />
+	<project name="android_frameworks_native" path="frameworks/native" remote="legacy" revision="lineage-19.1" />
 </manifest>
