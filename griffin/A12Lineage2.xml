@@ -15,7 +15,7 @@
 
 	<!-- Device repos -->
 	<project name="android_device_motorola_griffin" path="device/motorola/griffin" remote="griffin" />
-	<project name="android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="giffin" revision="lineage-19.1-upstream" />
+	<project name="android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="griffin" revision="lineage-19.1-upstream" />
 	<project name="proprietary_vendor_motorola" path="vendor/motorola" remote="griffin" />
 
 	<!-- Dependencies -->
