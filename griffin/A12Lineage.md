@@ -5,4 +5,5 @@ branch:
 lineage-19.1
 
 status:
-buildable, but wifi is dead and selinux permissive
+buildable, but selinux permissive
+and on userdebug we get mismatch warnings
