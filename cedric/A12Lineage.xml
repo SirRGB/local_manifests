@@ -37,4 +37,7 @@
 
 	<remove-project name="LineageOS/android_frameworks_native" />
 	<project name="android_frameworks_native" path="frameworks/native" remote="legacy" revision="lineage-19.1" />
+
+	<remove-project name="LineageOS/android_frameworks_base" />
+	<project name="android_frameworks_base" path="frameworks/base" remote="legacy" revision="lineage-19.1" />
 </manifest>
