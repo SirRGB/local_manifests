@@ -10,10 +10,6 @@
 	<!-- Dependencies -->
 	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="lineage" revision="lineage-20" />
 
-	<!-- Patches -->
-	<remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
-	<project name="Dev-msm8953/android_vendor_qcom_opensource_commonsys-intf_display" path="vendor/qcom/opensource/commonsys-intf/display" remote="github" revision="xt" />
-
 	<!-- HALs -->
 	<remove-project name="hardware_qcom_audio" />
 	<remove-project name="hardware_qcom_display" />
