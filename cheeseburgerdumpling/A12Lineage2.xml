@@ -12,6 +12,9 @@
 	<project path="device/oneplus/msm8998-common" name="SirRGB/android_device_oneplus_msm8998-common" revision="4.14/lineage-19.1" remote="github" />
 	<project path="vendor/oneplus" name="SirRGB/proprietary_vendor_oneplus" revision="4.14/lineage-19.1" remote="github" />
 
+	<!-- Dependencies -->
+	<project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" remote="github" revision="lineage-19.1" />
+
 	<!-- Prebuilt kernel repo -->
 	<project path="kernel/oneplus/prebuilt" name="kernel-oneplus-prebuilt" revision="master" clone-depth="1" remote="githubgl" />
 
