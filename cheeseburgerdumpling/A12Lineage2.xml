@@ -20,9 +20,6 @@
 	<project path="kernel/sony/4.14/common-headers" name="4.14-qti-headers" revision="msm8998_op/master" remote="githubgl" />
 
 	<!-- Custom HAL from Sony/CAF -->
-	<remove-project name="LineageOS/android_hardware_qcom_wlan" />
-	<project path="hardware/qcom/wlan" name="hardware_qcom-caf_wlan" revision="lineage-19.1-caf" remote="githubgl" />
-
 	<remove-project name="LineageOS/android_hardware_qcom_media" />
 	<project path="hardware/qcom/media" name="4-14-hardware-qcom-media" revision="aosp/LA.UM.8.2.1.r1" remote="githubgl" />
 
