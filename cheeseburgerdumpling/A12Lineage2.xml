@@ -36,7 +36,7 @@
 	<remove-project name="LineageOS/android_vendor_qcom_opensource_dataservices" />
 	<project path="vendor/qcom/opensource/dataservices" name="4.14-vendor-qcom-opensource-dataservices" revision="msm8998_op/master" remote="githubgl" />
 
-	<project path="vendor/qcom/opensource/display-commonsys-intf" name="4.14-vendor-qcom-opensource-commonsys-intf-display" revision="aosp/LA.UM.8.1.r1" remote="githubgl" />
+	<!-- <project path="vendor/qcom/opensource/display-commonsys-intf" name="4.14-vendor-qcom-opensource-commonsys-intf-display" revision="aosp/LA.UM.8.1.r1" remote="githubgl" /> -->
 
 	<remove-project name="LineageOS/android_vendor_qcom_opensource_display" />
 	<project path="vendor/qcom/opensource/display" name="4.14-vendor-qcom-opensource-display" revision="msm8998_op/aosp/LA.UM.8.1.r1" remote="githubgl" />
