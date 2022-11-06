@@ -44,7 +44,7 @@
 	<project path="vendor/qcom/opensource/time-services" name="4.14-vendor-qcom-opensource-time-services" revision="aosp/LA.UM.9.12.r1" remote="githubgl" />
 
 	<remove-project name="LineageOS/android_hardware_qcom_display" />
-	<project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="lineage-19.1-caf-msm8998" remote="github" />
+	<project path="hardware/qcom-caf/msm8998/display" name="aospa-op5-414/4.14-android_hardware_qcom_display" groups="qcom,legacy-qcom" revision="sapphire-89xx-414" remote="github" />
 	<project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-19.1" remote="github" />
 
 	<!-- Open Source projects -->
