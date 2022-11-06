@@ -50,9 +50,6 @@
 	<remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" />
 	<project path="vendor/qcom/opensource/commonsys-intf/display" name="aospa-op5-414/4.14-android_vendor_qcom_opensource_commonsys-intf_display" revision="sapphire" remote="github" />
 
-	<remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys" />
-	<project path="vendor/qcom/opensource/commonsys/display" name="aospa-op5-414/4.14-vendor-qcom-opensource-display" revision="sapphire-89xx-414" remote="github" />
-
 	<!-- Open Source projects -->
 	<project path="vendor/oss/timekeep" name ="4.14-timekeep" revision="mms8998_op/s-mr1" remote="githubgl" />
 </manifest>
