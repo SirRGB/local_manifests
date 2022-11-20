@@ -7,7 +7,7 @@
 	<!-- Device repos -->
 	<project name="griffin-experimental/android_device_motorola_griffin" path="device/motorola/griffin" remote="github" revision="crdroid-11" />
 	<project name="android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="lineage" />
-	<project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
+	<project name="griffin-experimental/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
 
 	<!-- Dependencies -->
 	<project name="android_external_bson" path="external/bson" remote="lineage" />
@@ -22,7 +22,7 @@
 	<project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" remote="lineage" revision="lineage-18.1-caf-msm8996" />
 	<project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" remote="lineage" revision="lineage-18.1-caf-msm8996" />
 
-        <!-- MindTheGapps -->
-        <remote name="Mgapps" fetch="https://gitlab.com/MindTheGapps/" revision="rho" />
-        <project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="Mgapps" />
+	<!-- MindTheGapps -->
+	<remote name="Mgapps" fetch="https://gitlab.com/MindTheGapps/" revision="rho" />
+	<project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="Mgapps" />
 </manifest>
