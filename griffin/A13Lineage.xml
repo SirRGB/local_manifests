@@ -51,6 +51,12 @@
 	<remove-project name="LineageOS/android_vendor_lineage" />
 	<project name="android_vendor_lineage" path="vendor/lineage" remote="legacy" />
 
+	<remove-project name="LineageOS/android_bionic" />
+	<project name="android_bionic" path="bionic" remote="legacy" />
+
+	<remove-project name="platform/external/jemalloc_new" />
+	<project name="android_external_jemalloc_new" path="external/jemalloc_new" remote="legacy" />
+
 	<!-- cgroup Patches -->
 	<remove-project name="LineageOS/android_system_core" />
 	<project name="droid-legacy/android_system_core" path="system/core" />
