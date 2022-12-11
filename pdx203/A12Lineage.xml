@@ -12,5 +12,5 @@
 	<project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="lineage-19.1" />
 
 	<!-- Dependencies -->
-	<project name="hardware/sony" path="hardware/sony" remote="lineage" />
+	<project name="android_hardware_sony" path="hardware/sony" remote="lineage" />
 </manifest>
