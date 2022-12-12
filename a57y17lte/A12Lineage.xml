@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote name="lineage"
+                fetch="https://github.com/LineageOS"
+                revision="lineage-19.1" />
+
+	<remote name="legacy"
+		fetch="https://github.com/droid-legacy"
+		revision="12.1" />
+
+	<!-- Device repos -->
+	<project name="android_device_samsung_a7y17lte" path="device/samsung/a7y17lte" remote="lineage" revision="lineage-18.1" />
+	<project name="android_device_samsung_a5y17lte" path="device/samsung/a5y17lte" remote="lineage" revision="lineage-18.1" />
+	<project name="universal7880-19-1/android_device_samsung_universal7880-common" path="device/samsung/universal7880-common" remote="github" revision="lineage-19.1" />
+	<project name="filiprrs/android_kernel_samsung_universal7880" path="kernel/samsung/universal7880" remote="github" revision="lineage-19.1" />
+	<project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-18.1" />
+
+	<!-- Dependencies -->
+	<project name="android_hardware_samsung" path="hardware/samsung" remote="lineage" />
+	<project name="android_hardware_samsung_nfc" path="hardware/samsung/nfc" remote="lineage" />
+	<project name="android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="legacy" revision="lineage-19.1" />
+	<project name="android_hardware_samsung_slsi_exynos7880" path="hardware/samsung_slsi/exynos7880" remote="lineage" />
+	<project name="android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="lineage" />
+	<project name="android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="lineage" />
+
+
+	<!-- Patches -->
+	<remove-project name="platform/system/netd" />
+	<project name="android_system_netd" path="system/netd" remote="legacy" />
+
+	<remove-project name="platform/system/bpf" />
+	<project name="android_system_bpf" path="system/bpf" remote="legacy" />
+
+	<remove-project name="LineageOS/android_frameworks_base" />
+	<project name="android_frameworks_base" path="frameworks/base" remote="legacy" revision="lineage-19.1" />
+
+	<remove-project name="LineageOS/android_vendor_lineage" />
+	<project name="android_vendor_lineage" path="vendor/lineage" remote="legacy" revision="lineage-19.1" />
+</manifest>
