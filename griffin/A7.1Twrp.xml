@@ -7,4 +7,8 @@
 	<!-- Theme -->
 	<remove-project name="android_bootable_recovery" />
 	<project name="SirRGB/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-9.0" />
+
+	<!-- fixup -->
+	<remove-project name="android_build" />
+	<project name="SirRGB/android_build" path="build" remote="github" revision="android-7.1" />
 </manifest>
