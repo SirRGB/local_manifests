@@ -2,7 +2,7 @@
 <manifest>
 	<remote name="lineage"
 		fetch="https://github.com/LineageOS"
-		revision="lineage-20.0" />
+		revision="lineage-20" />
 
 	<remote name="legacy"
 		fetch="https://github.com/LineageOS-UL"
