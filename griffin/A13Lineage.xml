@@ -41,4 +41,7 @@
 
 	<remove-project name="LineageOS/android_vendor_lineage" />
 	<project name="android_vendor_lineage" path="vendor/lineage" remote="legacy" />
+
+	<remove-project name="LineageOS/android_hardware_qcom_wlan" />
+	<project name="android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" remote="legacy" revision="lineage-20.0-caf" />
 </manifest>
