@@ -44,4 +44,8 @@
 
 	<remove-project name="LineageOS/android_hardware_qcom_wlan" />
 	<project name="droid-legacy/android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" remote="github" revision="lineage-20.0-caf" />
+
+	<!-- OOM -->
+	<remove-project name="LineageOS/android_build_soong" />
+	<project name="droid-legacy/android_build_soong" path="build/soong" remote="github" revision="lineage-20.0" />
 </manifest>
