@@ -5,7 +5,7 @@
 
 	<!-- Theme -->
 	<remove-project name="android_bootable_recovery" />
-	<project name="SirRGB/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-9.0-one" />
+	<project name="SirRGB/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-9-one" />
 
 	<!-- fixup -->
 	<remove-project name="android_build" />
