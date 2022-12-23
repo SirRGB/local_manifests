@@ -4,6 +4,9 @@
 	<project name="cedric-experimental/android_device_motorola_cedric-twrp" path="device/motorola/cedric" remote="github" revision="android-7.1" />
 	<project name="cedric-experimental/android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="github" revision="twrp-7.1" />
 
+	<!-- Dependencies -->
+	<project name="android_device_qcom_common" path="device/qcom/common" remote="TeamWin" revision="android-7.1" />
+
 	<!-- fixup -->
 	<remove-project name="android_build" />
 	<project name="SirRGB/android_build" path="build" remote="github" revision="android-7.1" />
