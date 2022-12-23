@@ -23,10 +23,10 @@
 	<project name="android_system_qcom" path="system/qcom" remote="lineage" />
 	<project name="android_hardware_motorola" path="hardware/motorola" remote="lineage" />
 
-	<!-- dtbtool -->
+	<!-- DTBtool -->
 	<project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="lineage" revision="lineage-18.1" />
 
-	<!-- Patches -->
+	<!-- BPF Patches -->
 	<remove-project name="platform/system/netd" />
 	<project name="android_system_netd" path="system/netd" remote="legacy" />
 
@@ -38,6 +38,15 @@
 
 	<remove-project name="LineageOS/android_hardware_qcom_wlan" />
 	<project name="droid-legacy/android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" remote="github" revision="lineage-20.0-caf" />
+
+	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
+	<project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="legacy" />
+
+	<remove-project name="platform/packages/modules/NetworkStack" />
+	<project name="android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="legacy" />
+
+	<remove-project name="platform/frameworks/libs/net" />
+	<project name="android_frameworks_libs_net" path="frameworks/libs/net" remote="legacy" />
 
 	<!-- OOM -->
 	<remove-project name="LineageOS/android_build_soong" />
