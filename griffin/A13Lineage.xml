@@ -47,8 +47,4 @@
 
 	<remove-project name="platform/frameworks/libs/net" />
 	<project name="android_frameworks_libs_net" path="frameworks/libs/net" remote="legacy" />
-
-	<!-- OOM -->
-	<remove-project name="LineageOS/android_build_soong" />
-	<project name="droid-legacy/android_build_soong" path="build/soong" remote="github" revision="lineage-20.0" />
 </manifest>
