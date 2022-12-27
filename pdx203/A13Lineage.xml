@@ -9,7 +9,8 @@
 	<project name="android_device_sony_pdx203" path="device/sony/pdx203" remote="lineage" />
 	<project name="android_device_sony_sm8250-common" path="device/sony/sm8250-common" remote="lineage" />
 	<project name="android_kernel_sony_sm8250" path="kernel/sony/sm8250" remote="lineage" />
-	<project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="lineage-19.1" />
+	<project name="TheMuppets/proprietary_vendor_sony_pdx203" path="vendor/sony/pdx203" remote="github" revision="lineage-20" />
+	<project name="TheMuppets/proprietary_vendor_sony_sm8250-common" path="vendor/sony/sm8250-common" remote="github" revision="lineage-20" />
 
 	<!-- Dependencies -->
 	<project name="android_hardware_sony" path="hardware/sony" remote="lineage" />
