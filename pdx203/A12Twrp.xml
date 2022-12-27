@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Device repos -->
+	<project name="SirRGB/twrp_device_sony_pdx203" path="device/sony/pdx203" remote="github" revision="twrp-12" />
+
+	<!-- Theme -->
+	<remove-project name="android_bootable_recovery" />
+	<project name="SirRGB/android_bootable_recovery" path="bootable/recovery" remote="github" revision="android-12.1" />
+</manifest>
