@@ -4,8 +4,8 @@
 		fetch="https://github.com/z3DDr"
 		revision="lineage-18.1" />
 
-    <!-- Device Repos -->
-    <project name="android_device_lge_hammerhead" path="device/lge/hammerhead" remote="dimi" />
-    <project name="android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="dimi" />
-    <project name="android_vendor_lge" path="vendor/lge" remote="dimi" />
+	<!-- Device Repos -->
+	<project name="android_device_lge_hammerhead" path="device/lge/hammerhead" remote="dimi" />
+	<project name="android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="dimi" />
+	<project name="android_vendor_lge" path="vendor/lge" remote="dimi" />
 </manifest>
