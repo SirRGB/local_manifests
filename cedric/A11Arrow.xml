@@ -17,4 +17,8 @@
 	<!-- Devicesettings -->
 	<remove-project name="android_packages_resources_devicesettings" />
 	<project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="los" />
+
+	<!-- Proton clang -->
+	<remove-project name="platform/prebuilts/clang/host/linux-x86" />
+	<project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" revision="master" />
 </manifest>
