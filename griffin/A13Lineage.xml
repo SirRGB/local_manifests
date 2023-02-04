@@ -48,6 +48,6 @@
 	<remove-project name="platform/frameworks/libs/net" />
 	<project name="android_frameworks_libs_net" path="frameworks/libs/net" remote="legacy" />
 
-	<remove-projects name="LineageOS/android_vendor_lineage" />
-	<projects name="android_vendor_lineage" path="vendor/lineage" remote="legacy" />
+	<remove-project name="LineageOS/android_vendor_lineage" />
+	<project name="android_vendor_lineage" path="vendor/lineage" remote="legacy" />
 </manifest>
