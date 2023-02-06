@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="lineage"
+	<remote name="lineageos"
 		fetch="https://github.com/LineageOS"
 		revision="lineage-20" />
 	<remote name="rgb"
@@ -17,5 +17,5 @@
 	<project name="TheMuppets/proprietary_vendor_oneplus_dumpling" path="vendor/oneplus/dumpling" remote="github" revision="lineage-20" />
 
 	<!-- Dependencies -->
-	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="lineage" />
+	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="lineageos" />
 </manifest>
