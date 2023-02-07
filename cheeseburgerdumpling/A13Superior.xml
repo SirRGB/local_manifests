@@ -17,6 +17,6 @@
 	<project name="TheMuppets/proprietary_vendor_oneplus_dumpling" path="vendor/oneplus/dumpling" remote="github" revision="lineage-20" />
 
 	<!-- Dependencies -->
-	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="lineageos" />
+	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="rgb" />
 	<project name="android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" remote="lineageos" revision="lineage-20.0" />
 </manifest>
