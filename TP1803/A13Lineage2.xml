@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="arian"
+		fetch="https://gitlab.com/ArianK16a"
+		revision="lineage-19.0" />
+
+	<remote name="gith"
+		fetch="https://github.com"
+		revision="lineage-20" />
+
+	<remote name="rgb"
+		fetch="https://github.com/SirRGB"
+		revision="lineage-20" />
+
+	<!-- Device repos -->
+	<project name="android_kernel_nubia_sm8150" path="kernel/nubia/sm8150" remote="rgb" />
+	<project name="android_device_nubia_TP1803" path="device/nubia/TP1803" remote="rgb" />
+	<project name="device_tadiphone-fw" path="device/tadiphone-fw" remote="arian" />
+	<project name="TheMuppets/proprietary_vendor_nubia_TP1803" path="vendor/nubia/TP1803" remote="gith" />
+</manifest>
