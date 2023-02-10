@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="lineageos"
-		fetch="https://github.com/LineageOS"
-		revision="lineage-20" />
 	<remote name="rgb"
 		fetch="https://github.com/SirRGB"
 		revision="arrow-13" />
@@ -18,5 +15,4 @@
 
 	<!-- Dependencies -->
 	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="rgb" />
-	<project name="android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" remote="lineageos" revision="lineage-20.0" />
 </manifest>
