@@ -21,13 +21,8 @@
 	<project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineageos" />
 
 	<!-- HALs -->
-	<remove-project name="android_hardware_qcom_audio" />
-	<remove-project name="android_hardware_qcom_media" />
 	<remove-project name="android_hardware_qcom_display" />
-
-	<project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" remote="lineageos" revision="lineage-20.0-caf-msm8998" />
-	<project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" remote="lineageos" revision="lineage-20.0-caf-msm8998" />
-	<project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8998/media" remote="lineageos" revision="lineage-20.0-caf-msm8998" />
+	<project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" remote="rgb" revision="arrow-13.0-caf-msm8998" />
 
 	<!-- Alert slider, to be merged into arrow -->
 	<remove-project name="android_frameworks_base"  />
