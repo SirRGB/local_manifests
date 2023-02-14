@@ -22,7 +22,7 @@
 
 	<!-- HALs -->
 	<remove-project name="android_hardware_qcom_display" />
-	<project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" remote="rgb" revision="arrow-13.0-caf-msm8998" />
+	<project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" remote="lineageos" revision="lineage-20.0-caf-msm8998" />
 
 	<!-- Alert slider, to be merged into arrow -->
 	<remove-project name="android_frameworks_base"  />
