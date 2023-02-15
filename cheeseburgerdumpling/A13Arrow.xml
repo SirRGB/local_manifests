@@ -20,10 +20,6 @@
 	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="ArrowOS-Devices" />
 	<project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineageos" />
 
-	<!-- HALs -->
-	<remove-project name="android_hardware_qcom_display" />
-	<project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8998/display" remote="lineageos" revision="lineage-20.0-caf-msm8998" />
-
 	<!-- Alert slider, to be merged into arrow -->
 	<remove-project name="android_frameworks_base"  />
 	<project name="android_frameworks_base" path="frameworks/base" remote="rgb" revision="arrow-13.0" />
