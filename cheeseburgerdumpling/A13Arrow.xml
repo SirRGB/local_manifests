@@ -17,7 +17,7 @@
 	<project name="TheMuppets/proprietary_vendor_oneplus_dumpling" path="vendor/oneplus/dumpling" remote="github" revision="lineage-20" />
 
 	<!-- Dependencies -->
-	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="rgb" />
+	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="ArrowOS-Devices" />
 	<project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineageos" />
 
 	<!-- HALs -->
