@@ -14,7 +14,7 @@
 	<project name="TheMuppets/proprietary_vendor_oneplus_dumpling" path="vendor/oneplus/dumpling" remote="github" revision="lineage-20" />
 
 	<!-- Dependencies -->
-	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="ArrowOS-Devices" />
+	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="rgb" />
 
 	<!-- Alert slider, to be merged into arrow -->
 	<remove-project name="android_frameworks_base"  />
