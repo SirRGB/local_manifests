@@ -10,7 +10,7 @@
 	<project name="android_vendor_lge" path="vendor/lge" remote="z3DD3r"/>
 
 	<!-- patches -->
-        <remove-project name="LineageOS-UL/android_frameworks_av"/>
+	<remove-project name="LineageOS-UL/android_frameworks_av"/>
 	<project path="frameworks/av" name="z3DD3r/android_frameworks_av" remote="z3DD3r"/>
 	<remove-project name="LineageOS-UL/android_frameworks_base"/>
 	<project path="frameworks/base" name="z3DD3r/android_frameworks_base" remote="z3DD3r"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="lineage"
-                fetch="https://github.com/LineageOS"
-                revision="lineage-17.1" />
+	<remote name="lineage"
+		fetch="https://github.com/LineageOS"
+		revision="lineage-17.1" />
 
 	<!-- Device repos -->
 	<project name="android_device_samsung_a7y17lte" path="device/samsung/a7y17lte" remote="lineage" />

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote fetch="https://gitlab.com" name="gitl" />
-        <remote name="lineage"
+	<remote name="lineage"
 		fetch="https://github.com/LineageOS"
 		revision="lineage-18.1" />
-
 
 	<!-- Device repos -->
 	<project name="android_kernel_nubia_sm8150" path="kernel/nubia/sm8150" remote="lineage" />

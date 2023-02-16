@@ -9,7 +9,7 @@
 	<project name="android_kernel_htc_flounder" path="kernel/htc/flounder" remote="andrea" />
 	<project name="proprietary_vendor_htc" path="vendor/htc" remote="andrea" />
 
-        <!-- Fixup -->
-        <remove-project name="LineageOS/android_bionic" />
-        <project name="droid-legacy/android_bionic" path="bionic" remote="github" revision="lineage-16.0" />
+	<!-- Fixup -->
+	<remove-project name="LineageOS/android_bionic" />
+	<project name="droid-legacy/android_bionic" path="bionic" remote="github" revision="lineage-16.0" />
 </manifest>

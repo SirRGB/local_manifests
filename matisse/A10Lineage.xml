@@ -6,16 +6,16 @@
 
 	<!-- Device repos -->
 	<project name="android_device_samsung_matisse3g" path="device/samsung/matisse3g" remote="s3n" />
-        <project name="android_device_samsung_matissewifi" path="device/samsung/matissewifi" remote="s3n" />
-        <project name="android_device_samsung_matisselte" path="device/samsung/matisselte" remote="s3n" />
+	<project name="android_device_samsung_matissewifi" path="device/samsung/matissewifi" remote="s3n" />
+	<project name="android_device_samsung_matisselte" path="device/samsung/matisselte" remote="s3n" />
 	<project name="android_device_samsung_matisse-common" path="device/samsung/matisse-common" remote="s3n" />
 	<project name="android_device_samsung_msm8226-common" path="device/samsung/msm8226-common" remote="s3n" />
 	<project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-17.1" />
 	<project name="android_kernel_samsung_msm8226" path="kernel/samsung/msm8226" remote="s3n" />
 	<project name="android_vendor_samsung_milet3g" path="vendor/samsung/milet3g" remote="s3n" />
-        <project name="android_vendor_samsung_matissewifi" path="vendor/samsung/matissewifi" remote="s3n" />
-        <project name="android_vendor_samsung_matisselte" path="vendor/samsung/matisselte" remote="s3n" />
-        <project name="android_vendor_samsung_matisse-common" path="vendor/samsung/matisse-common" remote="s3n" />
+	<project name="android_vendor_samsung_matissewifi" path="vendor/samsung/matissewifi" remote="s3n" />
+	<project name="android_vendor_samsung_matisselte" path="vendor/samsung/matisselte" remote="s3n" />
+	<project name="android_vendor_samsung_matisse-common" path="vendor/samsung/matisse-common" remote="s3n" />
 
 	<!-- Dependencies -->
 	<project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-17.1" />
