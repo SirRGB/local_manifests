@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<remote name="lineageos"
+		fetch="https://github.com/LineageOS"
+		revision="lineage-20.0" />
 	<remote name="rgb"
 		fetch="https://github.com/SirRGB"
 		revision="arrow-13" />
@@ -15,6 +18,7 @@
 
 	<!-- Dependencies -->
 	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="rgb" />
+	<project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineageos" />
 
 	<!-- Alert slider, to be merged into arrow -->
 	<remove-project name="android_frameworks_base"  />
