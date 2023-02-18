@@ -33,4 +33,8 @@
 
 	<remove-project name="android_packages_modules_Connectivity" />
 	<project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="rgb" revision="arrow-13.0" />
+
+	<!-- IMS Ringback -->
+	<remove-project name="android_frameworks_opt_telephony" />
+	<project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="rgb" revision="arrow-13.0" />
 </manifest>
