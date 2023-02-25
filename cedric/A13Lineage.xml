@@ -47,6 +47,9 @@
         <remove-project name="LineageOS/android_frameworks_opt_telephony" />
         <project name="android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="legacy" />
 
+	<remove-project name="LineageOS/android_hardware_ril" />
+	<project name="android_hardware_ril" path="hardware/ril" remote="legacy" />
+
 	<remove-project name="LineageOS/android_vendor_lineage" />
 	<project name="android_vendor_lineage" path="vendor/lineage" remote="legacy" />
 
