@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="lineage"
+		fetch="https://github.com/LineageOS"
+		revision="lineage-19.1" />
+
+	<remote name="legacy"
+		fetch="https://github.com/droid-legacy"
+		revision="12.1" />
+
+	<!-- Device repos -->
+	<project name="cedric-experimental/android_device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="lineage-19.1_4.9" />
+	<project name="cedric-experimental/android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" remte="github" revision="lineage-19.1_4.9" />
+	<project name="n4experiments/msm-4.9-new" path="kernel/motorola/msm8953" remote="github" revision="lineage-18.1-rebase-2" />
+	<project name="moto-msm8937/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
+
+	<!-- Dependencies -->
+	<project name="android_external_bson" path="external/bson" remote="lineage" />
+	<project name="android_system_qcom" path="system/qcom" remote="lineage" />
+	<project name="android_hardware_motorola" path="hardware/motorola" remote="lineage" />
+
+	<remove-project name="LineageOS/android_frameworks_base" />
+	<project name="android_frameworks_base" path="frameworks/base" remote="legacy" revision="lineage-19.1" />
+
+	<!-- Custom DNS -->
+	<remove-project name="LineageOS/android_packages_apps_Settings" />
+	<project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="legacy" revision="lineage-19.1" />
+
+	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
+	<project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="legacy" revision="lineage-19.1" />
+
+	<remove-project name="platform/frameworks/libs/net" />
+	<project name="android_frameworks_libs_net" path="frameworks/libs/net" remote="legacy" revision="lineage-19.1" />
+
+	<!-- Launcher -->
+	<remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+	<project name="android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="legacy" revision="lineage-19.1" />
+
+	<!-- Optimizations -->
+	<remove-project name="platform/art" />
+	<project name="android_art-1" path="art" remote="legacy" revision="lineage-19.1" />
+
+	<remove-project name="LineageOS/android_frameworks_native" />
+	<project name="android_frameworks_native" path="frameworks/native" remote="legacy" revision="lineage-19.1" />
+</manifest>
