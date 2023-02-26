@@ -37,7 +37,7 @@
 	<project name="android_packages_modules_adb" path="packages/modules/adb" remote="legacy" />
 
 	<remove-project name="LineageOS/android_hardware_qcom_wlan" />
-	<project name="droid-legacy/android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" remote="github" revision="lineage-20.0-caf" />
+	<project name="droid-legacy/android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" revision="lineage-20.0-caf" />
 
 	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
 	<project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="legacy" />
@@ -52,16 +52,16 @@
 	<project name="android_vendor_lineage" path="vendor/lineage" remote="legacy" />
 
 	<remove-project name="LineageOS/android_system_libhidl" />
-	<project name="droid-legacy/android_system_libhidl" path="system/libhidl" remote="github" revision="lineage-20.0" />
+	<project name="droid-legacy/android_system_libhidl" path="system/libhidl" />
 
 	<!-- cgroup Patches -->
 	<remove-project name="LineageOS/android_system_core" />
-	<project name="droid-legacy/android_system_core" path="system/core" remote="github" revision="lineage-20.0" />
+	<project name="droid-legacy/android_system_core" path="system/core" />
 
 	<!-- Optimizations -->
 	<remove-project name="LineageOS/android_frameworks_base" />
-	<project name="droid-legacy/android_frameworks_base" path="frameworks/base" remote="github" revision="ac72ba688482fbe25e4dca1fe3eb912248a0985b" />
+	<project name="droid-legacy/android_frameworks_base" path="frameworks/base" revision="ac72ba688482fbe25e4dca1fe3eb912248a0985b" />
 
 	<remove-project name="LineageOS/android_frameworks_native" />
-	<project name="droid-legacy/android_frameworks_native" path="frameworks/native" remote="github" revision="lineage-20.0" />
+	<project name="droid-legacy/android_frameworks_native" path="frameworks/native" />
 </manifest>
