@@ -57,7 +57,7 @@
 
 	<!-- Optimizations -->
 	<remove-project name="LineageOS/android_frameworks_base" />
-	<project name="droid-legacy/android_frameworks_base" path="frameworks/base" revision="ac72ba688482fbe25e4dca1fe3eb912248a0985b" />
+	<project name="droid-legacy/android_frameworks_base" path="frameworks/base" />
 
 	<remove-project name="LineageOS/android_frameworks_native" />
 	<project name="droid-legacy/android_frameworks_native" path="frameworks/native" />
