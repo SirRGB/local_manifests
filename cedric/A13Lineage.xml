@@ -21,7 +21,7 @@
 	<!-- Dependencies -->
 	<project name="android_external_bson" path="external/bson" remote="lineage" />
 	<project name="android_system_qcom" path="system/qcom" remote="lineage" />
-	<project name="android_hardware_motorola" path="hardware/motorola" remote="cedric" />
+	<project name="android_hardware_motorola" path="hardware/motorola" remote="lineage" />
 
 	<!-- DTB Tool -->
 	<project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="lineage" revision="lineage-18.1" />
