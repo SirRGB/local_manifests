@@ -16,7 +16,7 @@
 	<project name="android_device_motorola_cedric" path="device/motorola/cedric" remote="cedric" />
 	<project name="android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" remote="cedric" />
 	<project name="android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="cedric" />
-	<project name="proprietary_vendor_motorola" path="vendor/motorola" remote="cedric" revision="lineage-19.1" />
+	<project name="proprietary_vendor_motorola" path="vendor/motorola" remote="cedric" />
 
 	<!-- Dependencies -->
 	<project name="android_external_bson" path="external/bson" remote="lineage" />
