@@ -1,6 +1,6 @@
 # Local Manifests
 
-These are my local manifests for various devices.
+These are local manifests for various devices.
 
 Some of them may be broken, if they are dont hesitate to pull request.
 
@@ -21,6 +21,8 @@ OR
 running
 ```
 mkdir .repo/local_manifests
+```
+```
 curl https://raw.githubusercontent.com/SirRGB/local_manifests/main/$DEVICE/$MANIFEST_NAME > .repo/local_manifests/manifest.xml
 ```
 be sure to replace $DEVICE and $MANIFEST_NAME with a device codename and manifest name, that are available.
@@ -30,4 +32,6 @@ Example:
 mkdir .repo/local_manifests && curl https://raw.githubusercontent.com/SirRGB/local_manifests/main/griffin/A11Lineage.xml > .repo/local_manifests/manifest.xml
 ```
 
-after that do `repo sync --force-sync --no-tags --no-clone-bundle -c` to get both the rom and device sources.
+after that do 
+```repo sync --force-sync --no-tags --no-clone-bundle -c```
+to get both the rom and device sources.
