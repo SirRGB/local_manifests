@@ -6,7 +6,7 @@
 		revision="lineage-20" />
 
 	<!-- Device repos -->
-	<project name="android_device_sony_pdx203" path="device/sony/pdx203" remote="lineage" />
+	<project name="SirRGB/android_device_sony_pdx203" path="device/sony/pdx203" revision="lineage-20" />
 	<project name="SirRGB/android_device_sony_pdx206" path="device/sony/pdx206" revision="crdroid-13" />
 	<project name="SirRGB/android_device_sony_sm8250-common" path="device/sony/sm8250-common" revision="crdroid-13" />
 	<project name="SirRGB/android_kernel_sony_sm8250" path="kernel/sony/sm8250" revision="lineage-20" />
