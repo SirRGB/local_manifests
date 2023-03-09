@@ -7,4 +7,8 @@
 
 	<!-- Dependencies -->
 	<project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="lineage-18.1" />
+
+	<!-- Devicesettings -->
+	<remove-project name="android_packages_resources_devicesettings" />
+	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="lineage-18.1" />
 </manifest>
