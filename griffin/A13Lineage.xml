@@ -49,7 +49,7 @@
 	<project name="android_frameworks_libs_net" path="frameworks/libs/net" remote="legacy" />
 
 	<remove-project name="LineageOS/android_vendor_lineage" />
-	<project name="android_vendor_lineage" path="vendor/lineage" remote="legacy" />
+	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" />
 
 	<!-- cgroup Patches -->
 	<remove-project name="LineageOS/android_system_core" />
