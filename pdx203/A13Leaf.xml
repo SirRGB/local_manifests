@@ -69,7 +69,7 @@
 	<project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msmnile" remote="lineage" revision="lineage-20.0-caf-sm8150" />
 	<project path="hardware/qcom-caf/sm8150/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-20.0-caf-sm8150" />
 	<project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,msmnile" remote="lineage" revision="lineage-20.0-caf-sm8150" />
-	<project path="hardware/qcom-caf/sm8250/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,kona" remote="lineage" revision="lineage-20.0-caf-sm8250" />
+	<project path="hardware/qcom-caf/sm8250/audio" name="SirRGB/android_hardware_qcom_audio" groups="qcom,kona" remote="github" revision="leaf-13-sm8250" />
 	<project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-20.0-caf-sm8250" />
 	<project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,kona" remote="lineage" revision="lineage-20.0-caf-sm8250" />
 	<project path="hardware/qcom-caf/sm8350/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,lahaina" remote="lineage" revision="lineage-20.0-caf-sm8350" />
@@ -95,7 +95,6 @@
 	<project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="qcom,waipio-vendor" remote="lineage" />
 	<project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" remote="lineage" />
 	<project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-video" remote="lineage" />
-
 
 	<remove-project name="platform/hardware/libhardware" />
 	<project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="lineage" />
