@@ -1,123 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<!-- Device repos -->
-	<project name="SirRGB/android_device_sony_pdx203" path="device/sony/pdx203" remote="github" revision="leaf-13" />
-	<project name="SirRGB/android_device_sony_pdx206" path="device/sony/pdx206" remote="github" revision="leaf-13" />
-	<project name="SirRGB/android_device_sony_sm8250-common" path="device/sony/sm8250-common" remote="github" revision="leaf-13" />
-	<project name="SirRGB/android_kernel_sony_sm8250" path="kernel/sony/sm8250" remote="github" revision="lineage-20" />
-	<project name="TheMuppets/proprietary_vendor_sony_pdx203" path="vendor/sony/pdx203" remote="github" revision="lineage-20" />
-	<project name="TheMuppets/proprietary_vendor_sony_pdx206" path="vendor/sony/pdx206" remote="github" revision="lineage-20" />
-	<project name="TheMuppets/proprietary_vendor_sony_sm8250-common" path="vendor/sony/sm8250-common" remote="github" revision="lineage-20" />
+<remote name="sony" fetch="https://github.com/sonyxperiadev/" />
+<project path="kernel/sony/qti-headers" name="qti-headers" groups="device" remote="sony" revision="master" />
 
-	<!-- Dependencies -->
-	<project name="SirRGB/android_hardware_sony" path="hardware/sony" remote="github" revision="leaf-13" />
-	<!-- CodeLinaro additions -->
-	<project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,qssi" remote="lineage" />
-	<project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660" remote="lineage" revision="lineage-20.0-legacy-um" />
-	<project path="device/qcom/sepolicy_vndr" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" remote="lineage" />
-	<project path="device/qcom/sepolicy_vndr-legacy-um" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="lineage" revision="lineage-20.0-legacy-um" />
-	<project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="lineage" />
-	<project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
-	<project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" groups="qcom,sdm660" remote="lineage" />
-	<project path="external/ant-wireless/hidl" name="LineageOS/android_external_ant-wireless_hidl" groups="qcom,qssi" remote="lineage" />
-	<project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,qssi" remote="lineage" />
-	<project path="hardware/qcom-caf/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-20.0-caf" />
-	<project path="hardware/qcom-caf/common" name="LineageOS/android_hardware_qcom-caf_common" groups="qcom" remote="lineage">
-	  <!-- add guard for AOSP hardware/qcom dir -->
-	  <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-	  <!-- add guards for CAF repositories -->
-	  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
-	  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
-	  <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
-	  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
-	  <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
-	  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
-	  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
-	  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
-	  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
-	  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
-	  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
-	  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
-	  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
-	  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
-	  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
-	  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
-	  <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
-	  <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
-	  <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
-	  <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
-	  <!-- add guards for Pixel kernel modules -->
-	  <linkfile src="os_pickup.bp" dest="kernel/google/gs101/private/google-modules/Android.bp" />
-	  <linkfile src="os_pickup.bp" dest="kernel/google/gs201/private/google-modules/Android.bp" />
-	</project>
-	<project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf" />
-	<project path="hardware/qcom-caf/msm8953/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msm8953" remote="lineage" revision="lineage-20.0-caf-msm8953" />
-	<project path="hardware/qcom-caf/msm8953/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-20.0-caf-msm8953" />
-	<project path="hardware/qcom-caf/msm8953/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,msm8953" remote="lineage" revision="lineage-20.0-caf-msm8953" />
-	<project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf-msm8996" />
-	<project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf-msm8996" />
-	<project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf-msm8996" />
-	<project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf-msm8998" />
-	<project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf-msm8998" />
-	<project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf-msm8998" />
-	<project path="hardware/qcom-caf/sdm660/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,sdm660" remote="lineage" revision="lineage-20.0-caf-sdm660" />
-	<project path="hardware/qcom-caf/sdm660/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,sdm660" remote="lineage" revision="lineage-20.0-caf-sdm660" />
-	<project path="hardware/qcom-caf/sdm660/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,sdm660" remote="lineage" revision="lineage-20.0-caf-sdm660" />
-	<project path="hardware/qcom-caf/sdm845/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,sdm845" remote="lineage" revision="lineage-20.0-caf-sdm845" />
-	<project path="hardware/qcom-caf/sdm845/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-20.0-caf-sdm845" />
-	<project path="hardware/qcom-caf/sdm845/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,sdm845" remote="lineage" revision="lineage-20.0-caf-sdm845" />
-	<project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msmnile" remote="lineage" revision="lineage-20.0-caf-sm8150" />
-	<project path="hardware/qcom-caf/sm8150/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-20.0-caf-sm8150" />
-	<project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,msmnile" remote="lineage" revision="lineage-20.0-caf-sm8150" />
-	<project path="hardware/qcom-caf/sm8250/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,kona" remote="lineage" revision="lineage-20.0-caf-sm8250" />
-	<project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-20.0-caf-sm8250" />
-	<project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,kona" remote="lineage" revision="lineage-20.0-caf-sm8250" />
-	<project path="hardware/qcom-caf/sm8350/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,lahaina" remote="lineage" revision="lineage-20.0-caf-sm8350" />
-	<project path="hardware/qcom-caf/sm8350/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-20.0-caf-sm8350" />
-	<project path="hardware/qcom-caf/sm8350/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,lahaina" remote="lineage" revision="lineage-20.0-caf-sm8350" />
-	<project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,waipio-vendor" remote="lineage" />
-	<project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineage" />
-	<project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-20.0-caf" />
-	<project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" groups="qcom,qssi" remote="lineage" />
-	<project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" groups="qcom,qssi" remote="lineage" />
-	<project path="vendor/qcom/opensource/audio-hal/st-hal" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="lineage" />
-	<project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" remote="lineage" />
-	<project path="vendor/qcom/opensource/commonsys/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" remote="lineage" />
-	<project path="vendor/qcom/opensource/display" name="LineageOS/android_vendor_qcom_opensource_display" groups="qcom" remote="lineage" />
-	<project path="vendor/qcom/opensource/fm-commonsys" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" remote="lineage" />
-	<project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,waipio-vendor" remote="lineage" />
-	<project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" remote="lineage" revision="lineage-20.0-legacy-um" />
-	<project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" groups="qcom,waipio-vendor" remote="lineage" />
-	<project path="vendor/qcom/opensource/healthd-ext" name="LineageOS/android_vendor_qcom_opensource_healthd-ext" groups="qcom,lahaina" remote="lineage" />
-	<project path="vendor/qcom/opensource/interfaces" name="LineageOS/android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" remote="lineage" />
-	<project path="vendor/qcom/opensource/power" name="LineageOS/android_vendor_qcom_opensource_power" groups="qcom,waipio-vendor" remote="lineage" />
-	<project path="vendor/qcom/opensource/thermal-engine" name="LineageOS/android_vendor_qcom_opensource_thermal-engine" groups="qcom,waipio-vendor" remote="lineage" />
-	<project path="vendor/qcom/opensource/usb" name="LineageOS/android_vendor_qcom_opensource_usb" groups="qcom,waipio-vendor" remote="lineage" />
-	<project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" remote="lineage" />
-	<project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-video" remote="lineage" />
+<project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="t-mr1" />
+<project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="t-mr1" />
+<!--sm8250-->
+<project path="device/sony/edo" name="SirRGB/device-sony-edo" groups="device" remote="github" revision="leaf-13" />
+<project path="device/sony/pdx203" name="device-sony-pdx203" groups="device" remote="sony" revision="t-mr1" />
+<project path="device/sony/pdx206" name="SirRGB/device-sony-pdx206" groups="device" remote="github" revision="leaf-13" />
+
+<project path="kernel/sony/msm-4.19/common-headers" name="kernel-sony-msm-4.19-headers" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="kernel/sony/msm-4.19/common-kernel" name="kernel-sony-msm-4.19-common" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" clone-depth="1"/>
+<project path="kernel/sony/msm-4.19/kernel" name="kernel" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="kernel/sony/msm-4.19/kernel/techpack/audio" name="kernel-techpack-audio" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="kernel/sony/msm-4.19/kernel/techpack/camera" name="kernel-techpack-camera" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="kernel/sony/msm-4.19/kernel/techpack/data-kernel" name="kernel-techpack-data-kernel" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="kernel/sony/msm-4.19/kernel/techpack/display" name="kernel-techpack-display-driver" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="kernel/sony/msm-4.19/kernel/techpack/video" name="kernel-techpack-video" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="kernel/sony/msm-4.19/kernel/arch/arm64/configs/sony" name="kernel-defconfig" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="kernel/sony/msm-4.19/kernel/drivers/staging/wlan-qc/fw-api" name="vendor-qcom-opensource-wlan-fw-api" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="kernel/sony/msm-4.19/kernel/drivers/staging/wlan-qc/qca-wifi-host-cmn" name="vendor-qcom-opensource-wlan-qca-wifi-host-cmn" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="kernel/sony/msm-4.19/kernel/drivers/staging/wlan-qc/qcacld-3.0" name="vendor-qcom-opensource-wlan-qcacld-3.0" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+
+<remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
+<project path="vendor/qcom/opensource/data-ipacfg-mgr" name="vendor-qcom-opensource-data-ipa-cfg-mgr" groups="device" remote="sony" revision="aosp/LA.UM.9.14.r1" />
+
+<project path="vendor/qcom/opensource/gps" name="hardware-qcom-gps" groups="device" remote="sony" revision="aosp/LA.UM.9.14.r1" />
+<project path="vendor/qcom/opensource/location" name="vendor-qcom-opensource-location" groups="device" remote="sony" revision="aosp/LA.UM.9.14.r1" />
+
+<project path="vendor/qcom/opensource/agm" name="vendor-qcom-opensource-agm" groups="device" remote="sony" revision="aosp/LA.VENDOR.1.0.r1" />
+<project path="vendor/qcom/opensource/pal" name="vendor-qcom-opensource-arpal-lx" groups="device" remote="sony" revision="aosp/LA.VENDOR.1.0.r1" />
+<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="vendor-qcom-opensource-audio-hal-primary-hal" groups="device" remote="sony" revision="aosp/LA.UM.9.14.r1" />
+<project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor-qcom-opensource-audio-hal-st-hal" groups="device" remote="sony" revision="aosp/LA.UM.9.14.r1" />
+
+<project path="vendor/qcom/opensource/dataservices" name="vendor-qcom-opensource-dataservices" groups="device" remote="sony" revision="aosp/LA.VENDOR.1.0.r1" />
+<project path="vendor/qcom/opensource/telephony" name="vendor-qcom-opensource-telephony" groups="device" remote="sony" revision="aosp/LA.QSSI.12.0.r1" />
+
+<project path="vendor/qcom/opensource/interfaces" name="vendor-qcom-opensource-interfaces" groups="device" remote="sony" revision="aosp/LA.QSSI.12.0.r1" />
+
+<project path="vendor/qcom/opensource/usb" name="vendor-qcom-opensource-usb" groups="device" remote="sony" revision="aosp/LA.VENDOR.1.0.r1" />
+
+<project path="vendor/qcom/opensource/core-utils" name="vendor-qcom-opensource-core-utils" groups="device" remote="sony" revision="aosp/LA.QSSI.12.0.r1" />
+<project path="vendor/qcom/opensource/core-utils-sys" name="vendor-qcom-opensource-core-utils-sys" groups="device" remote="sony" revision="aosp/LA.QSSI.12.0.r1" />
+<project path="vendor/qcom/opensource/core-utils-vendor" name="vendor-qcom-opensource-core-utils-vendor" groups="device" remote="sony" revision="aosp/LA.VENDOR.1.0.r1" />
+
+<project path="vendor/qcom/opensource/bluetooth" name="vendor-qcom-opensource-bluetooth" groups="device" remote="sony" revision="master" />
+<project path="vendor/qcom/opensource/vibrator" name="vendor-qcom-opensource-vibrator" groups="device" remote="sony" revision="aosp/LA.UM.7.1.r1" />
+<project path="vendor/qcom/opensource/wlan" name="hardware-qcom-wlan" groups="device" remote="sony" revision="master" />
+
+<project path="vendor/qcom/opensource/gpt-utils" name="vendor-qcom-opensource-gpt-utils" groups="device" remote="sony" revision="master" />
+<project path="vendor/qcom/opensource/bootctrl" name="vendor-qcom-opensource-bootctrl" groups="device" remote="sony" revision="aosp/LA.UM.9.14.r1" />
+
+<project path="vendor/qcom/opensource/time-services" name="vendor-qcom-opensource-time-services" groups="device" remote="sony" revision="aosp/LA.VENDOR.1.0.r1" />
+<project path="vendor/qcom/opensource/display/sm8250" name="vendor-qcom-opensource-display" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="vendor/qcom/opensource/display-commonsys-intf/sm8250" name="vendor-qcom-opensource-commonsys-intf-display" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+<project path="vendor/qcom/opensource/media/sm8250" name="vendor-qcom-opensource-media" groups="device" remote="sony" revision="aosp/LA.UM.9.12.r1" />
+
+<remote name="NXP" fetch="https://github.com/NXP/" />
+<project path="vendor/nxp/" name="vendor-nxp" groups="device" remote="sony" revision="master" />
+<project path="vendor/nxp/NXPNFCC_FW" name="nfc-NXPNFCC_FW" groups="device" remote="NXP" revision="master" />
 
 
-	<remove-project name="platform/hardware/libhardware" />
-	<project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="lineage" />
-
-	<remove-project name="LeafOS-Project/android_build_soong" />
-	<project name="SirRGB/android_build_soong" path="build/soong" groups="pdk,tradefed" remote="github">
-	  <linkfile src="root.bp" dest="Android.bp" />
-	  <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-	</project>
-
-	<remove-project name="LeafOS-Project/android_vendor_leaf" />
-	<project path="vendor/leaf" name="SirRGB/android_vendor_leaf" remote="github" revision="leaf-2.0">
-	  <linkfile src="config" dest="vendor/lineage/config" />
-	</project>
-
-	<remove-project name="LeafOS-Project/android_build" />
-	<project path="build/make" name="SirRGB/android_build-1" groups="pdk" remote="github" revision="leaf-2.0">
-	  <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-	  <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-	  <linkfile src="core" dest="build/core" />
-	  <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-	  <linkfile src="target" dest="build/target" />
-	  <linkfile src="tools" dest="build/tools" />
-	</project>
+    <remove-project name="platform/hardware/broadcom/wlan" />
+    <remove-project name="platform/hardware/qcom/audio" />
+    <remove-project name="platform/hardware/qcom/bootctrl" />
+    <remove-project name="platform/hardware/qcom/camera" />
+    <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+    <remove-project name="platform/hardware/qcom/display" />
+    <remove-project name="platform/hardware/qcom/gps" />
+    <remove-project name="platform/hardware/qcom/media" />
+    <remove-project name="platform/hardware/qcom/msm8960" />
+    <remove-project name="platform/hardware/qcom/msm8994" />
+    <remove-project name="platform/hardware/qcom/msm8996" />
+    <remove-project name="platform/hardware/qcom/msm8x09" />
+    <remove-project name="platform/hardware/qcom/msm8x26" />
+    <remove-project name="platform/hardware/qcom/msm8x27" />
+    <remove-project name="platform/hardware/qcom/msm8x84" />
+    <remove-project name="platform/hardware/qcom/sdm845/bt" />
+    <remove-project name="platform/hardware/qcom/sdm845/display" />
+    <remove-project name="platform/hardware/qcom/sdm845/gps" />
+    <remove-project name="platform/hardware/qcom/sdm845/media" />
+    <remove-project name="platform/hardware/qcom/sdm845/thermal" />
+    <remove-project name="platform/hardware/qcom/sdm845/vr" />
+    <remove-project name="platform/hardware/qcom/sm7150/gps" />
+    <remove-project name="platform/hardware/qcom/sm7250/display" />
+    <remove-project name="platform/hardware/qcom/sm7250/gps" />
+    <remove-project name="platform/hardware/qcom/sm7250/media" />
+    <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
+    <remove-project name="platform/hardware/qcom/sm8150/display" />
+    <remove-project name="platform/hardware/qcom/sm8150/gps" />
+    <remove-project name="platform/hardware/qcom/sm8150/media" />
+    <remove-project name="platform/hardware/qcom/sm8150/thermal" />
+    <remove-project name="platform/hardware/qcom/sm8150/vr" />
+    <remove-project name="platform/hardware/qcom/sm8150p/gps" />
 </manifest>
