@@ -122,13 +122,4 @@
 	  <linkfile src="target" dest="build/target" />
 	  <linkfile src="tools" dest="build/tools" />
 	</project>
-
-	<remove-project name="platform/system/vold" />
-	<project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" remote="lineage" />
-
-	<remove-project name="LeafOS-Project/android_system_core" />
-	<project path="system/core" name="SirRGB/android_system_core" groups="pdk" remote="github" />
-
-	<remove-project name="platform/system/security" />
-	<project path="system/security" name="LineageOS/android_system_security" groups="pdk" remote="lineage" />
 </manifest>
