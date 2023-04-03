@@ -122,4 +122,7 @@
 	  <linkfile src="target" dest="build/target" />
 	  <linkfile src="tools" dest="build/tools" />
 	</project>
+
+	<remove-project name="LeafOS-Project/android_device_lineage_sepolicy" />
+	<project path="device/lineage/sepolicy" name="SirRGB/android_device_lineage_sepolicy" remote="github" revision="leaf-2.0" />
 </manifest>
