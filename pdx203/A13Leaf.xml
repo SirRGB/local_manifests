@@ -119,4 +119,7 @@
 
 	<remove-project name="LeafOS-Project/android_system_core" />
 	<project name="SirRGB/android_system_core" path="system/core" remote="github" revision="leaf-2.0" />
+
+	<remove-project name="platform/packages/modules/Permission" />
+	<project name="SirRGB/android_packages_modules_Permission" path="packages/modules/Permission" remote="github" revision="leaf-2.0" />
 </manifest>
