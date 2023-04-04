@@ -13,8 +13,6 @@
 	<project name="SirRGB/android_hardware_sony" path="hardware/sony" remote="github" revision="leaf-13" />
 	<!-- CodeLinaro additions -->
 	<project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,qssi" remote="lineage" />
-	<project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,sdm660" remote="lineage" revision="lineage-20.0-legacy-um" />
-	<project path="device/qcom/sepolicy_vndr" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,waipio-vendor" remote="lineage" />
 	<project path="device/qcom/sepolicy_vndr-legacy-um" name="LineageOS/android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="lineage" revision="lineage-20.0-legacy-um" />
 	<project path="external/ant-wireless/ant_client" name="LineageOS/android_external_ant-wireless_ant_client" groups="qcom,sdm660" remote="lineage" />
 	<project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" groups="qcom,sdm660" remote="lineage" />
@@ -51,30 +49,9 @@
 	  <linkfile src="os_pickup.bp" dest="kernel/google/gs201/private/google-modules/Android.bp" />
 	</project>
 	<project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf" />
-	<project path="hardware/qcom-caf/msm8953/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msm8953" remote="lineage" revision="lineage-20.0-caf-msm8953" />
-	<project path="hardware/qcom-caf/msm8953/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-20.0-caf-msm8953" />
-	<project path="hardware/qcom-caf/msm8953/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,msm8953" remote="lineage" revision="lineage-20.0-caf-msm8953" />
-	<project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf-msm8996" />
-	<project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf-msm8996" />
-	<project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf-msm8996" />
-	<project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf-msm8998" />
-	<project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf-msm8998" />
-	<project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf-msm8998" />
-	<project path="hardware/qcom-caf/sdm660/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,sdm660" remote="lineage" revision="lineage-20.0-caf-sdm660" />
-	<project path="hardware/qcom-caf/sdm660/display" name="LineageOS/android_hardware_qcom_display" groups="qcom,sdm660" remote="lineage" revision="lineage-20.0-caf-sdm660" />
-	<project path="hardware/qcom-caf/sdm660/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,sdm660" remote="lineage" revision="lineage-20.0-caf-sdm660" />
-	<project path="hardware/qcom-caf/sdm845/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,sdm845" remote="lineage" revision="lineage-20.0-caf-sdm845" />
-	<project path="hardware/qcom-caf/sdm845/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-20.0-caf-sdm845" />
-	<project path="hardware/qcom-caf/sdm845/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,sdm845" remote="lineage" revision="lineage-20.0-caf-sdm845" />
-	<project path="hardware/qcom-caf/sm8150/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,msmnile" remote="lineage" revision="lineage-20.0-caf-sm8150" />
-	<project path="hardware/qcom-caf/sm8150/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-20.0-caf-sm8150" />
-	<project path="hardware/qcom-caf/sm8150/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,msmnile" remote="lineage" revision="lineage-20.0-caf-sm8150" />
 	<project path="hardware/qcom-caf/sm8250/audio" name="SirRGB/android_hardware_qcom_audio" groups="qcom,kona" remote="github" revision="leaf-13-sm8250" />
 	<project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-20.0-caf-sm8250" />
 	<project path="hardware/qcom-caf/sm8250/media" name="SirRGB/android_hardware_qcom_media" groups="qcom,kona" remote="github" revision="leaf-13-sm8250" />
-	<project path="hardware/qcom-caf/sm8350/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,lahaina" remote="lineage" revision="lineage-20.0-caf-sm8350" />
-	<project path="hardware/qcom-caf/sm8350/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-20.0-caf-sm8350" />
-	<project path="hardware/qcom-caf/sm8350/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,lahaina" remote="lineage" revision="lineage-20.0-caf-sm8350" />
 	<project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,waipio-vendor" remote="lineage" />
 	<project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineage" />
 	<project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-20.0-caf" />
