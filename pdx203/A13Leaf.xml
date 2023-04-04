@@ -133,4 +133,13 @@
 
 	<remove-project name="LeafOS-Project/android_packages_apps_Settings" />
 	<project name="SirRGB/android_packages_apps_Settings-1" path="packages/apps/Settings" remote="github" revision="leaf-2.0" />
+
+	<remove-project name="LeafOS-Project/android_packages_apps_Launcher3" />
+	<project name="SirRGB/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="leaf-2.0" />
+
+	<remove-project name="LeafOS-Project/android_packages_apps_Contacts" />
+	<project name="SirRGB/android_packages_apps_Contacts" path="packages/apps/Contacts" remote="github" revision="leaf-2.0" />
+
+	<remove-project name="LeafOS-Project/android_system_core" />
+	<project name="SirRGB/android_system_core" path="system/core" remote="github" revision="leaf-2.0" />
 </manifest>
