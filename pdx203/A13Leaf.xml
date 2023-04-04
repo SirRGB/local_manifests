@@ -123,8 +123,5 @@
 	  <linkfile src="tools" dest="build/tools" />
 	</project>
 
-	<remove-project name="platform/hardware/interfaces" />
-	<project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk" remote="lineage" />
-
 	<project path="hardware/lineage/compat" name="LineageOS/android_hardware_lineage_compat" remote="lineage" />
 </manifest>
