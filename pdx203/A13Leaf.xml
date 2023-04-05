@@ -128,4 +128,7 @@
 
 	<remove-project name="LeafOS-Project/android_packages_modules_Connectivity" />
 	<project name="SirRGB/android_packages_modules_Connectivity-1" path="packages/modules/Connectivity" remote="github" revision="leaf-2.0" />
+
+	<remove-project name="platform/libcore" />
+	<project name="SirRGB/android_libcore" path="libcore" remote="github" revision="leaf-2.0" />
 </manifest>
