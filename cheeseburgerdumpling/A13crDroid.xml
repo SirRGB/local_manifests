@@ -18,4 +18,5 @@
 
 	<!-- Dependencies -->
 	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="lineage" />
+	<project name="crdroidandroid/packages_apps_KProfiles" path="packages/apps/KProfiles" remote="crdroid" />
 </manifest>
