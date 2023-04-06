@@ -17,6 +17,6 @@
 	<!-- Dependencies -->
 	<project name="android_hardware_sony" path="hardware/sony" remote="lineage" />
 
-	<!-- FOSS -->
-	<project name="Exodusnick/android_vendor_partner_gms" path="vendor/partner_gms" revision="main" />
+	<!-- GAPPS -->
+	<project name="MindTheGapps/vendor_gapps" path="vendor/partner_gms" remote="crdroid-gitlab" revision="tau" />
 </manifest>
