@@ -73,8 +73,8 @@
 	<project path="vendor/qcom/opensource/vibrator" name="LineageOS/android_vendor_qcom_opensource_vibrator" groups="qcom,waipio-vendor" remote="lineage" />
 	<project path="vendor/qcom/opensource/wfd-commonsys" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,waipio-video" remote="lineage" />
 
-	<remove-project name="platform/hardware/libhardware" />
-	<project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="lineage" />
+	<!-- remove-project name="platform/hardware/libhardware" />
+	<project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" remote="lineage" / -->
 
 	<remove-project name="LeafOS-Project/android_build_soong" />
 	<project name="SirRGB/android_build_soong" path="build/soong" groups="pdk,tradefed" remote="github">
