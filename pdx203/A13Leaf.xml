@@ -49,9 +49,9 @@
 	  <linkfile src="os_pickup.bp" dest="kernel/google/gs201/private/google-modules/Android.bp" />
 	</project>
 	<project path="hardware/qcom-caf/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom,legacy-qcom" remote="lineage" revision="lineage-20.0-caf" />
-	<project path="hardware/qcom-caf/sm8250/audio" name="SirRGB/android_hardware_qcom_audio" groups="qcom,kona" remote="github" revision="leaf-13-sm8250" />
+	<project path="hardware/qcom-caf/sm8250/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,kona" remote="github" revision="lineage-20.0-caf-sm8250" />
 	<project path="hardware/qcom-caf/sm8250/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" remote="lineage" revision="lineage-20.0-caf-sm8250" />
-	<project path="hardware/qcom-caf/sm8250/media" name="SirRGB/android_hardware_qcom_media" groups="qcom,kona" remote="github" revision="leaf-13-sm8250" />
+	<project path="hardware/qcom-caf/sm8250/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,kona" remote="github" revision="lineage-20.0-caf-sm8250" />
 	<project path="hardware/qcom-caf/thermal" name="LineageOS/android_hardware_qcom_thermal" groups="qcom,waipio-vendor" remote="lineage" />
 	<project path="hardware/qcom-caf/vr" name="LineageOS/android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineage" />
 	<project path="hardware/qcom-caf/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom,waipio-vendor" remote="lineage" revision="lineage-20.0-caf" />
@@ -138,4 +138,6 @@
         <remove-project name="LeafOS-Project/android_vendor_microg" />
 	<project path="vendor/microg" name="SirRGB/android_vendor_microg" remote="github" revision="leaf-2.0" />
 
+	<remove-project name="platform/external/tinycompress" />
+	<project name="LeafOS-Project/android_external_tinycompress" path="external/tinycompress" remote="github" revision="refs/changes/56/2156/2" />
 </manifest>
