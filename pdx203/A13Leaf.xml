@@ -44,7 +44,4 @@
 
 	<remove-project name="platform/packages/providers/DownloadProvider" />
 	<project name="SirRGB/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="github" revision="leaf-2.0" />
-
-        <remove-project name="LeafOS-Project/android_vendor_microg" />
-	<project path="vendor/microg" name="SirRGB/android_vendor_microg" remote="github" revision="leaf-2.0" />
 </manifest>
