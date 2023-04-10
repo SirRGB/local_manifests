@@ -14,7 +14,7 @@
 
 	<!-- Device repos -->
 	<project name="android_kernel_nubia_sm8150" path="kernel/nubia/sm8150" remote="rgb" />
-	<project name="android_device_nubia_TP1803" path="device/nubia/TP1803" remote="rgb" />
+	<project name="LineageOS/android_device_nubia_TP1803" path="device/nubia/TP1803" remote="gith" />
 	<project name="device_tadiphone-fw" path="device/tadiphone-fw" remote="arian" />
 	<project name="TheMuppets/proprietary_vendor_nubia_TP1803" path="vendor/nubia/TP1803" remote="gith" />
 </manifest>

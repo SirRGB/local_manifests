@@ -9,7 +9,7 @@
 		revision="lineage-20" />
 
 	<!-- Device repos -->
-	<project name="SirRGB/android_kernel_nubia_sm8150" path="kernel/nubia/sm8150" remote="gith" />
+	<project name="LineageOS/android_kernel_nubia_sm8150" path="kernel/nubia/sm8150" remote="gith" />
 	<project name="SirRGB/android_device_nubia_TP1803" path="device/nubia/TP1803" remote="gith" revision="superior-13" />
 	<project name="device_tadiphone-fw" path="device/tadiphone-fw" remote="arian" />
 	<project name="TheMuppets/proprietary_vendor_nubia_TP1803" path="vendor/nubia/TP1803" remote="gith" />
