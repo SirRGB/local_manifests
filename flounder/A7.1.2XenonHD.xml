@@ -6,5 +6,5 @@
 	<project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-14.1" />
 
 	<!-- FOSS -->
-	<project name="Exodusnick/android_vendor_partner_gms" path="vendor/partner_gms" remote="github" revision="main" />
+	<project name="SirRGB/android_vendor_partner_gms" path="vendor/partner_gms" remote="github" revision="main" />
 </manifest>
