@@ -18,7 +18,7 @@
 	<remove-project name="LeafOS-Project/android_frameworks_native" />
 	<project name="SirRGB/android_frameworks_native" path="frameworks/native" remote="github" revision="leaf-2.0" />  
 
-	<remove-project name="LeafOS-Project/android_art" />
+	<remove-project name="platform/art" />
 	<project name="SirRGB/android_art" path="art" remote="github" revision="leaf-2.0" />
 
 	<remove-project name="LeafOS-Project/android_packages_apps_Settings" />
