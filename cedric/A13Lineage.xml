@@ -64,4 +64,10 @@
 
 	<remove-project name="LineageOS/android_frameworks_native" />
 	<project name="droid-legacy/android_frameworks_native" path="frameworks/native" />
+
+	<remove-project name="platform/external/jemalloc_new" />
+	<project name="android_external_jemalloc_new" path="external/jemalloc_new" remote="legacy" />
+
+	<remove-project name="LineageOS/android_bionic" />
+	<project name="android_bionic" path="bionic" remote="legacy" />
 </manifest>
