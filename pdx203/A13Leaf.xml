@@ -21,9 +21,6 @@
 	<remove-project name="LeafOS-Project/android_packages_apps_Settings" />
 	<project name="SirRGB/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="leaf-2.0" />
 
-	<remove-project name="LeafOS-Project/android_packages_apps_Launcher3" />
-	<project name="SirRGB/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="leaf-2.0" />
-
 	<remove-project name="platform/frameworks/libs/net" />
 	<project name="SirRGB/android_frameworks_libs_net" path="frameworks/libs/net" remote="github" revision="leaf-2.0" />
 
