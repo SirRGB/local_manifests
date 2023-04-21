@@ -33,4 +33,7 @@
 
 	<remove-project name="platform/libcore" />
 	<project name="android_libcore" path="libcore" remote="rgb" revision="leaf-2.0" />
+
+	<remove-project name="LeafOS-Project/android_hardware_libhardware" />
+	<project name="android_hardware_libhardware" path="hardware/libhardware" remote="rgb" revision="leaf-2.0" />
 </manifest>
