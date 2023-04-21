@@ -14,7 +14,7 @@
 	<project name="TheMuppets/proprietary_vendor_oneplus_dumpling" path="vendor/oneplus/dumpling" remote="github" revision="lineage-20" />
 
 	<!-- Dependencies -->
-	<project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" remote="github" revision="lineage-20" />
+	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="rgb" />
 
 	<remove-project name="LeafOS-Project/android_frameworks_base" />
 	<project name="android_frameworks_base-1" path="frameworks/base" remote="rgb" revision="leaf-2.0" />
