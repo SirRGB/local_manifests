@@ -22,5 +22,5 @@
 
 	<!-- Alert slider, to be merged into arrow -->
 	<remove-project name="android_frameworks_base"  />
-	<project name="android_frameworks_base" path="frameworks/base" remote="rgb" revision="arrow-13.0" />
+	<project name="android_frameworks_base" path="frameworks/base" remote="rgb" revision="arrow-13.1" />
 </manifest>
