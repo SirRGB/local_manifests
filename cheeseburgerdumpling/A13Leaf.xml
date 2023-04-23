@@ -43,4 +43,6 @@
 
 	<remove-project name="kernel/configs" />
 	<project name="android_kernel_configs" path="kernel/configs" remote="rgb" revision="leaf-2.0" />
+
+	<project name="LineageOS/android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" remote="github" revision="lineage-20.0" />
 </manifest>
