@@ -19,8 +19,4 @@
 	<!-- Dependencies -->
 	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="rgb" />
 	<project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,sdm660" remote="lineageos" />
-
-	<!-- Alert slider, to be merged into arrow -->
-	<remove-project name="android_frameworks_base"  />
-	<project name="android_frameworks_base" path="frameworks/base" remote="rgb" revision="arrow-13.1" />
 </manifest>
