@@ -18,7 +18,4 @@
 
 	<!-- Dependencies -->
 	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="lineage" />
-
-	<remove-project name="crdroidandroid/android_vendor_crdroid" />
-	<project name="SirRGB/android_vendor_crdroid" path="vendor/lineage" revision="13.0" />
 </manifest>
