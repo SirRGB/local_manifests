@@ -4,7 +4,7 @@
 	<project name="SirRGB/android_device_sony_pdx203" path="device/sony/pdx203" remote="github" revision="leaf-13" />
 	<project name="SirRGB/android_device_sony_pdx206" path="device/sony/pdx206" remote="github" revision="leaf-13" />
 	<project name="SirRGB/android_device_sony_sm8250-common" path="device/sony/sm8250-common" remote="github" revision="leaf-13" />
-	<project name="SirRGB/android_kernel_sony_sm8250" path="kernel/sony/sm8250" remote="github" revision="lineage-20" />
+	<project name="LineageOS/android_kernel_sony_sm8250" path="kernel/sony/sm8250" remote="github" revision="lineage-20" />
 	<project name="TheMuppets/proprietary_vendor_sony_pdx203" path="vendor/sony/pdx203" remote="github" revision="lineage-20" />
 	<project name="TheMuppets/proprietary_vendor_sony_pdx206" path="vendor/sony/pdx206" remote="github" revision="lineage-20" />
 	<project name="TheMuppets/proprietary_vendor_sony_sm8250-common" path="vendor/sony/sm8250-common" remote="github" revision="lineage-20" />
