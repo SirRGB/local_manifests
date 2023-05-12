@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="lineage"
+		fetch="https://github.com/LineageOS"
+		review="review.lineageos.org"
+		revision="lineage-20" />
+
+	<!-- Device repos -->
+	<project name="android_device_sony_akari" path="device/sony/akari" remote="lineage" />
+	<project name="android_device_sony_tama-common" path="device/sony/tama-common" remote="lineage" />
+	<project name="android_kernel_sony_sdm845" path="kernel/sony/sdm845" remote="lineage" />
+	<project name="TheMuppets/proprietary_vendor_sony_akari" path="vendor/sony/akari" revision="lineage-20" />
+	<project name="TheMuppets/proprietary_vendor_sony_tama-common" path="vendor/sony/tama-common" revision="lineage-20" />
+
+	<!-- Dependencies -->
+	<project name="android_hardware_sony_SonyOpenTelephony" path="hardware/sony/SonyOpenTelephony" remote="lineage" />
+</manifest>
