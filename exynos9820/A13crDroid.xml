@@ -12,8 +12,8 @@
 	<project name="android_vendor_samsung_exynos9820-common" path="vendor/samsung/exynos9820-common" remote="linux4" />
 
 	<!-- Dependencies -->
-	<project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="linux4" />
-	<project name="android_hardware_samsung" path="hardware/samsung" remote="linux4" />
+	<project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" revision="lineage-20" />
+	<project name="LineageOS/android_hardware_samsung" path="hardware/samsung" revision="lineage-20" />
 	<project name="LineageOS/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" revision="lineage-20" />
 	<project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" revision="lineage-20" />
 	<project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" revision="lineage-20" />
