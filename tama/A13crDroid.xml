@@ -8,7 +8,7 @@
 	<!-- Device repos -->
 	<project name="android_device_sony_akari" path="device/sony/akari" remote="lineage" />
 	<project name="SirRGB/android_device_sony_tama-common" path="device/sony/tama-common" revision="crdroid-13" />
-	<project name="android_kernel_sony_sdm845" path="kernel/sony/sdm845" remote="lineage" />
+	<project name="SirRGB/android_kernel_sony_sdm845" path="kernel/sony/sdm845" revision="lineage-20" />
 	<project name="TheMuppets/proprietary_vendor_sony_akari" path="vendor/sony/akari" revision="lineage-20" />
 	<project name="TheMuppets/proprietary_vendor_sony_tama-common" path="vendor/sony/tama-common" revision="lineage-20" />
 
