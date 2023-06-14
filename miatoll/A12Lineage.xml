@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="lineage"
+		fetch="https://github.com/LineageOS"
+		revision="lineage-19.1" />
+
+	<remote name="TheMuppets"
+		fetch="https://gitlab.com/the-muppets"
+		revision="lineage-19.1" />
+
+	<!-- Device repos -->
+	<project name="android_device_xiaomi_miatoll" path="device/xiaomi/miatoll" remote="lineage" />
+	<project name="android_device_xiaomi_sm6250-common" path="device/xiaomi/sm6250-common" remote="lineage" />
+	<project name="android_kernel_xiaomi_sm6250" path="kernel/xiaomi/sm6250" remote="lineage" />
+	<project name="proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="TheMuppets" />
+
+	<!-- Dependencies -->
+	<project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="lineage" />
+</manifest>
