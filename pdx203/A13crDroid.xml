@@ -15,7 +15,7 @@
 	<project name="TheMuppets/proprietary_vendor_sony_sm8250-common" path="vendor/sony/sm8250-common" revision="lineage-20" />
 
 	<!-- Dependencies -->
-	<project name="android_hardware_sony" path="hardware/sony" remote="lineage" />
+	<project name="SirRGB/android_hardware_sony" path="hardware/sony" revision="lineage-20" />
 
 	<!-- GAPPS -->
 	<project name="MindTheGapps/vendor_gapps" path="vendor/partner_gms" remote="crdroid-gitlab" revision="tau" />
