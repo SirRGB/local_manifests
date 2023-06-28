@@ -23,4 +23,10 @@
 
 	<remove-project name="LeafOS-Project/android_packages_apps_Launcher3" />
 	<project name="SirRGB/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="leaf-2.0" />
+
+	<remove-project name="LeafOS-Project/android_hardware_lineage_interfaces" />
+	<project name="LeafOS-Project/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="github" revision="5a6a5c03dd4ee63d8a488484bd3a6111959e4af1" />
+
+	<remove-project name="LeafOS-Project/android_device_lineage_sepolicy" />
+	<project name="LeafOS-Project/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="github" revision="0d5cf359eb0c55c3aa8bbd6f77b268ed947d6b47" />
 </manifest>
