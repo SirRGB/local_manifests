@@ -17,5 +17,5 @@
 	<project name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" revision="lineage-20" />
 
 	<!-- GAPPS -->
-	<project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="crdroid-gitlab" revision="tau" />
+	<project name="roms-experimental/vendor_gapps" path="vendor/gapps" remote="crdroid-gitlab" revision="tau" />
 </manifest>
