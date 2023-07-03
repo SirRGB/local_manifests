@@ -24,9 +24,6 @@
 	<remove-project name="LeafOS-Project/android_packages_apps_Launcher3" />
 	<project name="SirRGB/android_packages_apps_Launcher3" path="packages/apps/Launcher3" revision="leaf-2.0" />
 
-	<remove-project name="LeafOS-Project/android_hardware_lineage_interfaces" />
-	<project name="LeafOS-Project/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" revision="5a6a5c03dd4ee63d8a488484bd3a6111959e4af1" />
-
 	<project name="LeafOS-Project/android_external_yifan" path="external/yifan" />
 	<project name="LeafOS-Project/android_packages_apps_FaceUnlock" path="packages/apps/FaceUnlock" />
 
