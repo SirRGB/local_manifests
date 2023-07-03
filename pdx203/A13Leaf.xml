@@ -29,4 +29,7 @@
 
 	<remove-project name="LeafOS-Project/android_device_lineage_sepolicy" />
 	<project name="LeafOS-Project/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="github" revision="0d5cf359eb0c55c3aa8bbd6f77b268ed947d6b47" />
+
+	<project path="external/yifan" name="LeafOS-Project/android_external_yifan" />
+	<project path="packages/apps/FaceUnlock" name="LeafOS-Project/android_packages_apps_FaceUnlock" />
 </manifest>
