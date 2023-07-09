@@ -23,4 +23,7 @@
 
 	<remove-project name="LeafOS-Project/android_packages_apps_Launcher3" />
 	<project name="SirRGB/android_packages_apps_Launcher3" path="packages/apps/Launcher3" />
+
+	<remove-project name="LeafOS-Project/android_packages_overlays_Leaf" />
+	<project name="SirRGB/android_packages_overlays_Leaf" path="packages/overlays/Leaf" />
 </manifest>
