@@ -9,7 +9,7 @@
 	<project name="android_device_samsung_j7elte" path="device/samsung/j7elte" remote="lineage" />
 	<project name="android_device_samsung_universal7580-common" path="device/samsung/universal7580-common" remote="lineage" />
 	<project name="android_kernel_samsung_universal7580" path="kernel/samsung/universal7580" remote="lineage" />
-	<project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-17.1" />
+	<project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" />
 
 	<!-- Dependencies -->
 	<project name="android_hardware_samsung" path="hardware/samsung" remote="lineage" />

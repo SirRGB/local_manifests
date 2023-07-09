@@ -5,10 +5,6 @@
 		review="review.lineageos.org"
 		revision="lineage-20" />
 
-	<remote name="legacy"
-		fetch="https://github.com/LineageOS-UL"
-		revision="lineage-20.0" />
-
 	<remote name="griffin"
 		fetch="https://github.com/griffin-experimental"
 		revision="lineage-20" />

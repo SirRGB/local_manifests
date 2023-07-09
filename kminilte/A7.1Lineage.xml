@@ -25,6 +25,6 @@
 	<project name="android_external_stlport" path="external/stlport" remote="lineage" />
 
 	<!-- TWRP -->
-	<project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-7.1" />
+	<project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" revision="android-7.1" />
 	<project name="android_external_busybox" path="external/busybox" remote="lineage"/>
 </manifest>

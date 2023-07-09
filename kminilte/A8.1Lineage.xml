@@ -10,7 +10,7 @@
 
 	<!-- Device Repos -->
 	<project name="android_device_samsung_kminilte" path="device/samsung/kminilte" remote="spook" />
-	<project name="android_vendor_samsung_kminilte" path="vendor/samsung/kminilte" remote="spook" /-->
+	<project name="android_vendor_samsung_kminilte" path="vendor/samsung/kminilte" remote="spook" />
 	<project name="android_kernel_samsung_kminilte" path="kernel/samsung/kminilte" remote="spook" />
 
 	<!-- Commom -->
@@ -23,8 +23,8 @@
 
 	<!-- FlipFlap -->
 	<project name="android_hardware_samsung" path="hardware/samsung" remote="spook" />
-	<project name="Spookcity/android_external_protobuf-compat-2.6" path="external/protobuf-compat-2.6" remote="github" revision="lineage-15.1"/>
+	<project name="Spookcity/android_external_protobuf-compat-2.6" path="external/protobuf-compat-2.6" remote="github" />
 
 	<!-- TWRP -->
-	<project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" remote="github" revision="android-8.1" />
+	<project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" revision="android-8.1" />
 </manifest>

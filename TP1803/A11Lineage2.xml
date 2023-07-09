@@ -5,10 +5,10 @@
 	<remote fetch="https://gitlab.pixelexperience.org" name="gitlab-pe" />
 
 	<!-- Device repos -->
-	<project name="Tadiphone/android_device_nubia_TP1803L" path="device/nubia/TP1803L" remote="github" revision="lineage-18.1"/>
-	<project name="PixelExperience-Devices/device_nubia_TP1803" path="device/nubia/TP1803" remote="github" revision="eleven" />
-	<project name="nullbytepl/device_tadiphone-fw" path="device/tadiphone-fw" remote="gitlab" revision="eleven" />
-	<project name="AOSPA/android_device_qcom_common" path="device/qcom/common" remote="github" revision="ruby" />
+	<project name="Tadiphone/android_device_nubia_TP1803L" path="device/nubia/TP1803L" />
+	<project name="PixelExperience-Devices/device_nubia_TP1803" path="device/nubia/TP1803" revision="eleven" />
+	<project name="nullbytepl/device_tadiphone-fw" path="device/tadiphone-fw" revision="eleven" />
+	<project name="AOSPA/android_device_qcom_common" path="device/qcom/common" revision="ruby" />
 	<project name="android/vendor-blobs/vendor_nubia_TP1803" path="vendor/nubia/TP1803" remote="gitlab-pe" revision="eleven" />
-	<project name="ThankYouMario/proprietary_vendor_qcom_common" path="vendor/qcom/common" remote="github" revision="ruby" />
+	<project name="ThankYouMario/proprietary_vendor_qcom_common" path="vendor/qcom/common" revision="ruby" />
 </manifest>

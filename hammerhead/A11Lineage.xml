@@ -5,9 +5,9 @@
 		revision="lineage-18.1"/>
 
 	<!-- Device repo -->
-	<project name="SirRGB/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="lineage-18.1" />
-	<project name="z3DD3r/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="lineage-18.1" />
-	<project name="SirRGB/android_vendor_lge" path="vendor/lge" remote="github" revision="lineage-18.1" />
+	<project name="SirRGB/android_device_lge_hammerhead" path="device/lge/hammerhead" />
+	<project name="z3DD3r/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" />
+	<project name="SirRGB/android_vendor_lge" path="vendor/lge" />
 
 	<!-- Patches -->
 	<remove-project name="LineageOS/android_system_bt" />
@@ -26,11 +26,11 @@
 	<project name="android_vendor_lineage" path="vendor/lineage" remote="legacy" />
 
 	<remove-project name="LineageOS/android_system_vold" />
-	<project name="z3DD3r/android_system_vold" path="system/vold" remote="github" revision="lineage-18.1" />
+	<project name="z3DD3r/android_system_vold" path="system/vold" />
 
 	<remove-project name="LineageOS/android_hardware_qcom_display" />
-	<project name="z3DD3r/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="lineage-18.1" />
+	<project name="z3DD3r/android_hardware_qcom_display" path="hardware/qcom/display" />
 
 	<remove-project name="LineageOS/android_hardware_qcom_media" />
-	<project name="z3DD3r/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="lineage-18.1" />
+	<project name="z3DD3r/android_hardware_qcom_media" path="hardware/qcom/media" />
 </manifest>

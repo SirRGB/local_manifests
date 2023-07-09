@@ -11,7 +11,7 @@
 	<project name="android_device_samsung_beyond2lte" path="device/samsung/beyond2lte" remote="lineage" />
 	<project name="android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="lineage" />
 	<project name="android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" remote="lineage" />
-	<project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-18.1" />
+	<project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" />
 
 	<!-- Dependencies -->
 	<project name="android_hardware_samsung" path="hardware/samsung" remote="lineage" />

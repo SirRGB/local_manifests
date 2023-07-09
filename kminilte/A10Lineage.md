@@ -5,4 +5,4 @@ branch:
 lineage-17.1
 
 status:
-?
+not buildable

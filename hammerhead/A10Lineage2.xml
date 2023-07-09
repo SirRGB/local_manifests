@@ -4,9 +4,9 @@
 		revision="lineage-17.1"/>
 
 	<!-- Device repo -->
-	<project name="SirRGB/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="lineage-17.1"/>
-	<project name="z3DD3r/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="lineage-17.1"/>
-	<project name="SirRGB/android_vendor_lge" path="vendor/lge" remote="github" revision="lineage-17.1"/>
+	<project name="SirRGB/android_device_lge_hammerhead" path="device/lge/hammerhead" />
+	<project name="z3DD3r/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" />
+	<project name="SirRGB/android_vendor_lge" path="vendor/lge" />
 
 	<!-- Patches -->
 	<remove-project name="LineageOS/android_hardware_lineage_interfaces"/>

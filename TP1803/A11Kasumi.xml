@@ -3,13 +3,9 @@
 	<remote name="gitl"
 		fetch="https://gitlab.com" />
 
-	<remote name="gith"
-		fetch="https://github.com"
-		revision="lineage-18.1" />
-
 	<!-- Device repos -->
-	<project name="LineageOS/android_kernel_nubia_sm8150" path="kernel/nubia/sm8150" remote="gith" />
-	<project name="SirRGB/android_device_nubia_TP1803" path="device/nubia/TP1803" remote="github" revision="kasumi-11" />
+	<project name="LineageOS/android_kernel_nubia_sm8150" path="kernel/nubia/sm8150" />
+	<project name="SirRGB/android_device_nubia_TP1803" path="device/nubia/TP1803" revision="kasumi-11" />
 	<project name="ArianK16a/device_tadiphone-fw" path="device/tadiphone-fw" remote="gitl" revision="lineage-19.0" />
-	<project name="TheMuppets/proprietary_vendor_nubia" path="vendor/nubia" remote="gith" />
+	<project name="TheMuppets/proprietary_vendor_nubia" path="vendor/nubia" />
 </manifest>

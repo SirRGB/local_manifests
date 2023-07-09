@@ -1,8 +1,5 @@
 <manifest>
 	<!-- source: https://github.com/ThePiGuy0/android_device_motorola_peregrine-twrp -->
-	<remote  name="teamwin"
-		fetch="https://github.com/TeamWin/" />
-
 	<remote  name="falcon-oreo"
 		fetch="https://github.com/falcon-oreo/"
 		revision="lineage-15.1" />

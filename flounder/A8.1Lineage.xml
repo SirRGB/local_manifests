@@ -11,5 +11,5 @@
 
 	<!-- Fixup -->
 	<remove-project name="LineageOS/android_bionic" />
-	<project name="droid-legacy/android_bionic" path="bionic" remote="github" revision="lineage-16.0" />
+	<project name="droid-legacy/android_bionic" path="bionic" />
 </manifest>

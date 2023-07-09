@@ -8,5 +8,5 @@
 	<project name="android_device_htc_flounder" path="device/htc/flounder" remote="lineage" />
 	<project name="android_device_htc_flounder_lte" path="device/htc/flounder_lte" remote="lineage" />
 	<project name="android_kernel_htc_flounder" path="kernel/htc/flounder" remote="lineage" />
-	<project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="lineage-15.1" />
+	<project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" />
 </manifest>

@@ -9,10 +9,10 @@
 		revision="12.1" />
 
 	<!-- Device repos -->
-	<project name="cedric-experimental/android_device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="lineage-19.1_4.9" />
-	<project name="cedric-experimental/android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" remte="github" revision="lineage-19.1_4.9" />
-	<project name="n4experiments/msm-4.9-new" path="kernel/motorola/msm8953" remote="github" revision="lineage-18.1-rebase-2" />
-	<project name="moto-msm8937/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
+	<project name="cedric-experimental/android_device_motorola_cedric" path="device/motorola/cedric" revision="lineage-19.1_4.9" />
+	<project name="cedric-experimental/android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" revision="lineage-19.1_4.9" />
+	<project name="n4experiments/msm-4.9-new" path="kernel/motorola/msm8953" revision="lineage-18.1-rebase-2" />
+	<project name="moto-msm8937/proprietary_vendor_motorola" path="vendor/motorola" revision="lineage-18.1" />
 
 	<!-- Dependencies -->
 	<project name="android_external_bson" path="external/bson" remote="lineage" />

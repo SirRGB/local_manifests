@@ -5,9 +5,9 @@
 		revision="lineage-18.1" />
 
 	<!-- Device repos -->
-	<project name="griffin-experimental/android_device_motorola_griffin" path="device/motorola/griffin" remote="github" revision="crdroid-11" />
-	<project name="griffin-experimental/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="github" revision="lineage-18.1" />
-	<project name="griffin-experimental/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
+	<project name="griffin-experimental/android_device_motorola_griffin" path="device/motorola/griffin" revision="crdroid-11" />
+	<project name="griffin-experimental/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" revision="lineage-18.1" />
+	<project name="griffin-experimental/proprietary_vendor_motorola" path="vendor/motorola" revision="lineage-18.1" />
 
 	<!-- Dependencies -->
 	<project name="android_external_bson" path="external/bson" remote="lineage" />

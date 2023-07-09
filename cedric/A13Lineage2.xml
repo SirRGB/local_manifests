@@ -4,10 +4,6 @@
 		fetch="https://github.com/LineageOS"
 		revision="lineage-20" />
 
-	<remote name="legacy"
-		fetch="https://github.com/LineageOS-UL"
-		revision="lineage-20.0" />
-
 	<remote name="cedric"
 		fetch="https://github.com/cedric-experimental"
 		revision="lineage-20" />

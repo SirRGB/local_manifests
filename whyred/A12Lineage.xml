@@ -23,9 +23,8 @@
 	<project name="android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" remote="edwin" revision="lineage-19.0-legacy-um" />
 
 	<remove-project name="LineageOS/android_hardware_qcom_thermal" />
-	<project name="android_hardware_qcom_thermal" path="hardware/qcom-caf/thermal" remote="edwin" revision="lineage-19.1"
+	<project name="android_hardware_qcom_thermal" path="hardware/qcom-caf/thermal" remote="edwin" revision="lineage-19.1" />
 
 	<remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
 	<project name="android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="edwin" revision="lineage-19.0" />
-	
 </manifest>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Device repos -->
-	<project name="z3DD3r/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="cm-14.1" />
-	<project name="z3DD3r/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="github" revision="cm-14.1" />
-	<project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
+	<project name="z3DD3r/android_device_lge_hammerhead" path="device/lge/hammerhead" />
+	<project name="z3DD3r/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" />
+	<project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" />
 </manifest>
