@@ -6,6 +6,6 @@
 	<project name="griffin-experimental/proprietary_vendor_motorola" path="vendor/motorola" />
 
 	<!-- Dependencies -->
-	<project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="lineage-18.1" />
-	<project name="LineageOS/android_system_qcom" path="system/qcom" remote="github" revision="lineage-18.1" />
+	<project name="LineageOS/android_external_bson" path="external/bson" />
+	<project name="LineageOS/android_system_qcom" path="system/qcom" />
 </manifest>
