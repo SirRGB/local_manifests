@@ -12,19 +12,6 @@
 	<!-- Dependencies -->
 	<project name="SirRGB/android_hardware_sony" path="hardware/sony" revision="leaf-13" />
 
-	<remove-project name="LeafOS-Project/android_build" />
-	<project path="build/make" name="LeafOS-Project/android_build" groups="pdk" revision="16da6308ef2b900333cab08d91339cd0048ee620">
-	  <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-	  <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-	  <linkfile src="core" dest="build/core" />
-	  <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-	  <linkfile src="target" dest="build/target" />
-	  <linkfile src="tools" dest="build/tools" />
-	</project>
-
-	<remove-project name="LeafOS-Project/android_frameworks_av" />
-	<project name="LeafOS-Project/android_frameworks_av" path="frameworks/av" revision="d2bf0170307c6b498530588c0e1ac30231e7afdb" />
-
 	<remove-project name="LeafOS-Project/android_frameworks_base" />
 	<project name="SirRGB/android_frameworks_base-1" path="frameworks/base" />
 
