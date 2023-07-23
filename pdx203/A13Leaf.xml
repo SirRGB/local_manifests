@@ -23,16 +23,4 @@
 
 	<remove-project name="LeafOS-Project/android_packages_overlays_Leaf" />
 	<project name="SirRGB/android_packages_overlays_Leaf" path="packages/overlays/Leaf" />
-
-	<remove-project name="LeafOS-Project/android_device_qcom_sepolicy" />
-	<project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy" remote="lineage" revision="lineage-20.0-legacy-um" />
-
-	<remove-project name="LeafOS-Project/android_device_qcom_sepolicy_vndr" />
-	<project name="LineageOS/android_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr-legacy-um" remote="lineage" revision="lineage-20.0-legacy-um" />
-
-	<remove-project name="LeafOS-Project/android_hardware_qcom_media" />
-	<project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom-caf/sm8250/media" remote="lineage" revision="lineage-20.0-caf-sm8250" />
-
-	<remove-project name="LeafOS-Project/android_vendor_qcom_opensource_interfaces" />
-	<project name="LineageOS/android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="lineage" />
 </manifest>
