@@ -26,4 +26,9 @@
 
 	<remove-project name="LeafOS-Project/android_vendor_microg" />
 	<project name="SirRGB/android_vendor_microg" path="vendor/microg" />
+
+	<remove-project name="LeafOS-Project/android_vendor_leaf" />
+	<project name="SirRGB/android_vendor_leaf" path="vendor/leaf">
+	  <linkfile src="config" dest="vendor/lineage/config" />
+	</project>
 </manifest>
