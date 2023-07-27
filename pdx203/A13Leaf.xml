@@ -31,4 +31,8 @@
 	<project name="SirRGB/android_vendor_leaf" path="vendor/leaf">
 	  <linkfile src="config" dest="vendor/lineage/config" />
 	</project>
+
+	<!-- Face unlock -->
+	<project name="LMODroid/platform_external_yifan" path="external/yifan" revision="thirteen" />
+	<project name="LMODroid/platform_packages_apps_FaceUnlock" path="packages/apps/FaceUnlock" revision="thirteen" />
 </manifest>
