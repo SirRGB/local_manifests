@@ -13,6 +13,9 @@
 	<!-- Dependencies -->
 	<project name="SirRGB/android_hardware_sony" path="hardware/sony" revision="leaf-13" />
 
+	<remove-project name="platform/art" />
+	<project name="SirRGB/android_art" path="art" />
+
 	<remove-project name="LeafOS-Project/android_frameworks_base" />
 	<project name="SirRGB/android_frameworks_base-1" path="frameworks/base" />
 
