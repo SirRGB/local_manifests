@@ -30,4 +30,7 @@
 
 	<remove-project name="LeafOS-Project/android_vendor_microg" />
 	<project name="SirRGB/android_vendor_microg" path="vendor/microg" />
+
+	<remove-project name="LeafOS-Project/android_frameworks_av" />
+	<project name="SirRGB/android_frameworks_av" path="frameworks/av" />
 </manifest>
