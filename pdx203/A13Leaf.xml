@@ -12,6 +12,7 @@
 
 	<!-- Dependencies -->
 	<project name="XperiaLabs/hardware_sony" path="hardware/sony" revision="leaf-13" />
+	<project name="LineageOS/android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" revision="lineage-20.0" />
 
 	<remove-project name="platform/art" />
 	<project name="SirRGB/android_art" path="art" />
@@ -33,4 +34,7 @@
 
 	<remove-project name="LeafOS-Project/android_frameworks_av" />
 	<project name="SirRGB/android_frameworks_av" path="frameworks/av" />
+
+	<remove-project name="LeafOS-Project/android_hardware_lineage_interfaces" />
+	<project name="SirRGB/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" />
 </manifest>
