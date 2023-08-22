@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="987"
+		fetch="https://github.com/davigamer987"
+		revision="lineage-20" />
+
+	<remote name="gith"
+		fetch="https://github.com"
+		revision="lineage-20" />
+
+	<remote name="gitl"
+		fetch="https://gitlab.com"
+		revision="lineage-20" />
+
+	<!-- Device repos -->
+	<project name="eqs-development/android_kernel_motorola_sm8475" path="kernel/motorola/sm8475" remote="gith" />
+	<project name="device_motorola_eqs" path="device/motorola/eqs" remote="987" />
+	<project name="device_motorola_sm8475-common" path="device/motorola/sm8475-common" remote="987" />
+	<project name="eqs-development/proprietary_vendor_motorola_eqs" path="vendor/motorola/eqs" remote="gitl" />
+	<project name="eqs-development/proprietary_vendor_motorola_sm8475-common" path="vendor/motorola/sm8475-common" remote="gitl" />
+	<project name="eqs-development/android_device_motorola_eqs-kernel" path="device/motorola/eqs-kernel" remote="gith" />
+	<project name="lineageos/android_hardware_motorola" path="hardware/motorola" remote="gith" />
+</manifest>
