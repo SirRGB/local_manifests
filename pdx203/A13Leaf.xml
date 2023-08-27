@@ -11,7 +11,7 @@
 	<project name="XperiaLabs/vendor_sony_edo-extra" path="vendor/sony/extra-edo" revision="leaf-13" />
 
 	<!-- Dependencies -->
-	<project name="XperiaLabs/hardware_sony" path="hardware/sony" revision="leaf-13" />
+	<project name="XperiaLabs/hardware_sony" path="hardware/sony" revision="Edo_Leaf" />
 	<project name="LineageOS/android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" revision="lineage-20.0" />
 
 	<remove-project name="platform/art" />
