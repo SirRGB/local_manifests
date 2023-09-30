@@ -14,23 +14,23 @@
 	<project name="SirRGB/android_hardware_sony" path="hardware/sony" revision="leaf-13" />
 
 	<remove-project name="platform/art" />
-	<project name="SirRGB/android_art" path="art" />
+	<project name="LeafOS-experimental/android_art" path="art" />
 
 	<remove-project name="LeafOS-Project/android_frameworks_base" />
-	<project name="SirRGB/android_frameworks_base-1" path="frameworks/base" />
+	<project name="LeafOS-experimental/android_frameworks_base" path="frameworks/base" />
 
 	<remove-project name="LeafOS-Project/android_packages_apps_Settings" />
-	<project name="SirRGB/android_packages_apps_Settings" path="packages/apps/Settings" />
+	<project name="LeafOS-experimental/android_packages_apps_Settings" path="packages/apps/Settings" />
 
 	<remove-project name="LeafOS-Project/android_packages_apps_Launcher3" />
-	<project name="SirRGB/android_packages_apps_Launcher3" path="packages/apps/Launcher3" />
+	<project name="LeafOS-experimental/android_packages_apps_Launcher3" path="packages/apps/Launcher3" />
 
 	<remove-project name="LeafOS-Project/android_packages_overlays_Leaf" />
-	<project name="SirRGB/android_packages_overlays_Leaf" path="packages/overlays/Leaf" />
+	<project name="LeafOS-experimental/android_packages_overlays_Leaf" path="packages/overlays/Leaf" />
 
 	<remove-project name="LeafOS-Project/android_vendor_microg" />
-	<project name="SirRGB/android_vendor_microg" path="vendor/microg" />
+	<project name="LeafOS-experimental/android_vendor_microg" path="vendor/microg" />
 
 	<remove-project name="LeafOS-Project/android_frameworks_av" />
-	<project name="SirRGB/android_frameworks_av" path="frameworks/av" />
+	<project name="LeafOS-experimental/android_frameworks_av" path="frameworks/av" />
 </manifest>
