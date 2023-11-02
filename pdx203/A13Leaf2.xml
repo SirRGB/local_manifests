@@ -12,6 +12,7 @@
 
 	<!-- Dependencies -->
 	<project name="SirRGB/android_hardware_sony" path="hardware/sony" revision="leaf-13" />
+	<project name="LineageOS/android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" revision="lineage-20.0" />
 
 	<remove-project name="platform/art" />
 	<project name="LeafOS-experimental/android_art" path="art" />
