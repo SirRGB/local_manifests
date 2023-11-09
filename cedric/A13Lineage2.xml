@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="lineage"
-		fetch="https://github.com/LineageOS"
-		revision="lineage-20" />
-
 	<remote name="cedric"
 		fetch="https://github.com/cedric-experimental"
 		revision="lineage-20" />
@@ -15,7 +11,7 @@
 	<project name="proprietary_vendor_motorola" path="vendor/motorola" remote="cedric" />
 
 	<!-- Dependencies -->
-	<project name="android_external_bson" path="external/bson" remote="lineage" />
-	<project name="android_system_qcom" path="system/qcom" remote="lineage" />
-	<project name="android_hardware_motorola" path="hardware/motorola" remote="lineage" />
+	<project name="LineageOS/android_external_bson" path="external/bson" />
+	<project name="LineageOS/android_system_qcom" path="system/qcom" />
+	<project name="LineageOS/android_hardware_motorola" path="hardware/motorola" />
 </manifest>

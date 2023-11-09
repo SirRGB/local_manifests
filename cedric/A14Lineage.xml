@@ -2,11 +2,11 @@
 <manifest>
 	<remote name="legacy"
 		fetch="https://github.com/LineageOS-UL"
-		revision="lineage-20.0" />
+		revision="lineage-21.0" />
 
 	<remote name="cedric"
 		fetch="https://github.com/cedric-experimental"
-		revision="lineage-20" />
+		revision="lineage-21" />
 
 	<!-- Device repos -->
 	<project name="android_device_motorola_cedric" path="device/motorola/cedric" remote="cedric" />
@@ -23,10 +23,10 @@
 	<project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" revision="lineage-18.1" />
 
 	<!-- Patches -->
-	<remove-project name="platform/system/netd" />
+	<remove-project name="LineageOS/android_system_netd" />
 	<project name="android_system_netd" path="system/netd" remote="legacy" />
 
-	<remove-project name="platform/system/bpf" />
+	<remove-project name="LineageOS/android_system_bpf" />
 	<project name="android_system_bpf" path="system/bpf" remote="legacy" />
 
 	<remove-project name="LineageOS/android_packages_modules_adb" />
@@ -48,7 +48,7 @@
 	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" />
 
 	<!-- cgroup Patches -->
-	<remove-project name="LineageOS/android_system_core" /> 
+	<remove-project name="LineageOS/android_system_core" />
 	<project name="droid-legacy/android_system_core" path="system/core" />
 
 	<!-- Optimizations -->
