@@ -13,28 +13,4 @@
 	<!-- Dependencies -->
 	<project name="XperiaLabs/hardware_sony" path="hardware/sony" revision="Edo_Leaf" />
 	<project name="LineageOS/android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" revision="lineage-20.0" />
-
-	<remove-project name="platform/art" />
-	<project name="LeafOS-experimental/android_art" path="art" />
-
-	<remove-project name="LeafOS-Project/android_frameworks_base" />
-	<project name="LeafOS-experimental/android_frameworks_base-1" path="frameworks/base" />
-
-	<remove-project name="LeafOS-Project/android_packages_apps_Settings" />
-	<project name="LeafOS-experimental/android_packages_apps_Settings" path="packages/apps/Settings" />
-
-	<remove-project name="LeafOS-Project/android_packages_apps_Launcher3" />
-	<project name="LeafOS-experimental/android_packages_apps_Launcher3" path="packages/apps/Launcher3" />
-
-	<remove-project name="LeafOS-Project/android_packages_overlays_Leaf" />
-	<project name="LeafOS-experimental/android_packages_overlays_Leaf" path="packages/overlays/Leaf" />
-
-	<remove-project name="LeafOS-Project/android_vendor_microg" />
-	<project name="LeafOS-experimental/android_vendor_microg" path="vendor/microg" />
-
-	<remove-project name="LeafOS-Project/android_frameworks_av" />
-	<project name="LeafOS-experimental/android_frameworks_av" path="frameworks/av" />
-
-	<remove-project name="LeafOS-Project/android_hardware_lineage_interfaces" />
-	<project name="LeafOS-experimental/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" />
 </manifest>
