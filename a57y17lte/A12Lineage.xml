@@ -6,7 +6,7 @@
 
 	<remote name="legacy"
 		fetch="https://github.com/droid-legacy"
-		revision="12.1" />
+		revision="lineage-19.1" />
 
 	<!-- Device repos -->
 	<project name="android_device_samsung_a7y17lte" path="device/samsung/a7y17lte" remote="lineage" revision="lineage-18.1" />
@@ -18,11 +18,10 @@
 	<!-- Dependencies -->
 	<project name="android_hardware_samsung" path="hardware/samsung" remote="lineage" />
 	<project name="android_hardware_samsung_nfc" path="hardware/samsung/nfc" remote="lineage" />
-	<project name="android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="legacy" revision="lineage-19.1" />
+	<project name="android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="legacy" />
 	<project name="android_hardware_samsung_slsi_exynos7880" path="hardware/samsung_slsi/exynos7880" remote="lineage" />
 	<project name="android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="lineage" />
 	<project name="android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="lineage" />
-
 
 	<!-- Patches -->
 	<remove-project name="platform/system/netd" />
@@ -32,8 +31,8 @@
 	<project name="android_system_bpf" path="system/bpf" remote="legacy" />
 
 	<remove-project name="LineageOS/android_frameworks_base" />
-	<project name="android_frameworks_base" path="frameworks/base" remote="legacy" revision="lineage-19.1" />
+	<project name="android_frameworks_base" path="frameworks/base" remote="legacy" />
 
 	<remove-project name="LineageOS/android_vendor_lineage" />
-	<project name="android_vendor_lineage" path="vendor/lineage" remote="legacy" revision="lineage-19.1" />
+	<project name="android_vendor_lineage" path="vendor/lineage" remote="legacy" />
 </manifest>

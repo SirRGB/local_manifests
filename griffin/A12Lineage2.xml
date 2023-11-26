@@ -7,7 +7,7 @@
 
 	<remote name="legacy"
 		fetch="https://github.com/droid-legacy"
-		revision="12.1" />
+		revision="lineage-19.1" />
 
 	<remote name="griffin"
 		fetch="https://github.com/griffin-experimental"
@@ -37,5 +37,5 @@
 	<project name="android_packages_modules_adb" path="packages/modules/adb" remote="legacy" />
 
 	<remove-project name="LineageOS/android_vendor_lineage" />
-	<project name="android_vendor_lineage" path="vendor/lineage" remote="legacy" revision="lineage-19.1" />
+	<project name="android_vendor_lineage" path="vendor/lineage" remote="legacy" />
 </manifest>

@@ -6,7 +6,7 @@
 
 	<remote name="legacy"
 		fetch="https://github.com/droid-legacy"
-		revision="12.1" />
+		revision="lineage-19.1" />
 
 	<!-- Device repos -->
 	<project name="cedric-experimental/android_device_motorola_cedric" path="device/motorola/cedric" />
