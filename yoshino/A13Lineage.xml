@@ -20,6 +20,6 @@
 	<project name="android_vendor_sony_poplar_canada" path="vendor/sony/poplar_canada" remote="wurst" />
 	<project name="android_vendor_sony_poplar_kddi" path="vendor/sony/poplar_kddi" remote="wurst" />
 	<project name="android_vendor_sony_poplar_dsds" path="vendor/sony/poplar_dsds" remote="wurst" />
-	<project name="android_vendor_sony_poplar_lilac" path="vendor/sony/poplar_lilac" remote="wurst" />
+	<project name="android_vendor_sony_lilac" path="vendor/sony/poplar_lilac" remote="wurst" />
 	<project name="android_vendor_sony_yoshino-common" path="vendor/sony/yoshino-common" remote="wurst" />
 </manifest>
