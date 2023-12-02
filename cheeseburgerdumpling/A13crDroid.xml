@@ -18,4 +18,7 @@
 
 	<!-- Dependencies -->
 	<project name="android_hardware_oneplus" path="hardware/oneplus" remote="lineage" />
+
+	<!-- Gapps -->
+	<project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="crdroid-gitlab" revision="tau" />
 </manifest>
