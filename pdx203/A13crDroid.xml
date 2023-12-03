@@ -12,7 +12,7 @@
 	<project name="SirRGB/android_kernel_sony_sm8250" path="kernel/sony/sm8250" revision="lineage-20" />
 	<project name="TheMuppets/proprietary_vendor_sony_pdx203" path="vendor/sony/pdx203" revision="lineage-20" />
 	<project name="TheMuppets/proprietary_vendor_sony_pdx206" path="vendor/sony/pdx206" revision="lineage-20" />
-	<project name="TheMuppets/proprietary_vendor_sony_sm8250-common" path="vendor/sony/sm8250-common" revision="lineage-20" />
+	<project name="SirRGB/proprietary_vendor_sony_sm8250-common" path="vendor/sony/sm8250-common" revision="lineage-20" />
 
 	<!-- Dependencies -->
 	<project name="SirRGB/android_hardware_sony" path="hardware/sony" revision="lineage-20" />
