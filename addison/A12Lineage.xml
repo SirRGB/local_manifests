@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="lineage"
-		fetch="https://github.com/LineageOS"
-		revision="lineage-19.1" />
-
 	<remote name="legacy"
 		fetch="https://github.com/droid-legacy"
 		revision="lineage-19.1" />
 
 	<!-- Device repos -->
-	<project name="moto-experimental/android_device_motorola_addison" path="device/motorola/addison" />
-	<project name="cedric-experimental/android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" />
-	<project name="moto-experimental/proprietary_vendor_motorola" path="vendor/motorola" />
+	<project name="Moto-experimental/android_device_motorola_addison" path="device/motorola/addison" />
+	<project name="Moto-experimental/android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" />
+	<project name="Moto-experimental/proprietary_vendor_motorola" path="vendor/motorola" />
 
 	<!-- Dependencies -->
-	<project name="android_external_bson" path="external/bson" remote="lineage" />
-	<project name="android_system_qcom" path="system/qcom" remote="lineage" />
-	<project name="android_hardware_motorola" path="hardware/motorola" remote="lineage" />
+	<project name="LineageOS/android_external_bson" path="external/bson" />
+	<project name="LineageOS/android_system_qcom" path="system/qcom" />
+	<project name="LineageOS/android_hardware_motorola" path="hardware/motorola" />
 
 	<!-- DTB Tool -->
-	<project name="android_system_tools_dtbtool" path="system/tools/dtbtool" remote="lineage" revision="lineage-18.1" />
+	<project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" revision="lineage-18.1" />
 
 	<!-- Patches -->
 	<remove-project name="platform/system/netd" />
