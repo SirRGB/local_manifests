@@ -13,7 +13,6 @@
 
 	<!-- Dependencies -->
 	<project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
-	<project name="LineageOS/android_hardware_samsung_nfc" path="hardware/samsung/nfc" />
 	<project name="android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="legacy" />
 	<project name="LineageOS/android_hardware_samsung_slsi_exynos7880" path="hardware/samsung_slsi/exynos7880" />
 	<project name="LineageOS/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" />
