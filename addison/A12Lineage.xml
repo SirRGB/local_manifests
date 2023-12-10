@@ -39,6 +39,9 @@
 	<remove-project name="platform/packages/modules/NetworkStack" />
 	<project name="android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="legacy" />
 
+	<remove-project name="LineageOS/android_hardware_interfaces" />
+	<project name="android_hardware_interfaces" path="hardware/interfaces" remote="legacy" />
+
 	<!-- Custom DNS -->
 	<remove-project name="LineageOS/android_packages_apps_Settings" />
 	<project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="legacy" />
