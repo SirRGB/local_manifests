@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Device repos -->
+	<project name="XperiaLabs/device_sony_pdx203" path="device/sony/pdx203" revision="leaf-13" />
+	<project name="XperiaLabs/device_sony_pdx206" path="device/sony/pdx206" revision="leaf-13" />
+	<project name="XperiaLabs/device_sony_edo" path="device/sony/edo" revision="leaf-14" />
+	<project name="XperiaLabs/kernel_sony_edo" path="kernel/sony/edo" revision="leaf-14" />
+	<project name="XperiaLabs/vendor_sony_pdx203" path="vendor/sony/pdx203" revision="leaf-13" />
+	<project name="XperiaLabs/vendor_sony_pdx206" path="vendor/sony/pdx206" revision="leaf-13" />
+	<project name="XperiaLabs/vendor_sony_edo" path="vendor/sony/edo" revision="leaf-14" />
+	<project name="XperiaLabs/vendor_sony_edo-extra" path="vendor/sony/extra-edo" revision="leaf-13" />
+
+	<!-- Dependencies -->
+	<project name="XperiaLabs/hardware_sony" path="hardware/sony" revision="Edo" />
+	<project name="LineageOS/android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" revision="lineage-21.0" />
+</manifest>
