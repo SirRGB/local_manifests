@@ -2,7 +2,7 @@
 <manifest>
 	<remote name="wurst"
 		fetch="https://github.com/whatawurst"
-		revision="lineage-20" />
+		revision="lineage-21" />
 
 	<!-- Device repos -->
 	<project name="android_device_sony_maple" path="device/sony/maple" remote="wurst" />
@@ -13,7 +13,7 @@
 	<project name="android_device_sony_poplar_dsds" path="device/sony/poplar_dsds" remote="wurst" />
 	<project name="android_device_sony_lilac" path="device/sony/lilac" remote="wurst" />
 	<project name="SirRGB/android_device_sony_yoshino-common" path="device/sony/yoshino-common" revision="crdroid-14" />
-	<project name="SirRGB/android_kernel_sony_msm8998" path="kernel/sony/msm8998" revision="lineage-20" />
+	<project name="SirRGB/android_kernel_sony_msm8998" path="kernel/sony/msm8998" revision="lineage-21" />
 	<project name="android_vendor_sony_maple" path="vendor/sony/maple" remote="wurst" />
 	<project name="android_vendor_sony_maple_dsds" path="vendor/sony/maple_dsds" remote="wurst" />
 	<project name="SirRGB/android_vendor_sony_poplar" path="vendor/sony/poplar" revision="lineage-21" />
