@@ -5,9 +5,9 @@
 		revision="lineage-17.1" />
 
 	<!-- Device repos -->
-	<project name="cedric-experimental/android_device_motorola_cedric" path="device/motorola/cedric" />
-	<project name="cedric-experimental/android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" />
-	<project name="cedric-experimental/android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" />
+	<project name="Moto-experimental/android_device_motorola_cedric" path="device/motorola/cedric" />
+	<project name="Moto-experimental/android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" />
+	<project name="Moto-experimental/android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" />
 	<project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" />
 
 	<!-- Dependencies -->

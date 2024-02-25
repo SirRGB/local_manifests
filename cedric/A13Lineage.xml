@@ -5,7 +5,7 @@
 		revision="lineage-20.0" />
 
 	<remote name="cedric"
-		fetch="https://github.com/cedric-experimental"
+		fetch="https://github.com/Moto-experimental"
 		revision="lineage-20" />
 
 	<!-- Device repos -->

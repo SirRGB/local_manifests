@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="cedric"
-		fetch="https://github.com/cedric-experimental"
+		fetch="https://github.com/Moto-experimental"
 		revision="lineage-20" />
 
 	<!-- Device repos -->
