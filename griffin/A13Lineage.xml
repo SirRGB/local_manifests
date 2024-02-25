@@ -10,7 +10,7 @@
 		revision="lineage-20.0" />
 
 	<remote name="griffin"
-		fetch="https://github.com/griffin-experimental"
+		fetch="https://github.com/Moto-experimental"
 		revision="lineage-20" />
 
 	<!-- Device repos -->
