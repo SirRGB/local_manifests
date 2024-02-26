@@ -11,7 +11,7 @@
 	<project name="proprietary_vendor_motorola" path="vendor/motorola" remote="cedric" />
 
 	<!-- Dependencies -->
-	<project name="LineageOS/android_external_bson" path="external/bson" />
-	<project name="LineageOS/android_system_qcom" path="system/qcom" />
-	<project name="LineageOS/android_hardware_motorola" path="hardware/motorola" />
+	<project name="LineageOS/android_external_bson" path="external/bson" revision="lineage-20" />
+	<project name="LineageOS/android_system_qcom" path="system/qcom" revision="lineage-20" />
+	<project name="LineageOS/android_hardware_motorola" path="hardware/motorola" revision="lineage-20" />
 </manifest>
