@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="legacy"
-		fetch="https://github.com/LineageOS-UL"
-		revision="lineage-20.0" />
-
 	<remote name="cedric"
 		fetch="https://github.com/Moto-experimental"
 		revision="lineage-20" />
@@ -18,52 +14,4 @@
 	<project name="LineageOS/android_external_bson" path="external/bson" />
 	<project name="LineageOS/android_system_qcom" path="system/qcom" />
 	<project name="LineageOS/android_hardware_motorola" path="hardware/motorola" />
-
-	<!-- DTB Tool -->
-	<project name="LineageOS/android_system_tools_dtbtool" path="system/tools/dtbtool" revision="lineage-18.1" />
-
-	<!-- Patches -->
-	<remove-project name="platform/system/netd" />
-	<project name="android_system_netd" path="system/netd" remote="legacy" />
-
-	<remove-project name="platform/system/bpf" />
-	<project name="android_system_bpf" path="system/bpf" remote="legacy" />
-
-	<remove-project name="LineageOS/android_packages_modules_adb" />
-	<project name="android_packages_modules_adb" path="packages/modules/adb" remote="legacy" />
-
-	<remove-project name="LineageOS/android_hardware_qcom_wlan" />
-	<project name="droid-legacy/android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" revision="lineage-20.0-caf" />
-
-	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
-	<project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="legacy" />
-
-	<remove-project name="platform/packages/modules/NetworkStack" />
-	<project name="android_packages_modules_NetworkStack" path="packages/modules/NetworkStack" remote="legacy" />
-
-	<remove-project name="platform/frameworks/libs/net" />
-	<project name="android_frameworks_libs_net" path="frameworks/libs/net" remote="legacy" />
-
-	<remove-project name="LineageOS/android_vendor_lineage" />
-	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" />
-
-	<!-- cgroup Patches -->
-	<remove-project name="LineageOS/android_system_core" /> 
-	<project name="droid-legacy/android_system_core" path="system/core" />
-
-	<!-- Optimizations -->
-	<remove-project name="platform/art" />
-	<project name="droid-legacy/android_art-1" path="art" />
-
-	<remove-project name="LineageOS/android_frameworks_base" />
-	<project name="droid-legacy/android_frameworks_base" path="frameworks/base" />
-
-	<remove-project name="LineageOS/android_frameworks_native" />
-	<project name="droid-legacy/android_frameworks_native" path="frameworks/native" />
-
-	<remove-project name="platform/external/jemalloc_new" />
-	<project name="android_external_jemalloc_new" path="external/jemalloc_new" remote="legacy" />
-
-	<remove-project name="LineageOS/android_bionic" />
-	<project name="android_bionic" path="bionic" remote="legacy" />
 </manifest>
