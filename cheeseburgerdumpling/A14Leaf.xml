@@ -11,4 +11,10 @@
 
 	<!-- Dependencies -->
 	<project name="SirRGB/android_hardware_oneplus" path="hardware/oneplus" revision="leaf-14" />
+
+	<remove-project name="LeafOS-Project/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
+	<project name="roberto-sartori-gl/4.14-vendor-qcom-opensource-data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" revision="msm8998_op/aosp/LA.UM.8.1.r1" />
+
+	<remove-project name="LeafOS-Project/android_vendor_qcom_opensource_dataservices" />
+	<project name="roberto-sartori-gl/4.14-vendor-qcom-opensource-dataservices" path="vendor/qcom/opensource/dataservices" revision="msm8998_op/master" />
 </manifest>
