@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="legacy"
-		fetch="https://github.com/droid-legacy"
-		revision="lineage-18.1"/>
-
 	<!-- Device repo -->
 	<project name="SirRGB/android_device_lge_hammerhead" path="device/lge/hammerhead" />
 	<project name="z3DD3r/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" />
@@ -11,19 +7,19 @@
 
 	<!-- Patches -->
 	<remove-project name="LineageOS/android_system_bt" />
-	<project name="android_system_bt" path="system/bt" remote="legacy" />
+	<project name="droid-legacy/android_system_bt" path="system/bt" />
 
 	<remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-	<project name="android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="legacy" />
+	<project name="droid-legacy/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
 
 	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
-	<project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="legacy" />
+	<project name="droid-legacy/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
 
 	<remove-project name="LineageOS/android_frameworks_native" />
-	<project name="android_frameworks_native" path="frameworks_native" remote="legacy" />
+	<project name="droid-legacy/android_frameworks_native" path="frameworks_native" />
 
 	<remove-project name="LineageOS/android_vendor_lineage" />
-	<project name="android_vendor_lineage" path="vendor/lineage" remote="legacy" />
+	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" />
 
 	<remove-project name="LineageOS/android_system_vold" />
 	<project name="z3DD3r/android_system_vold" path="system/vold" />

@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="lineage"
-		fetch="https://github.com/LineageOS"
-		revision="lineage-18.1" />
-
 	<!-- Device repos -->
 	<project name="Moto-experimental/android_device_motorola_cedric" path="device/motorola/cedric" />
 	<project name="Moto-experimental/android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" revision="cipher-11" />
@@ -11,7 +7,7 @@
 	<project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" />
 
 	<!-- Dependencies -->
-	<project name="android_external_bson" path="external/bson" remote="lineage" />
-	<project name="android_system_qcom" path="system/qcom" remote="lineage" />
-	<project name="android_hardware_motorola" path="hardware/motorola" remote="lineage" />
+	<project name="LineageOS/android_external_bson" path="external/bson" />
+	<project name="LineageOS/android_system_qcom" path="system/qcom" />
+	<project name="LineageOS/android_hardware_motorola" path="hardware/motorola" />
 </manifest>

@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="z3DD3r"
-		fetch="https://github.com/z3DD3r"
-		revision="lineage-20.0"/>
-
 	<!-- Device trees -->
-	<project name="android_device_lge_hammerhead" path="device/lge/hammerhead" remote="z3DD3r"/>
-	<project name="android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" remote="z3DD3r"/>
-	<project name="android_vendor_lge" path="vendor/lge" remote="z3DD3r"/>
+	<project name="z3DD3r/android_device_lge_hammerhead" path="device/lge/hammerhead" />
+	<project name="z3DD3r/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" />
+	<project name="z3DD3r/android_vendor_lge" path="vendor/lge" />
 
 	<!-- patches -->
 	<remove-project name="LineageOS-UL/android_frameworks_av"/>
-	<project path="frameworks/av" name="z3DD3r/android_frameworks_av" remote="z3DD3r"/>
+	<project path="frameworks/av" name="z3DD3r/android_frameworks_av" />
 	<remove-project name="LineageOS-UL/android_frameworks_base"/>
-	<project path="frameworks/base" name="z3DD3r/android_frameworks_base" remote="z3DD3r"/>
+	<project path="frameworks/base" name="z3DD3r/android_frameworks_base" />
 </manifest>

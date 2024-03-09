@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="legacy"
-		fetch="https://github.com/droid-legacy"
-		revision="lineage-19.1" />
-
 	<!-- Device repos -->
 	<project name="LineageOS/android_device_samsung_a7y17lte" path="device/samsung/a7y17lte" revision="lineage-18.1" />
 	<project name="LineageOS/android_device_samsung_a5y17lte" path="device/samsung/a5y17lte" revision="lineage-18.1" />
@@ -13,7 +9,7 @@
 
 	<!-- Dependencies -->
 	<project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
-	<project name="android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="legacy" />
+	<project name="droid-legacy/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" />
 	<project name="LineageOS/android_hardware_samsung_slsi_exynos7880" path="hardware/samsung_slsi/exynos7880" revision="lineage-18.1" />
 	<project name="LineageOS/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" />
 	<project name="LineageOS/android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" />

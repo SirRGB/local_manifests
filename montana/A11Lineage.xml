@@ -5,11 +5,11 @@
 		revision="lineage-18.1" />
 
 	<!-- Device repos -->
-	<project name="android_device_motorola_montana" path="device/motorola/montana" remote="lineage" />
-	<project name="android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" remote="lineage" />
-	<project name="android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="lineage" />
+	<project name="LineageOS/android_device_motorola_montana" path="device/motorola/montana" />
+	<project name="LineageOS/android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" />
+	<project name="LineageOS/android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" />
 	<project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" />
 
 	<!-- Dependencies -->
-	<project name="android_external_bson" path="external/bson" remote="lineage" />
+	<project name="LineageOS/android_external_bson" path="external/bson" />
 </manifest>

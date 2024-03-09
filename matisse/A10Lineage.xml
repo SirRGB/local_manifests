@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="s3n"
-		fetch="https://github.com/s3neo"
-		revision="lineage-17.1" />
-
 	<!-- Device repos -->
-	<project name="android_device_samsung_matisse3g" path="device/samsung/matisse3g" remote="s3n" />
-	<project name="android_device_samsung_matissewifi" path="device/samsung/matissewifi" remote="s3n" />
-	<project name="android_device_samsung_matisselte" path="device/samsung/matisselte" remote="s3n" />
-	<project name="android_device_samsung_matisse-common" path="device/samsung/matisse-common" remote="s3n" />
+	<project name="s3neo/android_device_samsung_matisse3g" path="device/samsung/matisse3g" />
+	<project name="s3neo/android_device_samsung_matissewifi" path="device/samsung/matissewifi" />
+	<project name="s3neo/android_device_samsung_matisselte" path="device/samsung/matisselte" />
+	<project name="s3neo/android_device_samsung_matisse-common" path="device/samsung/matisse-common" />
 	<project name="LineageOS/android_device_samsung_msm8226-common" path="device/samsung/msm8226-common" />
 	<project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" />
 	<project name="LineageOS/android_kernel_samsung_msm8226" path="kernel/samsung/msm8226" />
-	<project name="android_vendor_samsung_milet3g" path="vendor/samsung/milet3g" remote="s3n" />
-	<project name="android_vendor_samsung_matissewifi" path="vendor/samsung/matissewifi" remote="s3n" />
-	<project name="android_vendor_samsung_matisselte" path="vendor/samsung/matisselte" remote="s3n" />
-	<project name="android_vendor_samsung_matisse-common" path="vendor/samsung/matisse-common" remote="s3n" />
+	<project name="s3neo/android_vendor_samsung_milet3g" path="vendor/samsung/milet3g" />
+	<project name="s3neo/android_vendor_samsung_matissewifi" path="vendor/samsung/matissewifi" />
+	<project name="s3neo/android_vendor_samsung_matisselte" path="vendor/samsung/matisselte" />
+	<project name="s3neo/android_vendor_samsung_matisse-common" path="vendor/samsung/matisse-common" />
 	<project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" />
 
 	<!-- Dependencies -->
-	<project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
 	<project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
   	<project name="LineageOS/android_external_stlport" path="external/stlport" revision="lineage-15.1" />
   	<project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" />

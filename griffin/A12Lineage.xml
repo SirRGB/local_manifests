@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="legacy"
-		fetch="https://github.com/droid-legacy"
-		revision="lineage-19.1" />
-
-	<remote name="griffin"
-		fetch="https://github.com/Moto-experimental"
-		revision="lineage-19.1" />
-
 	<!-- Device repos -->
-	<project name="android_device_motorola_griffin" path="device/motorola/griffin" remote="griffin" />
-	<project name="android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="griffin" />
+	<project name="Moto-experimental/android_device_motorola_griffin" path="device/motorola/griffin" />
+	<project name="Moto-experimental/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" />
 	<project name="Moto-experimental/proprietary_vendor_motorola" path="vendor/motorola" />
 
 	<!-- Dependencies -->

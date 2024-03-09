@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="lineage"
-		fetch="https://github.com/LineageOS"
-		review="review.lineageos.org"
-		revision="lineage-19.1" />
-
 	<!-- Device repos -->
-	<project name="android_device_sony_pdx203" path="device/sony/pdx203" remote="lineage" />
-	<project name="android_device_sony_sm8250-common" path="device/sony/sm8250-common" remote="lineage" />
-	<project name="android_kernel_sony_sm8250" path="kernel/sony/sm8250" remote="lineage" />
+	<project name="LineageOS/android_device_sony_pdx203" path="device/sony/pdx203" />
+	<project name="LineageOS/android_device_sony_sm8250-common" path="device/sony/sm8250-common" />
+	<project name="LineageOS/android_kernel_sony_sm8250" path="kernel/sony/sm8250" />
 	<project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" />
 
 	<!-- Dependencies -->
-	<project name="android_hardware_sony" path="hardware/sony" remote="lineage" />
+	<project name="LineageOS/android_hardware_sony" path="hardware/sony" />
 </manifest>

@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="lineage"
-		fetch="https://github.com/LineageOS"
-		revision="lineage-19.1" />
-
 	<!-- Device repos -->
-	<project name="android_device_samsung_beyondx" path="device/samsung/beyondx" remote="lineage" />
-	<project name="android_device_samsung_beyond0lte" path="device/samsung/beyond0lte" remote="lineage" />
-	<project name="android_device_samsung_beyond1lte" path="device/samsung/beyond1lte" remote="lineage" />
-	<project name="android_device_samsung_beyond2lte" path="device/samsung/beyond2lte" remote="lineage" />
-	<project name="android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" remote="lineage" />
-	<project name="android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" remote="lineage" />
+	<project name="LineageOS/android_device_samsung_beyondx" path="device/samsung/beyondx" />
+	<project name="LineageOS/android_device_samsung_beyond0lte" path="device/samsung/beyond0lte" />
+	<project name="LineageOS/android_device_samsung_beyond1lte" path="device/samsung/beyond1lte" />
+	<project name="LineageOS/android_device_samsung_beyond2lte" path="device/samsung/beyond2lte" />
+	<project name="LineageOS/android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" />
+	<project name="LineageOS/android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" />
 	<project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" />
 
 	<!-- Dependencies -->
-	<project name="android_hardware_samsung" path="hardware/samsung" remote="lineage" />
-	<project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="lineage" />
+	<project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
+	<project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" />
 </manifest>

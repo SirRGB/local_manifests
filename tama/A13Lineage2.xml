@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="lineage"
-		fetch="https://github.com/LineageOS"
-		review="review.lineageos.org"
-		revision="lineage-20" />
-
 	<!-- Device repos -->
-	<project name="android_device_sony_akari" path="device/sony/akari" remote="lineage" />
-	<project name="android_device_sony_xz2c" path="device/sony/xz2c" remote="lineage" />
-	<project name="android_device_sony_aurora" path="device/sony/aurora" remote="lineage" />
-	<project name="android_device_sony_akatsuki" path="device/sony/akatsuki" remote="lineage" />
+	<project name="LineageOS/android_device_sony_akari" path="device/sony/akari" revision="lineage-20" />
+	<project name="LineageOS/android_device_sony_xz2c" path="device/sony/xz2c" revision="lineage-20" />
+	<project name="LineageOS/android_device_sony_aurora" path="device/sony/aurora" revision="lineage-20" />
+	<project name="LineageOS/android_device_sony_akatsuki" path="device/sony/akatsuki" revision="lineage-20" />
 	<project name="SirRGB/android_device_sony_tama-common" path="device/sony/tama-common" revision="lineage-20" />
-	<project name="android_kernel_sony_sdm845" path="kernel/sony/sdm845" remote="lineage" />
+	<project name="LineageOS/android_kernel_sony_sdm845" path="kernel/sony/sdm845" revision="lineage-20" />
 	<project name="TheMuppets/proprietary_vendor_sony_akari" path="vendor/sony/akari" revision="lineage-20" />
 	<project name="TheMuppets/proprietary_vendor_sony_xz2c" path="vendor/sony/xz2c" revision="lineage-20" />
 	<project name="TheMuppets/proprietary_vendor_sony_aurora" path="vendor/sony/aurora" revision="lineage-20" />
@@ -19,5 +14,5 @@
 	<project name="TheMuppets/proprietary_vendor_sony_tama-common" path="vendor/sony/tama-common" revision="lineage-20" />
 
 	<!-- Dependencies -->
-	<project name="android_hardware_sony_SonyOpenTelephony" path="hardware/sony/SonyOpenTelephony" remote="lineage" />
+	<project name="LineageOS/android_hardware_sony_SonyOpenTelephony" path="hardware/sony/SonyOpenTelephony" revision="lineage-20" />
 </manifest>

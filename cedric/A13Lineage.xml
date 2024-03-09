@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="cedric"
-		fetch="https://github.com/Moto-experimental"
-		revision="lineage-20" />
-
 	<!-- Device repos -->
-	<project name="android_device_motorola_cedric" path="device/motorola/cedric" remote="cedric" />
-	<project name="android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" remote="cedric" />
-	<project name="android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="cedric" />
-	<project name="proprietary_vendor_motorola" path="vendor/motorola" remote="cedric" />
+	<project name="Moto-experimental/android_device_motorola_cedric" path="device/motorola/cedric" revision="lineage-20"/>
+	<project name="Moto-experimental/android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" revision="lineage-20" />
+	<project name="Moto-experimental/android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" revision="lineage-20" />
+	<project name="Moto-experimental/proprietary_vendor_motorola" path="vendor/motorola" revision="lineage-20" />
 
 	<!-- Dependencies -->
 	<project name="LineageOS/android_external_bson" path="external/bson" revision="lineage-20" />

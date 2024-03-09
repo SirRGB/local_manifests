@@ -5,4 +5,4 @@ branch:
 11.x
 
 status:
-buildable, but not bootable
+buildable

@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="lineage"
-		fetch="https://github.com/LineageOS"
-		review="review.lineageos.org"
-		revision="lineage-20" />
-
 	<!-- Device repos -->
 	<project name="SirRGB/android_device_sony_pdx203" path="device/sony/pdx203" revision="lineage-20" />
 	<project name="SirRGB/android_device_sony_pdx206" path="device/sony/pdx206" revision="crdroid-13" />
@@ -15,7 +10,7 @@
 	<project name="SirRGB/proprietary_vendor_sony_sm8250-common" path="vendor/sony/sm8250-common" revision="lineage-20" />
 
 	<!-- Dependencies -->
-	<project name="android_hardware_sony" path="hardware/sony" remote="lineage" />
+	<project name="LineageOS/android_hardware_sony" path="hardware/sony" revision="lineage-20" />
 
 	<!-- GAPPS -->
 	<project name="MindTheGapps/vendor_gapps" path="vendor/partner_gms" remote="crdroid-gitlab" revision="tau" />

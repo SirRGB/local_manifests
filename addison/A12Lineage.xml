@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="legacy"
-		fetch="https://github.com/droid-legacy"
-		revision="lineage-19.1" />
-
 	<!-- Device repos -->
 	<project name="Moto-experimental/android_device_motorola_addison" path="device/motorola/addison" />
 	<project name="Moto-experimental/android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" />

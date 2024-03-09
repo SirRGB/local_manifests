@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="los"
-		fetch="https://github.com/LineageOS"
-		revision="lineage-17.1" />
-
 	<!-- Device repos -->
 	<project name="Moto-experimental/android_device_motorola_griffin" path="device/motorola/griffin" remote="gh" revision="carbon-10" />
 	<project name="Moto-experimental/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="gh" revision="lineage-17.1" />
 	<project name="Moto-experimental/proprietary_vendor_motorola" path="vendor/motorola" remote="gh" revision="lineage-17.1" />
 
 	<!-- Dependencies -->
-	<project name="android_external_bson" path="external/bson" remote="los" />
+	<project name="LineageOS/android_external_bson" path="external/bson" remote="lineage" />
 
 	<!-- Devicesettings -->
-	<project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="los" />
+	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" />
 </manifest>

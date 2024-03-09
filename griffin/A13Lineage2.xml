@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="lineage"
-		fetch="https://github.com/LineageOS"
-		review="review.lineageos.org"
-		revision="lineage-20" />
-
-	<remote name="griffin"
-		fetch="https://github.com/Moto-experimental"
-		revision="lineage-20" />
-
 	<!-- Device repos -->
-	<project name="android_device_motorola_griffin" path="device/motorola/griffin" remote="griffin" />
-	<project name="android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="griffin" />
-	<project name="proprietary_vendor_motorola" path="vendor/motorola" remote="griffin" />
+	<project name="Moto-experimental/android_device_motorola_griffin" path="device/motorola/griffin" revision="lineage-20" />
+	<project name="Moto-experimental/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" revision="lineage-20" />
+	<project name="Moto-experimental/proprietary_vendor_motorola" path="vendor/motorola" revision="lineage-20" />
 
 	<!-- Dependencies -->
-	<project name="android_external_bson" path="external/bson" remote="lineage" />
-	<project name="android_system_qcom" path="system/qcom" remote="lineage" />
-	<project name="android_hardware_motorola" path="hardware/motorola" remote="lineage" />
+	<project name="LineageOS/android_external_bson" path="external/bson" revision="lineage-20" />
+	<project name="LineageOS/android_system_qcom" path="system/qcom" revision="lineage-20" />
+	<project name="LineageOS/android_hardware_motorola" path="hardware/motorola" revision="lineage-20" />
 </manifest>

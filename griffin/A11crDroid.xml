@@ -1,28 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="lineage"
-		fetch="https://github.com/LineageOS"
-		revision="lineage-18.1" />
-
 	<!-- Device repos -->
 	<project name="Moto-experimental/android_device_motorola_griffin" path="device/motorola/griffin" revision="crdroid-11" />
-	<project name="Moto-experimental/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" revision="lineage-18.1" />
-	<project name="Moto-experimental/proprietary_vendor_motorola" path="vendor/motorola" revision="lineage-18.1" />
+	<project name="Moto-experimental/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" />
+	<project name="Moto-experimental/proprietary_vendor_motorola" path="vendor/motorola" />
 
 	<!-- Dependencies -->
-	<project name="android_external_bson" path="external/bson" remote="lineage" />
-	<project name="android_system_qcom" path="system/qcom" remote="lineage" />
+	<project name="LineageOS/android_external_bson" path="external/bson" />
+	<project name="LineageOS/android_system_qcom" path="system/qcom" />
 
 	<!-- Lineage HALs -->
 	<remove-project name="crdroidandroid/android_hardware_qcom_audio" />
 	<remove-project name="crdroidandroid/android_hardware_qcom_media" />
 	<remove-project name="crdroidandroid/android_hardware_qcom_display" />
 
-	<project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" remote="lineage" revision="lineage-18.1-caf-msm8996" />
-	<project name="android_hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" remote="lineage" revision="lineage-18.1-caf-msm8996" />
-	<project name="android_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" remote="lineage" revision="lineage-18.1-caf-msm8996" />
+	<project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" revision="lineage-18.1-caf-msm8996" />
+	<project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" revision="lineage-18.1-caf-msm8996" />
+	<project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" revision="lineage-18.1-caf-msm8996" />
 
 	<!-- MindTheGapps -->
-	<remote name="Mgapps" fetch="https://gitlab.com/MindTheGapps/" revision="rho" />
-	<project path="vendor/gapps" name="vendor_gapps" clone-depth="1" remote="Mgapps" />
+	<project path="vendor/gapps" name="MindTheGapps/vendor_gapps" clone-depth="1" remote="crdroid-gitlab" revision="rho" />
 </manifest>

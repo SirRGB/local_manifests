@@ -1,17 +1,9 @@
 <manifest>
 	<!-- source: https://github.com/ThePiGuy0/android_device_motorola_peregrine-twrp -->
-	<remote  name="falcon-oreo"
-		fetch="https://github.com/falcon-oreo/"
-		revision="lineage-15.1" />
-
-	<remote  name="ThePiGuy0"
-		fetch="https://github.com/ThePiGuy0/"
-		revision="android-8.1" />
-
 	<remove-project name="TeamWin/android_external_busybox" />
 	<project name="android_external_busybox" path="external/busybox" remote="omnirom" revision="android-8.1" />
 
-	<project name="android_device_motorola_peregrine-twrp" path="device/motorola/peregrine" remote="ThePiGuy0" />
-	<project name="android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="ThePiGuy0" revision="twrp-8.1" />
-	<project name="proprietary_vendor_motorola" path="vendor/motorola" remote="falcon-oreo" />
+	<project name="ThePiGuy0/android_device_motorola_peregrine-twrp" path="device/motorola/peregrine" remote="github" revision="android-8.1" />
+	<project name="ThePiGuy0/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="twrp-8.1" />
+	<project name="falcon-oreo/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-15.1" />
 </manifest>

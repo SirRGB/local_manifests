@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="lineage"
-		fetch="https://github.com/LineageOS"
-		revision="lineage-19.1" />
-
-	<remote name="legacy"
-		fetch="https://github.com/droid-legacy"
-		revision="lineage-19.1" />
-
 	<!-- Device repos -->
 	<project name="Moto-experimental/android_device_motorola_cedric" path="device/motorola/cedric" revision="lineage-19.1_4.9" />
 	<project name="Moto-experimental/android_device_motorola_msm8937-common" path="device/motorola/msm8937-common" revision="lineage-19.1_4.9" />
@@ -15,31 +7,7 @@
 	<project name="moto-msm8937/proprietary_vendor_motorola" path="vendor/motorola" revision="lineage-18.1" />
 
 	<!-- Dependencies -->
-	<project name="android_external_bson" path="external/bson" remote="lineage" />
-	<project name="android_system_qcom" path="system/qcom" remote="lineage" />
-	<project name="android_hardware_motorola" path="hardware/motorola" remote="lineage" />
-
-	<remove-project name="LineageOS/android_frameworks_base" />
-	<project name="android_frameworks_base" path="frameworks/base" remote="legacy" />
-
-	<!-- Custom DNS -->
-	<remove-project name="LineageOS/android_packages_apps_Settings" />
-	<project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="legacy" />
-
-	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
-	<project name="android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="legacy" />
-
-	<remove-project name="platform/frameworks/libs/net" />
-	<project name="android_frameworks_libs_net" path="frameworks/libs/net" remote="legacy" />
-
-	<!-- Launcher -->
-	<remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-	<project name="android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" remote="legacy" />
-
-	<!-- Optimizations -->
-	<remove-project name="platform/art" />
-	<project name="android_art-1" path="art" remote="legacy" />
-
-	<remove-project name="LineageOS/android_frameworks_native" />
-	<project name="android_frameworks_native" path="frameworks/native" remote="legacy" />
+	<project name="LineageOS/android_external_bson" path="external/bson" />
+	<project name="LineageOS/android_system_qcom" path="system/qcom" />
+	<project name="LineageOS/android_hardware_motorola" path="hardware/motorola" />
 </manifest>

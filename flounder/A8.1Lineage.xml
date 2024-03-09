@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="andrea"
-		fetch="https://github.com/linckandrea"
-		revision="lineage-15.1" />
-
 	<!-- Device repos -->
-	<project name="android_device_htc_flounder" path="device/htc/flounder" remote="andrea" revision="lineage-15.1_update_2" />
-	<project name="android_kernel_htc_flounder" path="kernel/htc/flounder" remote="andrea" />
-	<project name="proprietary_vendor_htc" path="vendor/htc" remote="andrea" />
+	<project name="linckandrea/android_device_htc_flounder" path="device/htc/flounder" revision="lineage-15.1_update_2" />
+	<project name="linckandrea/android_kernel_htc_flounder" path="kernel/htc/flounder" />
+	<project name="linckandrea/proprietary_vendor_htc" path="vendor/htc" />
 
 	<!-- Fixup -->
 	<remove-project name="LineageOS/android_bionic" />

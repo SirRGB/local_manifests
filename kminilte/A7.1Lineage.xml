@@ -1,30 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="spook"
-		fetch="https://github.com/Spookcity"
-		revision="N" />
-
-	<remote name="lineage"
-		fetch="https://github.com/LineageOS"
-		revision="cm-14.1" />
-
 	<!-- Device Repos -->
-	<project name="android_device_samsung_kminilte" path="device/samsung/kminilte" remote="spook" />
-	<project name="android_vendor_samsung_kminilte" path="vendor/samsung/kminilte" remote="spook" />
-	<project name="android_kernel_samsung_kminilte" path="kernel/samsung/kminilte" remote="spook" />
+	<project name="Spookcity/android_device_samsung_kminilte" path="device/samsung/kminilte" revision="N" />
+	<project name="Spookcity/android_vendor_samsung_kminilte" path="vendor/samsung/kminilte" revision="N" />
+	<project name="Spookcity/android_kernel_samsung_kminilte" path="kernel/samsung/kminilte" revision="N" />
 
 	<!-- Commom -->
-	<project name="android_device_samsung_smdk3470-common" path="device/samsung/smdk3470-common" remote="spook" />
-	<project name="android_hardware_samsung_slsi_exynos3470" path="hardware/samsung_slsi/exynos3470" remote="spook" />
-	<project name="android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="lineage" />
-	<project name="android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" remote="lineage" />
-	<project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" />
+	<project name="Spookcity/android_device_samsung_smdk3470-common" path="device/samsung/smdk3470-common" revision="N" />
+	<project name="Spookcity/android_hardware_samsung_slsi_exynos3470" path="hardware/samsung_slsi/exynos3470" revision="N" />
+	<project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" />
+	<project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" />
+	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
 
 	<!-- FlipFlap -->
-	<project name="android_hardware_samsung" path="hardware/samsung" remote="spook" revision="cm-14.1" />
-	<project name="android_external_stlport" path="external/stlport" remote="lineage" />
+	<project name="Spookcity/android_hardware_samsung" path="hardware/samsung" />
+	<project name="LineageOS/android_external_stlport" path="external/stlport" />
 
 	<!-- TWRP -->
 	<project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" revision="android-7.1" />
-	<project name="android_external_busybox" path="external/busybox" remote="lineage"/>
+	<project name="LineageOS/android_external_busybox" path="external/busybox" />
 </manifest>
