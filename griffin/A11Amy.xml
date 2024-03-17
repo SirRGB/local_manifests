@@ -8,11 +8,4 @@
 	<!-- Dependencies -->
 	<project name="LineageOS/android_external_bson" path="external/bson" />
 	<project name="LineageOS/android_system_qcom" path="system/qcom" />
-
-	<!-- Staging -->
-	<remove-project name="frameworks_base" />
-	<project name="frameworks_base" path="frameworks/base" remote="amyROM" revision="reborn-staging" />
-
-	<remove-project name="packages_apps_Settings" />
-	<project name="packages_apps_Settings" path="packages/apps/Settings" remote="amyROM" revision="reborn-staging" />
 </manifest>
