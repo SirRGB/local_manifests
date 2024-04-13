@@ -9,5 +9,5 @@
 	<!-- Dependencies -->
 	<project name="LineageOS/android_external_bson" path="external/bson" revision="lineage-21" />
 	<project name="LineageOS/android_system_qcom" path="system/qcom" revision="lineage-21" />
-	<project name="LineageOS/android_hardware_motorola" path="hardware/motorola" revision="lineage-21" />
+	<project name="LineageOS/android_hardware_motorola" path="hardware/motorola" revision="42a4d5f2097cbce932551ef104c8c2eb75e96582" />
 </manifest>
