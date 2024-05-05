@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Device Repos -->
+	<project name="SirRGB/android_device_samsung_kminilte" path="device/samsung/kminilte" revision="N" />
+	<project name="SirRGB/android_vendor_samsung_kminilte" path="vendor/samsung/kminilte" revision="N" />
+	<project name="SirRGB/android_kernel_samsung_kminilte" path="kernel/samsung/kminilte" revision="N" />
+
+	<!-- Commom -->
+	<project name="SirRGB/android_device_samsung_smdk3470-common" path="device/samsung/smdk3470-common" revision="N" />
+	<project name="Spookcity/android_hardware_samsung_slsi_exynos3470" path="hardware/samsung_slsi/exynos3470" revision="N" />
+	<project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" />
+	<project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" />
+	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
+
+	<!-- FlipFlap -->
+	<project name="SirRGB/android_hardware_samsung" path="hardware/samsung" />
+	<project name="LineageOS/android_external_stlport" path="external/stlport" />
+
+	<!-- TWRP -->
+	<project name="omnirom/android_bootable_recovery" path="bootable/recovery-twrp" revision="android-7.1" />
+	<project name="LineageOS/android_external_busybox" path="external/busybox" />
+</manifest>
