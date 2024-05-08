@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Device Repos -->
-	<project name="skulko/android_device_samsung_kminilte" path="device/samsung/kminilte" revision="Q-microG-a" />
+	<project name="SirRGB/android_device_samsung_kminilte" path="device/samsung/kminilte" revision="Q" />
 	<project name="skulko/android_vendor_samsung_kminilte" path="vendor/samsung/kminilte" revision="Q-test" />
-	<project name="skulko/android_kernel_samsung_kminilte" path="kernel/samsung/kminilte" revision="Q" />
+	<project name="SirRGB/android_kernel_samsung_kminilte" path="kernel/samsung/kminilte" revision="Q" />
 
 	<!-- Commom -->
-	<project name="skulko/android_device_samsung_smdk3470-common" path="device/samsung/smdk3470-common" revision="Q-test" />
+	<project name="SirRGB/android_device_samsung_smdk3470-common" path="device/samsung/smdk3470-common" revision="Q" />
 	<project name="Spookcity/android_hardware_samsung_slsi_exynos3470" path="hardware/samsung_slsi-cm/exynos3470" revision="P" />
 	<project name="LineageOS/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" />
 	<project name="LineageOS/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" />
