@@ -8,7 +8,6 @@
 	<project name="XperiaLabs/vendor_sony_pdx203" path="vendor/sony/pdx203" revision="leaf-13" />
 	<project name="XperiaLabs/vendor_sony_pdx206" path="vendor/sony/pdx206" revision="leaf-13" />
 	<project name="XperiaLabs/vendor_sony_edo" path="vendor/sony/edo" revision="leaf-13" />
-	<project name="XperiaLabs/vendor_sony_edo-extra" path="vendor/sony/extra-edo" revision="leaf-13" />
 
 	<!-- Dependencies -->
 	<project name="XperiaLabs/hardware_sony" path="hardware/sony" revision="Edo" />
