@@ -8,12 +8,9 @@
 	<!-- Commom -->
 	<project name="SirRGB/android_device_samsung_smdk3470-common" path="device/samsung/smdk3470-common" revision="Q" />
 	<project name="Spookcity/android_hardware_samsung_slsi_exynos3470" path="hardware/samsung_slsi-cm/exynos3470" revision="P" />
-	<project name="LineageOS/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" />
-	<project name="LineageOS/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" />
-	<project name="LineageOS/android_packages_apps_FlipFlap" path="packages/apps/FlipFlap" />
-	<project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" />
+	<project name="LineageOS/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" revision="lineage-16.0" />
+	<project name="LineageOS/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" revision="lineage-16.0" />
 
-	<!-- FlipFlap -->
-	<project name="Spookcity/android_hardware_samsung" path="hardware/samsung" revision="P" />
+	<project name="skulko/android_hardware_samsung" path="hardware/samsung" revision="Q-test" />
 	<project name="Spookcity/android_external_protobuf-compat-2.6" path="external/protobuf-compat-2.6" revision="P" />
 </manifest>
