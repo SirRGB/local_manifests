@@ -28,8 +28,6 @@
 	<project name="bliss-op5-t/frameworks_base" path="frameworks/base" revision="14" />
 	<remove-project name="packages_apps_Settings" />
 	<project name="bliss-op5-t/packages_apps_Settings" path="packages/apps/Settings" revision="14" />
-	<remove-project name="packages_apps_Trebuchet" />
-	<project name="bliss-op5-t/packages_apps_Trebuchet" path="packages/apps/Launcher3" revision="14" />
 	<remove-project name="system_core" />
 	<project name="bliss-op5-t/system_core" path="system/core" revision="14" />
 	<remove-project name="vendor_sakura" />
