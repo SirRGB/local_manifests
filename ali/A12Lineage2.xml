@@ -7,4 +7,5 @@
 	<project name="brunorolak/vendor_motorola_msm8953-common" path="vendor/motorola/msm8953-common" />
 
 	<project name="LineageOS/android_hardware_motorola" path="hardware/motorola" />
+	<project name="LineageOS/android_system_qcom" path="system/qcom" />
 </manifest>
