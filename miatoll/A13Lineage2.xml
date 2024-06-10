@@ -3,7 +3,7 @@
 	<!-- Device repos -->
 	<project name="LineageOS/android_device_xiaomi_miatoll" path="device/xiaomi/miatoll" revision="lineage-20" />
 	<project name="SirRGB/android_device_xiaomi_sm6250-common" path="device/xiaomi/sm6250-common" revision="lineage-20" />
-	<project name="LineageOS/android_kernel_xiaomi_sm6250" path="kernel/xiaomi/sm6250" revision="lineage-20" />
+	<project name="LineageOS/android_kernel_xiaomi_sm6250" path="kernel/xiaomi/sm6250" revision="lineage-21" />
 	<project name="TheMuppets/proprietary_vendor_xiaomi_miatoll" path="vendor/xiaomi/miatoll" revision="lineage-20" />
 	<project name="TheMuppets/proprietary_vendor_xiaomi_sm6250-common" path="vendor/xiaomi/sm6250-common" revision="lineage-20" />
 
