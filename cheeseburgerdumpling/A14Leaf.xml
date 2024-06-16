@@ -14,5 +14,5 @@
 
 	<remove-project name="LeafOS-Project/android_vendor_qcom_opensource_data-ipa-cfg-mgr" />
 	<project name="OnePlus-5-T/4.14-vendor-qcom-opensource-data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" revision="msm8998_op/aosp/LA.UM.8.1.r1" />
-	<project name="OnePlus-5-T/4.14-timekeep" path="vendor/oss/timekeep" revision="mms8998_op/s-mr1" />
+	<project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" revision="lineage-21" />
 </manifest>
