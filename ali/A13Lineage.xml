@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<project name="Moto-experimental/android_device_motorola_ali" path="device/motorola/ali" revision="lineage-20" />
+	<project name="Moto-experimental/android_device_motorola_msm8953-common" path="device/motorola/msm8953-common" revision="lineage-20" />
+	<project name="Moto-experimental/android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" revision="lineage-20" />
+	<project name="brunorolak/vendor_motorola_ali" path="vendor/motorola/ali" revision="lineage-19.1" />
+	<project name="brunorolak/vendor_motorola_msm8953-common" path="vendor/motorola/msm8953-common" revision="lineage-19.1" />
+
+	<project name="LineageOS/android_hardware_motorola" path="hardware/motorola" revision="lineage-20" />
+	<project name="LineageOS/android_system_qcom" path="system/qcom" revision="lineage-20" />
+</manifest>
