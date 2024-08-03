@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Device repos -->
-	<project name="LineageOS/android_device_samsung_a7y17lte" path="device/samsung/a7y17lte" />
-	<project name="LineageOS/android_device_samsung_a5y17lte" path="device/samsung/a5y17lte" />
+	<project name="SirRGB/android_device_samsung_a7y17lte" path="device/samsung/a57y17lte" />
 	<project name="SirRGB/android_device_samsung_universal7880-common" path="device/samsung/universal7880-common" />
 	<project name="LineageOS/android_kernel_samsung_universal7880" path="kernel/samsung/universal7880" />
 	<project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" />
