@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Device repos -->
-	<project name="Moto-experimental/android_device_motorola_addison" path="device/motorola/addison" revision="lineage-18.1" />
+	<project name="Moto-experimental/android_device_motorola_addison" path="device/motorola/addison" />
 	<project name="Moto-experimental/android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" revision="lineage-18.1" />
 	<project name="Moto-experimental/proprietary_vendor_motorola" path="vendor/motorola" revision="lineage-18.1" />
 
