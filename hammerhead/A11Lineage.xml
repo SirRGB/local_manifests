@@ -4,29 +4,4 @@
 	<project name="SirRGB/android_device_lge_hammerhead" path="device/lge/hammerhead" />
 	<project name="z3DD3r/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" />
 	<project name="SirRGB/android_vendor_lge" path="vendor/lge" />
-
-	<!-- Patches -->
-	<remove-project name="LineageOS/android_system_bt" />
-	<project name="droid-legacy/android_system_bt" path="system/bt" />
-
-	<remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-	<project name="droid-legacy/android_packages_apps_Trebuchet" path="packages/apps/Trebuchet" />
-
-	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
-	<project name="droid-legacy/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
-
-	<remove-project name="LineageOS/android_frameworks_native" />
-	<project name="droid-legacy/android_frameworks_native" path="frameworks_native" />
-
-	<remove-project name="LineageOS/android_vendor_lineage" />
-	<project name="droid-legacy/android_vendor_lineage" path="vendor/lineage" />
-
-	<remove-project name="LineageOS/android_system_vold" />
-	<project name="z3DD3r/android_system_vold" path="system/vold" />
-
-	<remove-project name="LineageOS/android_hardware_qcom_display" />
-	<project name="z3DD3r/android_hardware_qcom_display" path="hardware/qcom/display" />
-
-	<remove-project name="LineageOS/android_hardware_qcom_media" />
-	<project name="z3DD3r/android_hardware_qcom_media" path="hardware/qcom/media" />
 </manifest>
