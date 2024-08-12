@@ -9,5 +9,5 @@
 	<project name="SirRGB/proprietary_vendor_oneplus" path="vendor/oneplus" />
 
 	<!-- MindTheGapps -->
-	<project name="MindTheGapps/vendor_gapps" path="vendor/gapps" clone-depth="1" remote="crdroid-gitlab" />
+	<project name="MindTheGapps/vendor_gapps" path="vendor/gapps" clone-depth="1" remote="crdroid-gitlab" revision="rho" />
 </manifest>
