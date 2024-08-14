@@ -7,7 +7,4 @@
 	<project name="SirRGB/android_device_oneplus_dumpling" path="device/oneplus/dumpling" revision="crdroid-11" />
 	<project name="SirRGB/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" />
 	<project name="SirRGB/proprietary_vendor_oneplus" path="vendor/oneplus" />
-
-	<!-- MindTheGapps -->
-	<project name="MindTheGapps/vendor_gapps" path="vendor/gapps" clone-depth="1" remote="crdroid-gitlab" revision="rho" />
 </manifest>

@@ -19,7 +19,4 @@
 	<project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom-caf/msm8996/audio" revision="lineage-18.1-caf-msm8996" />
 	<project name="LineageOS/android_hardware_qcom_display" path="hardware/qcom-caf/msm8996/display" revision="lineage-18.1-caf-msm8996" />
 	<project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom-caf/msm8996/media" revision="lineage-18.1-caf-msm8996" />
-
-	<!-- MindTheGapps -->
-	<project name="MindTheGapps/vendor_gapps" path="vendor/gapps" clone-depth="1" remote="crdroid-gitlab" revision="rho" />
 </manifest>
