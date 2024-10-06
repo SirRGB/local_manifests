@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Device repos -->
-	<project name="xiaomi-sm8150-devs/android_device_xiaomi_cepheus" path="device/xiaomi/cepheus" revision="lineage-21" />
-	<project name="SirRGB/android_device_xiaomi_sm8150-common" path="device/xiaomi/sm8150-common" revision="lineage-22.0" />
-	<project name="SirRGB/android_kernel_xiaomi_sm8150" path="kernel/xiaomi/sm8150" revision="lineage-22.0" />
+	<project name="SirRGB/android_device_xiaomi_cepheus" path="device/xiaomi/cepheus" />
+	<project name="SirRGB/android_device_xiaomi_sm8150-common" path="device/xiaomi/sm8150-common" />
+	<project name="SirRGB/android_kernel_xiaomi_sm8150" path="kernel/xiaomi/sm8150" />
 	<project name="xiaomi-sm8150-devs/proprietary_vendor_xiaomi_cepheus" path="vendor/xiaomi/cepheus" revision="lineage-21" />
-	<project name="SirRGB/proprietary_vendor_xiaomi_sm8150-common" path="vendor/xiaomi/sm8150-common" revision="lineage-22.0" />
+	<project name="SirRGB/proprietary_vendor_xiaomi_sm8150-common" path="vendor/xiaomi/sm8150-common" />
 
 	<!-- Dependencies -->
 	<project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-21" />
