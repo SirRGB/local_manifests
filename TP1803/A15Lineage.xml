@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Device repos -->
+	<project name="LineageOS/android_kernel_nubia_sm8150" path="kernel/nubia/sm8150" />
+	<project name="LineageOS/android_device_nubia_TP1803" path="device/nubia/TP1803" />
+	<project name="TheMuppets/proprietary_vendor_nubia_TP1803" path="vendor/nubia/TP1803" />
+</manifest>
