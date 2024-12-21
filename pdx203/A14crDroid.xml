@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Device repos -->
+	<project name="XperiaLabs/device_sony_pdx203" path="device/sony/pdx203" revision="crdroid-14" />
+	<project name="XperiaLabs/device_sony_pdx206" path="device/sony/pdx206" revision="crdroid-14" />
+	<project name="XperiaLabs/device_sony_edo" path="device/sony/edo" revision="crdroid-14" />
+	<project name="XperiaLabs/kernel_sony_edo" path="kernel/sony/edo" revision="crdroid-14" />
+	<project name="XperiaLabs/vendor_sony_pdx203" path="vendor/sony/pdx203" revision="crdroid-14" />
+	<project name="XperiaLabs/vendor_sony_pdx206" path="vendor/sony/pdx206" revision="crdroid-14" />
+	<project name="XperiaLabs/vendor_sony_edo" path="vendor/sony/edo" revision="crdroid-14" />
+
+	<!-- Dependencies -->
+	<project name="LineageOS/android_hardware_sony" path="hardware/sony" revision="lineage-21" />
+</manifest>
