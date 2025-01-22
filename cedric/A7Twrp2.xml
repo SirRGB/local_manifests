@@ -9,5 +9,5 @@
 
 	<!-- fixup -->
 	<remove-project name="android_build" />
-	<project name="SirRGB/android_build" path="build" remote="github" revision="android-7.1" />
+	<project name="rom-experimentations/android_build" path="build" remote="github" revision="android-7.1" />
 </manifest>
