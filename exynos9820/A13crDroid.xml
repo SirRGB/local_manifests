@@ -2,7 +2,7 @@
 <manifest>
 	<!-- Device repos -->
 	<project name="LineageOS/android_device_samsung_f62" path="device/samsung/f62" revision="lineage-20"/>
-	<project name="SirRGB/android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" revision="crdroid-13" />
+	<project name="device-experimentations/android_device_samsung_exynos9820-common" path="device/samsung/exynos9820-common" revision="crdroid-13" />
 	<project name="LineageOS/android_kernel_samsung_exynos9820" path="kernel/samsung/exynos9820" revision="lineage-20" />
 	<project name="TheMuppets/proprietary_vendor_samsung_f62" path="vendor/samsung/f62" revision="lineage-20" />
 	<project name="TheMuppets/proprietary_vendor_samsung_exynos9820-common" path="vendor/samsung/exynos9820-common" revision="lineage-20" />
