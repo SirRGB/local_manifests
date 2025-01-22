@@ -8,5 +8,5 @@
 	<project name="SirRGB/proprietary_vendor_xiaomi_sm8150-common" path="vendor/xiaomi/sm8150-common" />
 
 	<!-- Dependencies -->
-	<project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-21" />
+	<project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" />
 </manifest>
