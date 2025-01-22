@@ -4,7 +4,4 @@
 	<project name="SirRGB/android_device_htc_flounder" path="device/htc/flounder" remote="github" revision="xenon-7" />
 	<project name="SirRGB/android_kernel_htc_flounder" path="kernel/htc/flounder" remote="github" revision="cm-14.1" />
 	<project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-14.1" />
-
-	<!-- FOSS -->
-	<project name="SirRGB/android_vendor_partner_gms" path="vendor/partner_gms" remote="github" revision="main" />
 </manifest>
