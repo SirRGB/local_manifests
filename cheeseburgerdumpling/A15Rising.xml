@@ -12,14 +12,6 @@
 	<!-- Dependencies -->
 	<project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" />
 
-	<!-- Adblock -->
-	<remove-project name="android_device_lineage_sepolicy" />
-	<project name="rom-experimentations/android_device_lineage_sepolicy" path="device/lineage/sepolicy" revision="fifteen" />
-	<remove-project name="android_packages_apps_Settings" />
-	<project name="rom-experimentations/android_packages_apps_Settings" path="packages/apps/Settings" revision="fifteen" />
-	<remove-project name="android_system_core" />
-	<project name="rom-experimentations/android_system_core-1" path="system/core" revision="fifteen" />
-	<remove-project name="android_vendor_rising" />
-	<project name="rom-experimentations/android_vendor_rising" path="vendor/rising" revision="fifteen" />
+	<!-- Browser -->
 	<project name="LineageOS/android_packages_apps_Jelly" path="packages/apps/Jelly" />
 </manifest>
