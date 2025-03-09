@@ -21,4 +21,5 @@
 	<project name="rom-experimentations/android_system_core-1" path="system/core" revision="fifteen" />
 	<remove-project name="android_vendor_rising" />
 	<project name="rom-experimentations/android_vendor_rising" path="vendor/rising" revision="fifteen" />
+	<project name="LineageOS/android_packages_apps_Jelly" path="packages/apps/Jelly" />
 </manifest>
