@@ -14,4 +14,15 @@
 
 	<!-- Browser -->
 	<project name="LineageOS/android_packages_apps_Jelly" path="packages/apps/Jelly" />
+
+	<remove-project name="android_packages_apps_LineageParts" />
+	<project name="rom-experimentations/android_packages_apps_LineageParts" path="packages/apps/LineageParts" revision="fifteen" />
+	<remove-project name="android_packages_apps_Settings" />
+	<project name="rom-experimentations/android_packages_apps_Settings" path="packages/apps/Settings" revision="fifteen" />
+	<remove-project name="android_packages_apps_Setupwizard" />
+	<project name="rom-experimentations/android_packages_apps_Setupwizard" path="packages/apps/Setupwizard" revision="fifteen" />
+	<remove-project name="android_vendor_rising" />
+	<project name="rom-experimental/android_vendor_rising" path="vendor/rising" revision="fifteen" />
+	<remove-project name="LineageOS/android_packages_modules_Permission" />
+	<project name="rom-experimentations/android_packages_modules_Permission" path="packages/modules/Permission" revision="fifteen" />
 </manifest>
