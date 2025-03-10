@@ -25,4 +25,6 @@
 	<project name="rom-experimental/android_vendor_rising" path="vendor/rising" revision="fifteen" />
 	<remove-project name="LineageOS/android_packages_modules_Permission" />
 	<project name="rom-experimentations/android_packages_modules_Permission" path="packages/modules/Permission" revision="fifteen" />
+	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
+	<project name="rom-experimentations/android_packages_modules_Connectivity" path="packages/modules/Connectivity" revision="fifteen" />
 </manifest>
