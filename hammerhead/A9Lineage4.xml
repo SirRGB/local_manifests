@@ -2,6 +2,6 @@
 <manifest>
 	<!-- Device repos -->
 	<project name="z3DD3r/android_device_lge_hammerhead" path="device/lge/hammerhead" />
-	<project name="z3DD3r/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" />
+	<project name="SirRGB/android_kernel_lge_hammerhead" path="kernel/lge/hammerhead" />
 	<project name="z3DD3r/android_vendor_lge" path="vendor/lge" />
 </manifest>
