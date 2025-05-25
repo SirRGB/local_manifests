@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Device repos -->
-	<project name="crdroidandroid/android_device_motorola_potter" path="device/motorola/potter" revision="11.0" />
+	<project name="Moto-experimental/android_device_motorola_potter" path="device/motorola/potter" />
 	<project name="Moto-experimental/android_kernel_motorola_potter" path="kernel/motorola/potter" />
 	<project name="crdroidandroid/android_vendor_motorola_potter" path="vendor/motorola/potter" revision="11.0" />
 
 	<!-- Dependencies -->
 	<project name="LineageOS/android_system_qcom" path="system/qcom" />
+	<project name="LineageOS/android_hardware_motorola" path="hardware/motorola" />
 </manifest>
