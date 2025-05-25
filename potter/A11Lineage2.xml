@@ -2,7 +2,7 @@
 <manifest>
 	<!-- Device repos -->
 	<project name="Moto-experimental/android_device_motorola_potter" path="device/motorola/potter" />
-	<project name="Moto-experimental/android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" />
+	<project name="Moto-experimental/android_kernel_motorola_potter" path="kernel/motorola/potter" />
 	<project name="crdroidandroid/android_vendor_motorola_potter" path="vendor/motorola/potter" revision="11.0" />
 
 	<!-- Dependencies -->
