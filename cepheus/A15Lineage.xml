@@ -4,7 +4,7 @@
 	<project name="SirRGB/android_device_xiaomi_cepheus" path="device/xiaomi/cepheus" />
 	<project name="SirRGB/android_device_xiaomi_sm8150-common" path="device/xiaomi/sm8150-common" />
 	<project name="SirRGB/android_kernel_xiaomi_sm8150" path="kernel/xiaomi/sm8150" />
-	<project name="TheMuppets/proprietary_vendor_xiaomi_cepheus" path="vendor/xiaomi/cepheus" revision="lineage-21" />
+	<project name="TheMuppets/proprietary_vendor_xiaomi_cepheus" path="vendor/xiaomi/cepheus" />
 	<project name="SirRGB/proprietary_vendor_xiaomi_sm8150-common" path="vendor/xiaomi/sm8150-common" />
 
 	<!-- Dependencies -->
