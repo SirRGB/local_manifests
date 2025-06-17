@@ -9,7 +9,7 @@
 	<project name="whatawurst/android_device_sony_poplar_dsds" path="device/sony/poplar_dsds" revision="lineage-21" />
 	<project name="whatawurst/android_device_sony_lilac" path="device/sony/lilac" revision="lineage-21" />
 	<project name="SirRGB/android_device_sony_yoshino-common" path="device/sony/yoshino-common" />
-	<project name="SirRGB/android_kernel_sony_msm8998" path="kernel/sony/msm8998" revision="lineage-21" />
+	<project name="SirRGB/android_kernel_sony_msm8998" path="kernel/sony/msm8998" />
 	<project name="whatawurst/android_vendor_sony_maple" path="vendor/sony/maple" revision="lineage-21" />
 	<project name="whatawurst/android_vendor_sony_maple_dsds" path="vendor/sony/maple_dsds" revision="lineage-21" />
 	<project name="SirRGB/android_vendor_sony_poplar" path="vendor/sony/poplar" />
