@@ -10,5 +10,5 @@
 	<project name="TheMuppets/proprietary_vendor_oneplus_dumpling" path="vendor/oneplus/dumpling" revision="lineage-22.2" />
 
 	<!-- Dependencies -->
-	<project name="SirRGB/android_hardware_oneplus" path="hardware/oneplus" />
+	<project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" />
 </manifest>
