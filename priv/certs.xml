@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-	<project name="SirRGB/android_vendor_certs" path="vendor/certs" remote="private" revision="main" />
-</manifest>
