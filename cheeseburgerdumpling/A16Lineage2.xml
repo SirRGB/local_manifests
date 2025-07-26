@@ -11,4 +11,6 @@
 
 	<!-- Dependencies -->
 	<project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" />
+	<project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" />
+	<project name="ederevx/android_hardware_qcom-caf_msm8998-4-14" path="hardware/qcom-caf/msm8998-4-14" revision="lineage-22.2-msm8998-4-14" />
 </manifest>
