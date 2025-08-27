@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Devices -->
+	<project name="batuhantrkgl/android_device_samsung_j7y17lte" path="device/samsung/j7y17lte" revision="crdroid" />
+	<project name="batuhantrkgl/android_device_samsung_j5y17lte" path="device/samsung/j5y17lte" revision="crdroid" />
+	<project name="batuhantrkgl/android_device_samsung_j7velte" path="device/samsung/j7velte" revision="crdroid" />
+	<project name="batuhantrkgl/android_device_samsung_j7xelte" path="device/samsung/j7xelte" revision="crdroid" />
+	<project name="batuhantrkgl/android_device_samsung_j6lte" path="device/samsung/j6lte" revision="crdroid" />
+	<project name="batuhantrkgl/android_device_samsung_on7xelte" path="device/samsung/on7xelte" revision="crdroid" />
+	<project name="batuhantrkgl/android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" revision="crdroid" />
+
+	<!-- Common Device -->
+	<project name="samsungexynos7870/android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" revision="crdroid" />
+
+	<!-- Kernel -->
+	<project name="Exynos7870-Revived-Beta/android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" revision="aosp" />
+
+	<!-- Vendors -->
+	<project name="batuhantrkgl/android_vendor_samsung_j7y17lte" path="vendor/samsung/j7y17lte" revision="common" />
+	<project name="batuhantrkgl/android_vendor_samsung_j5y17lte" path="vendor/samsung/j5y17lte" revision="common" />
+	<project name="batuhantrkgl/android_vendor_samsung_j7velte" path="vendor/samsung/j7velte" revision="common" />
+	<project name="batuhantrkgl/android_vendor_samsung_j7xelte" path="vendor/samsung/j7xelte" revision="common" />
+	<project name="batuhantrkgl/android_vendor_samsung_j6lte" path="vendor/samsung/j6lte" revision="common" />
+	<project name="batuhantrkgl/android_vendor_samsung_on7xelte" path="vendor/samsung/on7xelte" revision="common" />
+	<project name="batuhantrkgl/android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" revision="common" />
+
+	<!-- Common Vendor -->
+	<project name="samsungexynos7870/android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" revision="common" />
+
+	<!-- Hardware -->
+	<project name="batuhantrkgl/android_hardware_samsung" path="hardware/samsung" />
+</manifest>
