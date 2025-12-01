@@ -17,7 +17,7 @@
 	<!-- Patches -->
 	<remove-project name="LineageOS/android_device_qcom_sepolicy" />
 	<project name="LineageOS/android_device_qcom_sepolicy" path="device/qcom/sepolicy" />
-	<project name="droid-legacy/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" revision="lineage-22.2-legacy-um" />
+	<project name="droid-legacy/android_device_qcom_sepolicy" path="device/qcom/sepolicy-legacy-um" revision="lineage-23.0-legacy-um" />
 
 	<remove-project name="LineageOS/android_hardware_qcom-caf_common" />
 	<project name="droid-legacy/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" >
