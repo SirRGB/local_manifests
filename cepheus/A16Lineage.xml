@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Device repos -->
+	<project name="SirRGB/android_device_xiaomi_cepheus" path="device/xiaomi/cepheus" />
+	<project name="SirRGB/android_device_xiaomi_sm8150-common" path="device/xiaomi/sm8150-common" />
+	<project name="paranoid-raphael/android_kernel_xiaomi_sm8150" path="kernel/xiaomi/sm8150" remote="private" />
+	<project name="TheMuppets/proprietary_vendor_xiaomi_cepheus" path="vendor/xiaomi/cepheus" revision="lineage-22.2" />
+	<project name="SirRGB/proprietary_vendor_xiaomi_sm8150-common" path="vendor/xiaomi/sm8150-common" />
+
+	<!-- Dependencies -->
+	<project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" />
+</manifest>
