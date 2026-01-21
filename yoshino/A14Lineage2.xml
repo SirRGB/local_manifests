@@ -16,6 +16,6 @@
 	<project name="whatawurst/android_vendor_sony_poplar_canada" path="vendor/sony/poplar_canada" revision="lineage-21" />
 	<project name="whatawurst/android_vendor_sony_poplar_kddi" path="vendor/sony/poplar_kddi" revision="lineage-21" />
 	<project name="whatawurst/android_vendor_sony_poplar_dsds" path="vendor/sony/poplar_dsds" revision="lineage-21" />
-	<project name="whatawurst/android_vendor_sony_lilac" path="vendor/sony/poplar_lilac" revision="lineage-21" />
+	<project name="whatawurst/android_vendor_sony_lilac" path="vendor/sony/lilac" revision="lineage-21" />
 	<project name="SirRGB/android_vendor_sony_yoshino-common" path="vendor/sony/yoshino-common" revision="lineage-21" />
 </manifest>
