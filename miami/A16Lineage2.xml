@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Device repos -->
+	<project name="SirRGB/android_device_motorola_sm6375-common" path="device/motorola/sm6375-common" />
+	<project name="LineageOS/android_device_motorola_miami" path="device/motorola/miami" />
+	<project name="SirRGB/android_kernel_motorola_sm6375" path="kernel/motorola/sm6375" />
+	<project name="TheMuppets/proprietary_vendor_motorola_sm6375-common" path="vendor/motorola/sm6375-common" />
+	<project name="TheMuppets/proprietary_vendor_motorola_miami" path="vendor/motorola/miami" />
+
+	<!-- Dependencies -->
+	<project name="LineageOS/android_hardware_motorola" path="hardware/motorola" />
+</manifest>
