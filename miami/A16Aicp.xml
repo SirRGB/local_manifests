@@ -9,4 +9,11 @@
 
 	<!-- Dependencies -->
 	<project name="LineageOS/android_hardware_motorola" path="hardware/motorola" />
+
+	<remove-project name="AICP/frameworks_base" />
+	<project name="droid-legacy/android_frameworks_base" path="frameworks/base" revision="w16.2" />
+	<remove-project name="AICP/packages_apps_Launcher3" />
+	<project name="droid-legacy/android_packages_apps_Launcher3" path="packages/apps/Launcher3" revision="w16.2" />
+	<remove-project name="AICP/packages_apps_Settings" />
+	<project name="droid-legacy/android_packages_apps_Settings" path="packages/apps/Settings" revision="w16.2" />
 </manifest>
