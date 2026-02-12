@@ -16,6 +16,10 @@
 	<project name="droid-legacy/android_packages_apps_Launcher3" path="packages/apps/Launcher3" revision="w16.2" />
 	<remove-project name="AICP/packages_apps_Settings" />
 	<project name="droid-legacy/android_packages_apps_Settings" path="packages/apps/Settings" revision="w16.2" />
+	<remove-project name="LineageOS/android_packages_modules_Connectivity" />
+	<project name="droid-legacy/android_packages_modules_Connectivity" path="packages/modules/Connectivity" />
+	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
+	<project name="droid-legacy/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
 
 	<remove-project name="LineageOS/android_packages_apps_ThemePicker" />
 	<project name="droid-legacy/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" />
