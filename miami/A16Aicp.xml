@@ -20,10 +20,4 @@
 	<project name="droid-legacy/android_packages_modules_Connectivity" path="packages/modules/Connectivity" />
 	<remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
 	<project name="droid-legacy/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" />
-
-	<remove-project name="LineageOS/android_packages_apps_ThemePicker" />
-	<project name="droid-legacy/android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" />
-	<remove-project name="LineageOS/android_packages_overlays_Lineage" />
-	<project name="droid-legacy/android_packages_overlays_Lineage" path="packages/overlays/Lineage" />
-	<project name="droid-legacy/android_vendor_extra" path="vendor/extra" revision="w16.2" />
 </manifest>
