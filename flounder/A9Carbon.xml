@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-	<!-- Device repos -->
-	<project name="SirRGB/android_device_htc_flounder" path="device/htc/flounder" remote="github" revision="carbon-9" />
-	<project name="linckandrea/android_kernel_htc_flounder" path="kernel/htc/flounder" remote="github" revision="lineage-16.0" />
-	<project name="linckandrea/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="lineage-16.0" />
-</manifest>

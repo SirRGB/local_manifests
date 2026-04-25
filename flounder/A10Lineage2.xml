@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-	<!-- Device trees -->
-	<project name="SirRGB/android_device_htc_flounder" path="device/htc/flounder" />
-	<project name="SirRGB/android_kernel_htc_flounder" path="kernel/htc/flounder" />
-	<project name="SirRGB/proprietary_vendor_htc" path="vendor/htc" />
-</manifest>
