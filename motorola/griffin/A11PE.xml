@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-	<!-- Device repos -->
-	<project name="Moto-experimental/android_device_motorola_griffin" path="device/motorola/griffin" remote="github" revision="pe-11" />
-	<project name="Moto-experimental/android_kernel_motorola_msm8996" path="kernel/motorola/msm8996" remote="github" revision="lineage-18.1" />
-	<project name="Moto-experimental/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="lineage-18.1" />
-</manifest>
