@@ -10,6 +10,6 @@
 	<project name="XperiaLabs/vendor_sony_edo" path="vendor/sony/sm8250-common" remote="leaf" revision="leaf-15" />
 
 	<!-- Dependencies -->
-	<project name="XperiaLabs/hardware_sony" path="hardware/sony" remote="leaf" revision="leaf-15"  />
+	<project name="XperiaLabs/hardware_sony" path="hardware/sony" remote="leaf" revision="leaf-15" />
 	<project name="LineageOS/android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" remote="lineage" />
 </manifest>
