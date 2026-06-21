@@ -3,7 +3,7 @@
 	<!-- Device repos -->
 	<project name="Moto-experimental/android_device_motorola_addison" path="device/motorola/addison" />
 	<project name="Moto-experimental/android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" />
-	<project name="Moto-experimental/proprietary_vendor_motorola" path="vendor/motorola" />
+	<project name="Moto-experimental/proprietary_vendor_motorola_addison" path="vendor/motorola/addison" />
 
 	<!-- Dependencies -->
 	<project name="LineageOS/android_external_bson" path="external/bson" />
