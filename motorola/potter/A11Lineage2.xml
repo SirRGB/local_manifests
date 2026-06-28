@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Device repos -->
-	<project name="Moto-experimental/android_device_motorola_potter" path="device/motorola/potter" />
+	<project name="Moto-experimental/android_device_motorola_potter" path="device/motorola/potter" revision="lineage-18.1-decommon" />
 	<project name="Moto-experimental/android_kernel_motorola_potter" path="kernel/motorola/potter" />
 	<project name="crdroidandroid/android_vendor_motorola_potter" path="vendor/motorola/potter" revision="11.0" />
 
