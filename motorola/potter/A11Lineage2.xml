@@ -7,5 +7,6 @@
 
 	<!-- Dependencies -->
 	<project name="LineageOS/android_system_qcom" path="system/qcom" />
+	<project name="LineageOS/android_external_bson" path="external/bson" />
 	<project name="LineageOS/android_hardware_motorola" path="hardware/motorola" />
 </manifest>

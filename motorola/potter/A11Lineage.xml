@@ -6,5 +6,6 @@
 	<project name="crdroidandroid/android_vendor_motorola_potter" path="vendor/motorola/potter" revision="11.0" />
 
 	<!-- Dependencies -->
+	<project name="LineageOS/android_external_bson" path="external/bson" />
 	<project name="LineageOS/android_system_qcom" path="system/qcom" />
 </manifest>
