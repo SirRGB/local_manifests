@@ -2,13 +2,39 @@
 <manifest>
 	<!-- Device repos -->
 	<project name="SirRGB/android_device_oneplus_msm8998-common" path="device/oneplus/msm8998-common" />
-	<project name="SirRGB/android_device_oneplus_cheeseburger" path="device/oneplus/cheeseburger" revision="lineage-22.2" />
-	<project name="LineageOS/android_device_oneplus_dumpling" path="device/oneplus/dumpling" revision="lineage-22.2" />
-	<project name="SirRGB/android_kernel_oneplus_msm8998" path="kernel/oneplus/msm8998" />
-	<project name="TheMuppets/proprietary_vendor_oneplus_msm8998-common" path="vendor/oneplus/msm8998-common" revision="lineage-22.2" />
-	<project name="TheMuppets/proprietary_vendor_oneplus_cheeseburger" path="vendor/oneplus/cheeseburger" revision="lineage-22.2" />
-	<project name="TheMuppets/proprietary_vendor_oneplus_dumpling" path="vendor/oneplus/dumpling" revision="lineage-22.2" />
+	<project name="SirRGB/android_device_oneplus_cheeseburger" path="device/oneplus/cheeseburger" />
+	<project name="SirRGB/android_device_oneplus_dumpling" path="device/oneplus/dumpling" />
+	<project name="SirRGB/android_kernel_qcom_msm8998-4-19" path="kernel/oneplus/msm8998" revision="msm8998-oneplus" />
+	<project name="SirRGB/proprietary_vendor_oneplus_msm8998-common" path="vendor/oneplus/msm8998-common" />
+	<project name="SirRGB/proprietary_vendor_oneplus_cheeseburger" path="vendor/oneplus/cheeseburger" />
+	<project name="ederevx/proprietary_vendor_oneplus_dumpling-4-19" path="vendor/oneplus/dumpling" revision="lineage-23.2-msm8998-4.19" />
 
 	<!-- Dependencies -->
 	<project name="LineageOS/android_hardware_oneplus" path="hardware/oneplus" />
+
+	<remove-project name="LineageOS/android_frameworks_base" />
+	<project name="ederevx/android_frameworks_base" path="frameworks/base" revision="lineage-23.2-msm8998-4.19" />
+
+	<remove-project name="LineageOS/android_hardware_qcom_media" />
+	<project name="ederevx/android_hardware_qcom-caf_media-4-19" path="hardware/qcom-caf/sdm660/media" revision="lineage-23.2-msm8998-4.19" />
+	<remove-project name="LineageOS/android_hardware_qcom_audio" />
+	<project name="ederevx/android_hardware_qcom-caf_audio-4-19" path="hardware/qcom-caf/sdm660/audio" revision="lineage-23.2-msm8998-4.19" />
+
+	<remove-project name="LineageOS/android_hardware_qcom-caf_common" />
+	<project name="ederevx/android_hardware_qcom-caf_common-4-19" path="hardware/qcom-caf/common" revision="lineage-23.2-msm8998-4.19">
+	  <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+	  <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
+	  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
+	  <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+	  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
+	  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+	  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+	  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+	  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+	  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
+	  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450-6.6/Android.bp" />
+	  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
+	  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
+	  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8750/Android.bp" />
+	</project>
 </manifest>
