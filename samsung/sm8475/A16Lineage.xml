@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<!-- Device repos -->
+	<project name="samsung-sm8475-dev/android_device_samsung_sm8475-common" path="device/samsung/sm8475-common" />
+	<project name="samsung-sm8475-dev/android_device_samsung_b4q" path="device/samsung/b4q" />
+	<project name="samsung-sm8475-dev/android_device_samsung_q4q" path="device/samsung/q4q" />
+	<project name="samsung-sm8475-dev/android_kernel_samsung_sm8450" path="kernel/samsung/sm8450" />
+	<project name="samsung-sm8475-dev/android_kernel_samsung_sm8450-devicetrees" path="kernel/samsung/sm8450-devicetrees" />
+	<project name="samsung-sm8475-dev/android_kernel_samsung_sm8450-modules" path="kernel/samsung/sm8450-modules" />
+	<project name="samsung-sm8475-dev/proprietary_vendor_samsung_sm8475-common" path="vendor/samsung/sm8475-common" />
+	<project name="samsung-sm8475-dev/proprietary_vendor_samsung_b4q" path="vendor/samsung/b4q" />
+	<project name="samsung-sm8475-dev/proprietary_vendor_samsung_q4q" path="vendor/samsung/q4q" />
+
+	<!-- Dependencies -->
+	<project name="LineageOS/android_hardware_samsung" path="hardware/samsung" />
+</manifest>
