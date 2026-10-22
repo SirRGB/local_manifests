@@ -15,9 +15,9 @@
 	<remove-project name="LineageOS/android_frameworks_base" />
 	<project name="ederevx/android_frameworks_base" path="frameworks/base" revision="lineage-23.2-msm8998-4.19" />
 
-	<remove-project name="LineageOS/android_hardware_qcom_media" />
+	<remove-project name="hardware/qcom-caf/sdm660/media" />
 	<project name="ederevx/android_hardware_qcom-caf_media-4-19" path="hardware/qcom-caf/sdm660/media" revision="lineage-23.2-msm8998-4.19" />
-	<remove-project name="LineageOS/android_hardware_qcom_audio" />
+	<remove-project name="hardware/qcom-caf/sdm660/audio" />
 	<project name="ederevx/android_hardware_qcom-caf_audio-4-19" path="hardware/qcom-caf/sdm660/audio" revision="lineage-23.2-msm8998-4.19" />
 
 	<remove-project name="LineageOS/android_hardware_qcom-caf_common" />
